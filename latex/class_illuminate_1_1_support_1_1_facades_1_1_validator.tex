@@ -1,0 +1,220 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Validator Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_validator}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Validator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_validator}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_aa405d297def24014195e5344cde1629d}{make}} (\$data, \$rules, \$messages=array(), \$custom\+Attributes=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_ada312162486fd32605e929f0adbd159b}{validate}} (\$data, \$rules, \$messages=array(), \$custom\+Attributes=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_ab62de1b0f72bb2f0d34b604da3639234}{extend}} (\$rule, \$extension, \$message=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_aae4ed067cf9ab704c87927fb20d2d7ca}{extend\+Implicit}} (\$rule, \$extension, \$message=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_a25855ea98e81cde559ed3fe966d226a0}{extend\+Dependent}} (\$rule, \$extension, \$message=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_a6b34123d298bc7987bc0b55bf64e3ded}{replacer}} (\$rule, \$replacer)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_a285f6c80782f7230fc19ce8af1b7d7e0}{resolver}} (\$resolver)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_a594cae35bdb1c8a243d23204d518dccf}{get\+Translator}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_add3dea45d35651ca9ca5ecdb677db5ad}{get\+Presence\+Verifier}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator_a44e469a5e37d02e59dbb1222ca53c27d}{set\+Presence\+Verifier}} (\$presence\+Verifier)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_ab62de1b0f72bb2f0d34b604da3639234}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_ab62de1b0f72bb2f0d34b604da3639234}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::extend (\begin{DoxyParamCaption}\item[{}]{\$rule,  }\item[{}]{\$extension,  }\item[{}]{\$message = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom validator extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$rule} & \\
+\hline
+\textbackslash{}\+Closure | string & {\em \$extension} & \\
+\hline
+string & {\em \$message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_a25855ea98e81cde559ed3fe966d226a0}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_a25855ea98e81cde559ed3fe966d226a0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!extend\+Dependent@{extend\+Dependent}}
+\index{extend\+Dependent@{extend\+Dependent}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{extend\+Dependent()}{extendDependent()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::extend\+Dependent (\begin{DoxyParamCaption}\item[{}]{\$rule,  }\item[{}]{\$extension,  }\item[{}]{\$message = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom dependent validator extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$rule} & \\
+\hline
+\textbackslash{}\+Closure | string & {\em \$extension} & \\
+\hline
+string & {\em \$message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_aae4ed067cf9ab704c87927fb20d2d7ca}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_aae4ed067cf9ab704c87927fb20d2d7ca}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!extend\+Implicit@{extend\+Implicit}}
+\index{extend\+Implicit@{extend\+Implicit}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{extend\+Implicit()}{extendImplicit()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::extend\+Implicit (\begin{DoxyParamCaption}\item[{}]{\$rule,  }\item[{}]{\$extension,  }\item[{}]{\$message = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom implicit validator extension.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$rule} & \\
+\hline
+\textbackslash{}\+Closure | string & {\em \$extension} & \\
+\hline
+string & {\em \$message} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_add3dea45d35651ca9ca5ecdb677db5ad}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_add3dea45d35651ca9ca5ecdb677db5ad}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!get\+Presence\+Verifier@{get\+Presence\+Verifier}}
+\index{get\+Presence\+Verifier@{get\+Presence\+Verifier}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{get\+Presence\+Verifier()}{getPresenceVerifier()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::get\+Presence\+Verifier (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the Presence Verifier implementation.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_a594cae35bdb1c8a243d23204d518dccf}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_a594cae35bdb1c8a243d23204d518dccf}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!get\+Translator@{get\+Translator}}
+\index{get\+Translator@{get\+Translator}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{get\+Translator()}{getTranslator()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::get\+Translator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the Translator implementation.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_aa405d297def24014195e5344cde1629d}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_aa405d297def24014195e5344cde1629d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!make@{make}}
+\index{make@{make}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{make()}{make()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::make (\begin{DoxyParamCaption}\item[{}]{\$data,  }\item[{}]{\$rules,  }\item[{}]{\$messages = {\ttfamily array()},  }\item[{}]{\$custom\+Attributes = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator}{Validator}} instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & \\
+\hline
+array & {\em \$rules} & \\
+\hline
+array & {\em \$messages} & \\
+\hline
+array & {\em \$custom\+Attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_a6b34123d298bc7987bc0b55bf64e3ded}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_a6b34123d298bc7987bc0b55bf64e3ded}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!replacer@{replacer}}
+\index{replacer@{replacer}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{replacer()}{replacer()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::replacer (\begin{DoxyParamCaption}\item[{}]{\$rule,  }\item[{}]{\$replacer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom validator message replacer.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$rule} & \\
+\hline
+\textbackslash{}\+Closure | string & {\em \$replacer} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_a285f6c80782f7230fc19ce8af1b7d7e0}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_a285f6c80782f7230fc19ce8af1b7d7e0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!resolver@{resolver}}
+\index{resolver@{resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{resolver()}{resolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::resolver (\begin{DoxyParamCaption}\item[{}]{\$resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_validator}{Validator}} instance resolver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_a44e469a5e37d02e59dbb1222ca53c27d}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_a44e469a5e37d02e59dbb1222ca53c27d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!set\+Presence\+Verifier@{set\+Presence\+Verifier}}
+\index{set\+Presence\+Verifier@{set\+Presence\+Verifier}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{set\+Presence\+Verifier()}{setPresenceVerifier()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::set\+Presence\+Verifier (\begin{DoxyParamCaption}\item[{}]{\$presence\+Verifier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the Presence Verifier implementation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Validation\textbackslash{}\+Presence\+Verifier\+Interface & {\em \$presence\+Verifier} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_validator_ada312162486fd32605e929f0adbd159b}\label{class_illuminate_1_1_support_1_1_facades_1_1_validator_ada312162486fd32605e929f0adbd159b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}!validate@{validate}}
+\index{validate@{validate}!Illuminate\+::\+Support\+::\+Facades\+::\+Validator@{Illuminate\+::\+Support\+::\+Facades\+::\+Validator}}
+\subsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Validator\+::validate (\begin{DoxyParamCaption}\item[{}]{\$data,  }\item[{}]{\$rules,  }\item[{}]{\$messages = {\ttfamily array()},  }\item[{}]{\$custom\+Attributes = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Validate the given data against the provided rules.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$data} & \\
+\hline
+array & {\em \$rules} & \\
+\hline
+array & {\em \$messages} & \\
+\hline
+array & {\em \$custom\+Attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

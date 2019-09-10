@@ -1,0 +1,2476 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Request Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_request}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Request\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_request}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a04c59f7a4652190ee9b815a246d4d030}{capture}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a46303e78a0876d7bba541b64581aec66}{instance}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}{method}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a49120cc9c3ade50c8d5ede20c186a1a4}{root}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a2989a827618b1759471556aaacfe446f}{url}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a45110aa4e3e4f712691453fd39a241e0}{full\+Url}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a078d7acddf08cbc6d1b71efcdbebcde6}{full\+Url\+With\+Query}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}{query}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad288b957470d9cdb3b2b35c65c6e7a4c}{path}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5ef76eb084577dcaeb0f17dac3b13192}{decoded\+Path}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a860203430647b4261b5ecbdd04242dd0}{segment}} (\$index, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad63ac5bdb7a81ce91043fda9e7e88685}{segments}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aee3d15739be982a658320ac868c16a43}{is}} (\$patterns=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d91ee547365fbae69326d4331b12457}{route\+Is}} (\$patterns=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aa19fd01c7be2110f177b8cff6559efb2}{full\+Url\+Is}} (\$patterns=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aecead1bc0512dadbebbf5e7aa74b2544}{ajax}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ab38ddcb23db31c0bc23ea576e28d868d}{pjax}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a80f6609d3acb22116e64c05d6e0ecfb9}{secure}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4c0dc61a627ddae9c7c3ec74d845e483}{ip}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a907a99501b1a1f7a8349e71a5a51ee2b}{ips}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a185583cec2b7eefae89f509cb4f3ab}{user\+Agent}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a184ac93e1b0ebb5c9bd720a6bad67e95}{merge}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9ce57d739a5036919120eb369d80dd7a}{input}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d323a9c8ad910a8eb27ba08116eaf0b}{replace}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9ce57d739a5036919120eb369d80dd7a}{input}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad03fe88fc6916a4a2a1a9f3da85bdc77}{json}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aeda33757e75030fdc25f1c17afcc74d4}{create\+From\+Base}} (\$request)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a811172c986cdc6ecc7cf8801bcdc6eb9}{duplicate}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}{query}}=null, \$request=null, \$attributes=null, \$cookies=null, \$files=null, \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}{server}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3b3b1c25368c2e40ecdb0830a53183a8}{session}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afa28362d11bfebad752f6d684ee4dd8c}{set\+Laravel\+Session}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3b3b1c25368c2e40ecdb0830a53183a8}{session}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae16165d7bff8e8c3b2a1c8c58e59e719}{user}} (\$guard=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abf913e2bc3550d8804377ed6aed93be4}{route}} (\$param=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8bc9e7cd157d79c8fb32f2933148ac14}{fingerprint}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaa19d5acec04b37afa4f6369d9276c54}{set\+Json}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad03fe88fc6916a4a2a1a9f3da85bdc77}{json}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8833d40ed5180cb3c3a712c131f8ff7b}{get\+User\+Resolver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d4ed4ec038935ba3db9a690184ede58}{set\+User\+Resolver}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1f2c14881d3d33998ced0a661e2c1349}{get\+Route\+Resolver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5fb4b7d38a7b75fc2dea8ea36d8f3f56}{set\+Route\+Resolver}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad2100d4f15a188ccce3dd8a9ec885389}{to\+Array}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a846e51a1bad906d0b7dc34149d24b5da}{offset\+Exists}} (\$offset)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5e9324bd92c95487e0e2d4c9e2fac814}{offset\+Get}} (\$offset)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a152259a20338648884c97f30fceebec3}{offset\+Set}} (\$offset, \$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0a1207e664392d43d200cbcf94f0ecee}{offset\+Unset}} (\$offset)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a48b56a8b2a03a51267ac34fd60d90766}{initialize}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}{query}}=array(), \$request=array(), \$attributes=array(), \$cookies=array(), \$files=array(), \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}{server}}=array(), \$content=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a09634cd14effd077c44a779500b8ff2c}{create\+From\+Globals}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a342ea9db43861f8dd293ff94bfa6b795}{create}} (\$uri, \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}{method}}=\textquotesingle{}G\+ET\textquotesingle{}, \$parameters=array(), \$cookies=array(), \$files=array(), \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}{server}}=array(), \$content=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a223c49b4b59ee06341172efbd2362139}{set\+Factory}} (\$callable)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afd2c5e18dcee250f7de186821bf7afab}{override\+Globals}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}{set\+Trusted\+Proxies}} (\$proxies)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae27082de42e9584c5b87d6f4db424e2c}{get\+Trusted\+Proxies}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae3ef3d27cc0d73a108b3f97e4568bd76}{get\+Trusted\+Header\+Set}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0f4e03016975d5e78f6841b4b3b2d853}{set\+Trusted\+Hosts}} (\$host\+Patterns)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a7af20f1cdde18bc998466e6b94613503}{get\+Trusted\+Hosts}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abbd0aa91652f2122be7a351876da3468}{set\+Trusted\+Header\+Name}} (\$key, \$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a55370a6f7198b65ee1ab0f8416f4fb40}{get\+Trusted\+Header\+Name}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4e65d88d0e7c68e2b9aaafcfe83a91b5}{normalize\+Query\+String}} (\$qs)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a39cf798202cb88125c454d7813767a01}{enable\+Http\+Method\+Parameter\+Override}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a6dc526d395a74c75de55eb597cbf66d5}{get\+Http\+Method\+Parameter\+Override}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af1519e8f3d8baaa19829f3f4a53c9b41}{get}} (\$key, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a19c092888199ad4b1e3e5f254bc65698}{get\+Session}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a70640b694c1a135a6e196be88478c25f}{has\+Previous\+Session}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abdb40f9f98e0988e0d46701d84b08eaa}{has\+Session}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a89fade31642421bad06c770d5d3505fa}{set\+Session}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3b3b1c25368c2e40ecdb0830a53183a8}{session}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_acff1ecb5fd2edd0194bfa8ab1c120bcd}{get\+Client\+Ips}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}{get\+Client\+Ip}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abbaae1eb9e945968ecf88a6028fdad1d}{get\+Script\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cf633d5763b7456ab6caa5cde0168}{get\+Path\+Info}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a7ff313f9f7aa4c84a15e5f5378ea0b6f}{get\+Base\+Path}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8aa479bbfa1d5f2e34b783561a674ee9}{get\+Base\+Url}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ab575d7512ffc8d22cf2f3facfaee0065}{get\+Scheme}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afc28cdf3fdcae21e6c5d0596b041c5e8}{get\+Port}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af6be07fd0431be5d0a2e28c874d7a39c}{get\+User}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a532c73c1fc35755642cb93c47098af}{get\+Password}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8ce2186aaa9ce132b469fd8e61b20a5e}{get\+User\+Info}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a94046dd08b0253ae63caf787fd1f9d80}{get\+Http\+Host}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a91b1026ed524e8ece81eb56e47721256}{get\+Request\+Uri}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a6576e102a6c46aaf0a0167c7b45a51f5}{get\+Scheme\+And\+Http\+Host}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a981fe9da5324bee9feb4664b5b574e87}{get\+Uri}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5f9581e38f5a7609b62f7fa4b1bd1116}{get\+Uri\+For\+Path}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad288b957470d9cdb3b2b35c65c6e7a4c}{path}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac3134c844be4a9bf63a2f5e9153e0b0d}{get\+Relative\+Uri\+For\+Path}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ad288b957470d9cdb3b2b35c65c6e7a4c}{path}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aec1fe0b0a5b7c90b9b3606f967083d82}{get\+Query\+String}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9a401927e509ddb652b5656407b37bf2}{is\+Secure}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4a7a300d1d1c514c99bb8ac080cfd872}{get\+Host}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a18e4ed75cb2f1bc0090d3b908c967984}{set\+Method}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}{method}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afbd81f562c546e8dc0b6f41b827bcbcb}{get\+Method}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_acd2706ec8b8c53211875908b1246dd98}{get\+Real\+Method}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a6520afcea661e1a2f5918103d15346b1}{get\+Mime\+Type}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}{format}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8037ea4a5f96207a0621c135ec663dff}{get\+Mime\+Types}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}{format}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9c6751c567d605886a8a95ef3f181af0}{get\+Format}} (\$mime\+Type)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a87d801fec0dde744cad4df68ddcca2e6}{set\+Format}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}{format}}, \$mime\+Types)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac2f5053668bc247ab6d042136cf3f048}{get\+Request\+Format}} (\$default=\textquotesingle{}html\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaf9cb930a254f206113925d932c18b45}{set\+Request\+Format}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}{format}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0566566f7856c8b38d190298600a86e5}{get\+Content\+Type}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a934d94aebb334fe5d98af6dc7dad3097}{set\+Default\+Locale}} (\$locale)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5031981f11ab07f0bd8df4d4c5b98d0a}{get\+Default\+Locale}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4b9373832b64d3e19dc3aa04c6109c73}{set\+Locale}} (\$locale)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a8610853bbc9553703ceef4cf59b72cc5}{get\+Locale}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a3711d10d844d086b2cd27c7c7ed1d76f}{is\+Method}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}{method}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae5c61ec58eda5633dd221ae99b3521d3}{is\+Method\+Safe}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aab7b89683fe78e6fc1541949134ff4d1}{is\+Method\+Idempotent}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a12a20ca1818c7c5ee617bb5ebeba3848}{is\+Method\+Cacheable}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1b836840a59e484da9ceaf51a92605de}{get\+Content}} (\$as\+Resource=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a68234b90eb6e13199e8d88b92c249cc3}{get\+E\+Tags}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a336ff9cf1ed0222ac38432f1f0ac952f}{is\+No\+Cache}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aa8cf52deb0fe5bdb8f0639d5d000c53d}{get\+Preferred\+Language}} (\$locales=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a100339c165aa3a2ff6374907b8059aad}{get\+Languages}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5a4578c833d85fc7e52e25c9f274f424}{get\+Charsets}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae76151ec6bc38639073829d214961649}{get\+Encodings}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5377820ba036ebea9d4cb9414b4539b3}{get\+Acceptable\+Content\+Types}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aacae65b6bad777a385ac6ef34651e18a}{is\+Xml\+Http\+Request}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ab90670394e8992fee5da0dc77227f473}{is\+From\+Trusted\+Proxy}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aee5d01eac11e7d1748507d446a09a762}{matches\+Type}} (\$actual, \$type)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aeb9496ac11c40327963f0fa71425b37e}{is\+Json}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4524cc3911f859ab2da48657b2c87613}{expects\+Json}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a427ab22e9702aeee550d669594ea7c03}{wants\+Json}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a356cb2b43b1c9350e34d5e8ab95230a3}{accepts}} (\$content\+Types)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0e130db25d5def4c90ad0ab3fe9f71bd}{prefers}} (\$content\+Types)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1c0fbb1785826044da0ded64be898756}{accepts\+Json}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a60d9dd68e524f3f29aadbda775913cb3}{accepts\+Html}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}{format}} (\$default=\textquotesingle{}html\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a7b7af1efc91c493e2eea32c265bdff61}{old}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a149dac682268f43992e9a091bb59be61}{flash}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ab5dacbf677b365d96b69d07eab287362}{flash\+Only}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cfbdec5052d1b1c869afb2535d048}{flash\+Except}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a95af77259531744a727e567b89f63377}{flush}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}{server}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a56135a65dcaa5b1aa7b33112630af0cd}{has\+Header}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a7e986c7ede7a776671568609fc13fc93}{header}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a5c82a7baf482aa6187435909722439d3}{bearer\+Token}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aa5ac5c2ba1148e6e342cc0bdb6e341b0}{exists}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af74661b161ff4bde8410cf70fe5e4ff2}{has}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a16f3ecff134eb810a48c7111c7edc3e2}{has\+Any}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a662f9c1fe20679ed314de2805fcb7d5c}{filled}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0dd690dbf4cbc66977fd67bd026189f0}{all}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9ce57d739a5036919120eb369d80dd7a}{input}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a84e7d08204f612746c8ca6174fea05c6}{only}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ae1911ce30adfca2e337178dff9fa40e6}{except}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}{keys}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}{query}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a14e00874e76c2951c75c80116c791083}{post}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a584ecc81891467684ae97ca5e12bc6b3}{has\+Cookie}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a70ff4673e06c3a4b8eecf873ee03c87e}{cookie}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_af20e1617b83e1399b3e4b80216b8413e}{all\+Files}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a14261036d9d8192ae6bc760d7d1a354d}{has\+File}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1082105b18377b3403a0e132c9b24901}{file}} (\$key=null, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a56125949490a1267249e6260e2e56552}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a6584f6b2aeabae7841abca43ba830d0a}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a0ef2bf9bd9b70f547700ce96c5b41076}{has\+Macro}} (\$name)
+\item 
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a7761fe19ca20c58ed941c6b834c2e0a8}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a7761fe19ca20c58ed941c6b834c2e0a8}} 
+static {\bfseries validate} (\$rules, \$params=null)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a356cb2b43b1c9350e34d5e8ab95230a3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a356cb2b43b1c9350e34d5e8ab95230a3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!accepts@{accepts}}
+\index{accepts@{accepts}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{accepts()}{accepts()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::accepts (\begin{DoxyParamCaption}\item[{}]{\$content\+Types }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determines whether the current requests accepts a given content type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$content\+Types} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a60d9dd68e524f3f29aadbda775913cb3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a60d9dd68e524f3f29aadbda775913cb3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!accepts\+Html@{accepts\+Html}}
+\index{accepts\+Html@{accepts\+Html}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{accepts\+Html()}{acceptsHtml()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::accepts\+Html (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determines whether a request accepts H\+T\+ML.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a1c0fbb1785826044da0ded64be898756}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a1c0fbb1785826044da0ded64be898756}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!accepts\+Json@{accepts\+Json}}
+\index{accepts\+Json@{accepts\+Json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{accepts\+Json()}{acceptsJson()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::accepts\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determines whether a request accepts J\+S\+ON.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aecead1bc0512dadbebbf5e7aa74b2544}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aecead1bc0512dadbebbf5e7aa74b2544}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!ajax@{ajax}}
+\index{ajax@{ajax}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{ajax()}{ajax()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::ajax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request is the result of an A\+J\+AX call.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0dd690dbf4cbc66977fd67bd026189f0}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0dd690dbf4cbc66977fd67bd026189f0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!all@{all}}
+\index{all@{all}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{all()}{all()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::all (\begin{DoxyParamCaption}\item[{}]{\$keys = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the input and files for the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af20e1617b83e1399b3e4b80216b8413e}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af20e1617b83e1399b3e4b80216b8413e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!all\+Files@{all\+Files}}
+\index{all\+Files@{all\+Files}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{all\+Files()}{allFiles()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::all\+Files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an array of all of the files on the request.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5c82a7baf482aa6187435909722439d3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5c82a7baf482aa6187435909722439d3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!bearer\+Token@{bearer\+Token}}
+\index{bearer\+Token@{bearer\+Token}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{bearer\+Token()}{bearerToken()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::bearer\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the bearer token from the request headers.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a04c59f7a4652190ee9b815a246d4d030}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a04c59f7a4652190ee9b815a246d4d030}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!capture@{capture}}
+\index{capture@{capture}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{capture()}{capture()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::capture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new Illuminate H\+T\+TP request from server variables.
+
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a70ff4673e06c3a4b8eecf873ee03c87e}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a70ff4673e06c3a4b8eecf873ee03c87e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!cookie@{cookie}}
+\index{cookie@{cookie}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{cookie()}{cookie()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::cookie (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a cookie from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a342ea9db43861f8dd293ff94bfa6b795}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a342ea9db43861f8dd293ff94bfa6b795}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!create@{create}}
+\index{create@{create}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::create (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$method = {\ttfamily \textquotesingle{}GET\textquotesingle{}},  }\item[{}]{\$parameters = {\ttfamily array()},  }\item[{}]{\$cookies = {\ttfamily array()},  }\item[{}]{\$files = {\ttfamily array()},  }\item[{}]{\$server = {\ttfamily array()},  }\item[{}]{\$content = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} based on a given U\+RI and configuration.
+
+The information contained in the U\+RI always take precedence over the other information (server and parameters).
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & The U\+RI \\
+\hline
+string & {\em \$method} & The H\+T\+TP method \\
+\hline
+array & {\em \$parameters} & The query (G\+ET) or request (P\+O\+ST) parameters \\
+\hline
+array & {\em \$cookies} & The request cookies (\$\+\_\+\+C\+O\+O\+K\+IE) \\
+\hline
+array & {\em \$files} & The request files (\$\+\_\+\+F\+I\+L\+ES) \\
+\hline
+array & {\em \$server} & The server parameters (\$\+\_\+\+S\+E\+R\+V\+ER) \\
+\hline
+string & {\em \$content} & The raw body data \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aeda33757e75030fdc25f1c17afcc74d4}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aeda33757e75030fdc25f1c17afcc74d4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!create\+From\+Base@{create\+From\+Base}}
+\index{create\+From\+Base@{create\+From\+Base}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{create\+From\+Base()}{createFromBase()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::create\+From\+Base (\begin{DoxyParamCaption}\item[{}]{\$request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create an Illuminate request from a Symfony instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Symfony\textbackslash{}\+Component\textbackslash{}\+Http\+Foundation\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a09634cd14effd077c44a779500b8ff2c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a09634cd14effd077c44a779500b8ff2c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!create\+From\+Globals@{create\+From\+Globals}}
+\index{create\+From\+Globals@{create\+From\+Globals}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{create\+From\+Globals()}{createFromGlobals()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::create\+From\+Globals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates a new request with values from P\+HP\textquotesingle{}s super globals.
+
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5ef76eb084577dcaeb0f17dac3b13192}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5ef76eb084577dcaeb0f17dac3b13192}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!decoded\+Path@{decoded\+Path}}
+\index{decoded\+Path@{decoded\+Path}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{decoded\+Path()}{decodedPath()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::decoded\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current encoded path info for the request.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a811172c986cdc6ecc7cf8801bcdc6eb9}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a811172c986cdc6ecc7cf8801bcdc6eb9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!duplicate@{duplicate}}
+\index{duplicate@{duplicate}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{duplicate()}{duplicate()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::duplicate (\begin{DoxyParamCaption}\item[{}]{\$query = {\ttfamily null},  }\item[{}]{\$request = {\ttfamily null},  }\item[{}]{\$attributes = {\ttfamily null},  }\item[{}]{\$cookies = {\ttfamily null},  }\item[{}]{\$files = {\ttfamily null},  }\item[{}]{\$server = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clones a request and overrides some of its parameters.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$query} & The G\+ET parameters \\
+\hline
+array & {\em \$request} & The P\+O\+ST parameters \\
+\hline
+array & {\em \$attributes} & The request attributes (parameters parsed from the P\+A\+T\+H\+\_\+\+I\+N\+FO, ...) \\
+\hline
+array & {\em \$cookies} & The C\+O\+O\+K\+IE parameters \\
+\hline
+array & {\em \$files} & The F\+I\+L\+ES parameters \\
+\hline
+array & {\em \$server} & The S\+E\+R\+V\+ER parameters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a39cf798202cb88125c454d7813767a01}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a39cf798202cb88125c454d7813767a01}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!enable\+Http\+Method\+Parameter\+Override@{enable\+Http\+Method\+Parameter\+Override}}
+\index{enable\+Http\+Method\+Parameter\+Override@{enable\+Http\+Method\+Parameter\+Override}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{enable\+Http\+Method\+Parameter\+Override()}{enableHttpMethodParameterOverride()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::enable\+Http\+Method\+Parameter\+Override (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Enables support for the \+\_\+method request parameter to determine the intended H\+T\+TP method.
+
+Be warned that enabling this feature might lead to C\+S\+RF issues in your code. Check that you are using C\+S\+RF tokens when required. If the H\+T\+TP method parameter override is enabled, an html-\/form with method \char`\"{}\+P\+O\+S\+T\char`\"{} can be altered and used to send a \char`\"{}\+P\+U\+T\char`\"{} or \char`\"{}\+D\+E\+L\+E\+T\+E\char`\"{} request via the \+\_\+method request parameter. If these methods are not protected against C\+S\+RF, this presents a possible vulnerability.
+
+The H\+T\+TP method can only be overridden when the real H\+T\+TP method is P\+O\+ST. \mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae1911ce30adfca2e337178dff9fa40e6}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae1911ce30adfca2e337178dff9fa40e6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!except@{except}}
+\index{except@{except}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{except()}{except()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::except (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the input except for a specified array of items.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aa5ac5c2ba1148e6e342cc0bdb6e341b0}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aa5ac5c2ba1148e6e342cc0bdb6e341b0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!exists@{exists}}
+\index{exists@{exists}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{exists()}{exists()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::exists (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request contains a given input item key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a4524cc3911f859ab2da48657b2c87613}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a4524cc3911f859ab2da48657b2c87613}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!expects\+Json@{expects\+Json}}
+\index{expects\+Json@{expects\+Json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{expects\+Json()}{expectsJson()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::expects\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current request probably expects a J\+S\+ON response.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a1082105b18377b3403a0e132c9b24901}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a1082105b18377b3403a0e132c9b24901}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!file@{file}}
+\index{file@{file}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{file()}{file()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::file (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a file from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$array$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a662f9c1fe20679ed314de2805fcb7d5c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a662f9c1fe20679ed314de2805fcb7d5c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!filled@{filled}}
+\index{filled@{filled}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{filled()}{filled()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::filled (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request contains a non-\/empty value for an input item.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8bc9e7cd157d79c8fb32f2933148ac14}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8bc9e7cd157d79c8fb32f2933148ac14}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!fingerprint@{fingerprint}}
+\index{fingerprint@{fingerprint}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{fingerprint()}{fingerprint()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::fingerprint (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a unique fingerprint for the request / route / IP address.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a149dac682268f43992e9a091bb59be61}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a149dac682268f43992e9a091bb59be61}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!flash@{flash}}
+\index{flash@{flash}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{flash()}{flash()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::flash (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Flash the input for the current request to the session.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cfbdec5052d1b1c869afb2535d048}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cfbdec5052d1b1c869afb2535d048}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!flash\+Except@{flash\+Except}}
+\index{flash\+Except@{flash\+Except}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{flash\+Except()}{flashExcept()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::flash\+Except (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Flash only some of the input to the session.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ab5dacbf677b365d96b69d07eab287362}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ab5dacbf677b365d96b69d07eab287362}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!flash\+Only@{flash\+Only}}
+\index{flash\+Only@{flash\+Only}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{flash\+Only()}{flashOnly()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::flash\+Only (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Flash only some of the input to the session.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a95af77259531744a727e567b89f63377}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a95af77259531744a727e567b89f63377}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!flush@{flush}}
+\index{flush@{flush}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::flush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Flush all of the old input from the session.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ac091887300694c2d2f8630bb15adc897}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!format@{format}}
+\index{format@{format}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{format()}{format()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::format (\begin{DoxyParamCaption}\item[{}]{\$default = {\ttfamily \textquotesingle{}html\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the data format expected in the response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a45110aa4e3e4f712691453fd39a241e0}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a45110aa4e3e4f712691453fd39a241e0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!full\+Url@{full\+Url}}
+\index{full\+Url@{full\+Url}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{full\+Url()}{fullUrl()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::full\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the full \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} for the request.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aa19fd01c7be2110f177b8cff6559efb2}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aa19fd01c7be2110f177b8cff6559efb2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!full\+Url\+Is@{full\+Url\+Is}}
+\index{full\+Url\+Is@{full\+Url\+Is}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{full\+Url\+Is()}{fullUrlIs()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::full\+Url\+Is (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current request \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} and query string matches a pattern.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a078d7acddf08cbc6d1b71efcdbebcde6}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a078d7acddf08cbc6d1b71efcdbebcde6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!full\+Url\+With\+Query@{full\+Url\+With\+Query}}
+\index{full\+Url\+With\+Query@{full\+Url\+With\+Query}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{full\+Url\+With\+Query()}{fullUrlWithQuery()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::full\+Url\+With\+Query (\begin{DoxyParamCaption}\item[{}]{\$query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the full \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} for the request with the added query string parameters.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af1519e8f3d8baaa19829f3f4a53c9b41}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af1519e8f3d8baaa19829f3f4a53c9b41}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get@{get}}
+\index{get@{get}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets a \char`\"{}parameter\char`\"{} value from any bag.
+
+This method is mainly useful for libraries that want to provide some flexibility. If you don\textquotesingle{}t need the flexibility in controllers, it is better to explicitly get request parameters from the appropriate public property instead (attributes, query, request).
+
+Order of precedence\+: P\+A\+TH (routing placeholders or custom attributes), G\+ET, B\+O\+DY
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & the key \\
+\hline
+mixed & {\em \$default} & the default value if the parameter key does not exist \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5377820ba036ebea9d4cb9414b4539b3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5377820ba036ebea9d4cb9414b4539b3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Acceptable\+Content\+Types@{get\+Acceptable\+Content\+Types}}
+\index{get\+Acceptable\+Content\+Types@{get\+Acceptable\+Content\+Types}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Acceptable\+Content\+Types()}{getAcceptableContentTypes()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Acceptable\+Content\+Types (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets a list of content types acceptable by the client browser.
+
+\begin{DoxyReturn}{Returns}
+array List of content types in preferable order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a7ff313f9f7aa4c84a15e5f5378ea0b6f}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a7ff313f9f7aa4c84a15e5f5378ea0b6f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Base\+Path@{get\+Base\+Path}}
+\index{get\+Base\+Path@{get\+Base\+Path}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Base\+Path()}{getBasePath()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Base\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the root path from which this request is executed.
+
+Suppose that an index.\+php file instantiates this request object\+:
+
+
+\begin{DoxyItemize}
+\item \href{http://localhost/index.php}{\tt http\+://localhost/index.\+php} returns an empty string
+\item \href{http://localhost/index.php/page}{\tt http\+://localhost/index.\+php/page} returns an empty string
+\item \href{http://localhost/web/index.php}{\tt http\+://localhost/web/index.\+php} returns \textquotesingle{}/web\textquotesingle{}
+\item \href{http://localhost/we%20b/index.php}{\tt http\+://localhost/we\%20b/index.\+php} returns \textquotesingle{}/we\%20b\textquotesingle{}
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+string The raw path (i.\+e. not urldecoded) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8aa479bbfa1d5f2e34b783561a674ee9}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8aa479bbfa1d5f2e34b783561a674ee9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Base\+Url@{get\+Base\+Url}}
+\index{get\+Base\+Url@{get\+Base\+Url}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Base\+Url()}{getBaseUrl()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Base\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the root \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} from which this request is executed.
+
+The base \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} never ends with a /.
+
+This is similar to \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a7ff313f9f7aa4c84a15e5f5378ea0b6f}{get\+Base\+Path()}}, except that it also includes the script filename (e.\+g. index.\+php) if one exists.
+
+\begin{DoxyReturn}{Returns}
+string The raw \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} (i.\+e. not urldecoded) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5a4578c833d85fc7e52e25c9f274f424}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5a4578c833d85fc7e52e25c9f274f424}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Charsets@{get\+Charsets}}
+\index{get\+Charsets@{get\+Charsets}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Charsets()}{getCharsets()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Charsets (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets a list of charsets acceptable by the client browser.
+
+\begin{DoxyReturn}{Returns}
+array List of charsets in preferable order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Client\+Ip@{get\+Client\+Ip}}
+\index{get\+Client\+Ip@{get\+Client\+Ip}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Client\+Ip()}{getClientIp()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Client\+Ip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the client IP address.
+
+This method can read the client IP address from the \char`\"{}\+X-\/\+Forwarded-\/\+For\char`\"{} header when trusted proxies were set via \char`\"{}set\+Trusted\+Proxies()\char`\"{}. The \char`\"{}\+X-\/\+Forwarded-\/\+For\char`\"{} header value is a comma+space separated list of IP addresses, the left-\/most being the original client, and each successive proxy that passed the request adding the IP address where it received the request from.
+
+If your reverse proxy uses a different header name than \char`\"{}\+X-\/\+Forwarded-\/\+For\char`\"{}, (\char`\"{}\+Client-\/\+Ip\char`\"{} for instance), configure it via the \$trusted\+Header\+Set argument of the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}{Request\+::set\+Trusted\+Proxies()}} method instead.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null The client IP address 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_acff1ecb5fd2edd0194bfa8ab1c120bcd}{get\+Client\+Ips()}} 
+
+\href{http://en.wikipedia.org/wiki/X-Forwarded-For}{\tt http\+://en.\+wikipedia.\+org/wiki/\+X-\/\+Forwarded-\/\+For} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_acff1ecb5fd2edd0194bfa8ab1c120bcd}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_acff1ecb5fd2edd0194bfa8ab1c120bcd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Client\+Ips@{get\+Client\+Ips}}
+\index{get\+Client\+Ips@{get\+Client\+Ips}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Client\+Ips()}{getClientIps()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Client\+Ips (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the client IP addresses.
+
+In the returned array the most trusted IP address is first, and the least trusted one last. The \char`\"{}real\char`\"{} client IP address is the last one, but this is also the least trusted one. Trusted proxies are stripped.
+
+Use this method carefully; you should use \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}{get\+Client\+Ip()}} instead.
+
+\begin{DoxyReturn}{Returns}
+array The client IP addresses 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}{get\+Client\+Ip()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a1b836840a59e484da9ceaf51a92605de}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a1b836840a59e484da9ceaf51a92605de}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Content@{get\+Content}}
+\index{get\+Content@{get\+Content}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Content()}{getContent()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Content (\begin{DoxyParamCaption}\item[{}]{\$as\+Resource = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the request body content.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$as\+Resource} & If true, a resource will be returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$resource The request body content or a resource to read the body stream 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0566566f7856c8b38d190298600a86e5}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0566566f7856c8b38d190298600a86e5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Content\+Type@{get\+Content\+Type}}
+\index{get\+Content\+Type@{get\+Content\+Type}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Content\+Type()}{getContentType()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Content\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the format associated with the request.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null The format (null if no content type is present) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5031981f11ab07f0bd8df4d4c5b98d0a}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5031981f11ab07f0bd8df4d4c5b98d0a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Default\+Locale@{get\+Default\+Locale}}
+\index{get\+Default\+Locale@{get\+Default\+Locale}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Default\+Locale()}{getDefaultLocale()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Default\+Locale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default locale.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae76151ec6bc38639073829d214961649}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae76151ec6bc38639073829d214961649}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Encodings@{get\+Encodings}}
+\index{get\+Encodings@{get\+Encodings}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Encodings()}{getEncodings()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Encodings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets a list of encodings acceptable by the client browser.
+
+\begin{DoxyReturn}{Returns}
+array List of encodings in preferable order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a68234b90eb6e13199e8d88b92c249cc3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a68234b90eb6e13199e8d88b92c249cc3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+E\+Tags@{get\+E\+Tags}}
+\index{get\+E\+Tags@{get\+E\+Tags}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+E\+Tags()}{getETags()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+E\+Tags (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the Etags.
+
+\begin{DoxyReturn}{Returns}
+array The entity tags 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a9c6751c567d605886a8a95ef3f181af0}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a9c6751c567d605886a8a95ef3f181af0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Format@{get\+Format}}
+\index{get\+Format@{get\+Format}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Format()}{getFormat()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Format (\begin{DoxyParamCaption}\item[{}]{\$mime\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the format associated with the mime type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$mime\+Type} & The associated mime type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$null The format (null if not found) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a4a7a300d1d1c514c99bb8ac080cfd872}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a4a7a300d1d1c514c99bb8ac080cfd872}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Host@{get\+Host}}
+\index{get\+Host@{get\+Host}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Host()}{getHost()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Host (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the host name.
+
+This method can read the client host name from the \char`\"{}\+X-\/\+Forwarded-\/\+Host\char`\"{} header when trusted proxies were set via \char`\"{}set\+Trusted\+Proxies()\char`\"{}.
+
+The \char`\"{}\+X-\/\+Forwarded-\/\+Host\char`\"{} header must contain the client host name.
+
+If your reverse proxy uses a different header name than \char`\"{}\+X-\/\+Forwarded-\/\+Host\char`\"{}, configure it via the \$trusted\+Header\+Set argument of the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}{Request\+::set\+Trusted\+Proxies()}} method instead.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Suspicious\+Operation\+Exception} & when the host name is invalid or not trusted \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a94046dd08b0253ae63caf787fd1f9d80}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a94046dd08b0253ae63caf787fd1f9d80}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Http\+Host@{get\+Http\+Host}}
+\index{get\+Http\+Host@{get\+Http\+Host}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Http\+Host()}{getHttpHost()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Http\+Host (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the H\+T\+TP host being requested.
+
+The port name will be appended to the host if it\textquotesingle{}s non-\/standard.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a6dc526d395a74c75de55eb597cbf66d5}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a6dc526d395a74c75de55eb597cbf66d5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Http\+Method\+Parameter\+Override@{get\+Http\+Method\+Parameter\+Override}}
+\index{get\+Http\+Method\+Parameter\+Override@{get\+Http\+Method\+Parameter\+Override}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Http\+Method\+Parameter\+Override()}{getHttpMethodParameterOverride()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Http\+Method\+Parameter\+Override (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks whether support for the \+\_\+method request parameter is enabled.
+
+\begin{DoxyReturn}{Returns}
+bool True when the \+\_\+method request parameter is enabled, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a100339c165aa3a2ff6374907b8059aad}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a100339c165aa3a2ff6374907b8059aad}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Languages@{get\+Languages}}
+\index{get\+Languages@{get\+Languages}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Languages()}{getLanguages()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Languages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets a list of languages acceptable by the client browser.
+
+\begin{DoxyReturn}{Returns}
+array Languages ordered in the user browser preferences 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8610853bbc9553703ceef4cf59b72cc5}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8610853bbc9553703ceef4cf59b72cc5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Locale@{get\+Locale}}
+\index{get\+Locale@{get\+Locale}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Locale()}{getLocale()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Locale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the locale.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_afbd81f562c546e8dc0b6f41b827bcbcb}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_afbd81f562c546e8dc0b6f41b827bcbcb}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Method@{get\+Method}}
+\index{get\+Method@{get\+Method}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Method()}{getMethod()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the request \char`\"{}intended\char`\"{} method.
+
+If the X-\/\+H\+T\+T\+P-\/\+Method-\/\+Override header is set, and if the method is a P\+O\+ST, then it is used to determine the \char`\"{}real\char`\"{} intended H\+T\+TP method.
+
+The \+\_\+method request parameter can also be used to determine the H\+T\+TP method, but only if \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a39cf798202cb88125c454d7813767a01}{enable\+Http\+Method\+Parameter\+Override()}} has been called.
+
+The method is always an uppercased string.
+
+\begin{DoxyReturn}{Returns}
+string The request method 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_acd2706ec8b8c53211875908b1246dd98}{get\+Real\+Method()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a6520afcea661e1a2f5918103d15346b1}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a6520afcea661e1a2f5918103d15346b1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Mime\+Type@{get\+Mime\+Type}}
+\index{get\+Mime\+Type@{get\+Mime\+Type}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Mime\+Type()}{getMimeType()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Mime\+Type (\begin{DoxyParamCaption}\item[{}]{\$format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the mime type associated with the format.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & The format \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The associated mime type (null if not found) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8037ea4a5f96207a0621c135ec663dff}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8037ea4a5f96207a0621c135ec663dff}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Mime\+Types@{get\+Mime\+Types}}
+\index{get\+Mime\+Types@{get\+Mime\+Types}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Mime\+Types()}{getMimeTypes()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Mime\+Types (\begin{DoxyParamCaption}\item[{}]{\$format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the mime types associated with the format.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & The format \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array The associated mime types 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a532c73c1fc35755642cb93c47098af}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a532c73c1fc35755642cb93c47098af}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Password@{get\+Password}}
+\index{get\+Password@{get\+Password}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Password()}{getPassword()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the password.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cf633d5763b7456ab6caa5cde0168}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a338cf633d5763b7456ab6caa5cde0168}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Path\+Info@{get\+Path\+Info}}
+\index{get\+Path\+Info@{get\+Path\+Info}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Path\+Info()}{getPathInfo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Path\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the path being requested relative to the executed script.
+
+The path info always starts with a /.
+
+Suppose this request is instantiated from /mysite on localhost\+:
+
+
+\begin{DoxyItemize}
+\item \href{http://localhost/mysite}{\tt http\+://localhost/mysite} returns an empty string
+\item \href{http://localhost/mysite/about}{\tt http\+://localhost/mysite/about} returns \textquotesingle{}/about\textquotesingle{}
+\item \href{http://localhost/mysite/enco%20ded}{\tt http\+://localhost/mysite/enco\%20ded} returns \textquotesingle{}/enco\%20ded\textquotesingle{}
+\item \href{http://localhost/mysite/about?var=1}{\tt http\+://localhost/mysite/about?var=1} returns \textquotesingle{}/about\textquotesingle{}
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Returns}
+string The raw path (i.\+e. not urldecoded) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_afc28cdf3fdcae21e6c5d0596b041c5e8}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_afc28cdf3fdcae21e6c5d0596b041c5e8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Port@{get\+Port}}
+\index{get\+Port@{get\+Port}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Port()}{getPort()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Port (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the port on which the request is made.
+
+This method can read the client port from the \char`\"{}\+X-\/\+Forwarded-\/\+Port\char`\"{} header when trusted proxies were set via \char`\"{}set\+Trusted\+Proxies()\char`\"{}.
+
+The \char`\"{}\+X-\/\+Forwarded-\/\+Port\char`\"{} header must contain the client port.
+
+If your reverse proxy uses a different header name than \char`\"{}\+X-\/\+Forwarded-\/\+Port\char`\"{}, configure it via via the \$trusted\+Header\+Set argument of the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}{Request\+::set\+Trusted\+Proxies()}} method instead.
+
+\begin{DoxyReturn}{Returns}
+int$\vert$string can be a string if fetched from the server bag 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aa8cf52deb0fe5bdb8f0639d5d000c53d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aa8cf52deb0fe5bdb8f0639d5d000c53d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Preferred\+Language@{get\+Preferred\+Language}}
+\index{get\+Preferred\+Language@{get\+Preferred\+Language}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Preferred\+Language()}{getPreferredLanguage()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Preferred\+Language (\begin{DoxyParamCaption}\item[{}]{\$locales = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the preferred language.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$locales} & An array of ordered available locales \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$null The preferred locale 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aec1fe0b0a5b7c90b9b3606f967083d82}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aec1fe0b0a5b7c90b9b3606f967083d82}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Query\+String@{get\+Query\+String}}
+\index{get\+Query\+String@{get\+Query\+String}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Query\+String()}{getQueryString()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Query\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Generates the normalized query string for the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}}.
+
+It builds a normalized query string, where keys/value pairs are alphabetized and have consistent escaping.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null A normalized query string for the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_acd2706ec8b8c53211875908b1246dd98}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_acd2706ec8b8c53211875908b1246dd98}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Real\+Method@{get\+Real\+Method}}
+\index{get\+Real\+Method@{get\+Real\+Method}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Real\+Method()}{getRealMethod()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Real\+Method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the \char`\"{}real\char`\"{} request method.
+
+\begin{DoxyReturn}{Returns}
+string The request method 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afbd81f562c546e8dc0b6f41b827bcbcb}{get\+Method()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ac3134c844be4a9bf63a2f5e9153e0b0d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ac3134c844be4a9bf63a2f5e9153e0b0d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Relative\+Uri\+For\+Path@{get\+Relative\+Uri\+For\+Path}}
+\index{get\+Relative\+Uri\+For\+Path@{get\+Relative\+Uri\+For\+Path}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Relative\+Uri\+For\+Path()}{getRelativeUriForPath()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Relative\+Uri\+For\+Path (\begin{DoxyParamCaption}\item[{}]{\$path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the path as relative reference from the current \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} path.
+
+Only the U\+R\+Is path component (no schema, host etc.) is relevant and must be given. Both paths must be absolute and not contain relative parts. Relative U\+R\+Ls from one resource to another are useful when generating self-\/contained downloadable document archives. Furthermore, they can be used to reduce the link size in documents.
+
+Example target paths, given a base path of \char`\"{}/a/b/c/d\char`\"{}\+:
+\begin{DoxyItemize}
+\item \char`\"{}/a/b/c/d\char`\"{} -\/$>$ \char`\"{}\char`\"{}
+\item \char`\"{}/a/b/c/\char`\"{} -\/$>$ \char`\"{}./\char`\"{}
+\item \char`\"{}/a/b/\char`\"{} -\/$>$ \char`\"{}../\char`\"{}
+\item \char`\"{}/a/b/c/other\char`\"{} -\/$>$ \char`\"{}other\char`\"{}
+\item \char`\"{}/a/x/y\char`\"{} -\/$>$ \char`\"{}../../x/y\char`\"{}
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & The target path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The relative target path 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ac2f5053668bc247ab6d042136cf3f048}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ac2f5053668bc247ab6d042136cf3f048}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Request\+Format@{get\+Request\+Format}}
+\index{get\+Request\+Format@{get\+Request\+Format}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Request\+Format()}{getRequestFormat()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Request\+Format (\begin{DoxyParamCaption}\item[{}]{\$default = {\ttfamily \textquotesingle{}html\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the request format.
+
+Here is the process to determine the format\+:
+
+
+\begin{DoxyItemize}
+\item format defined by the user (with \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aaf9cb930a254f206113925d932c18b45}{set\+Request\+Format()}})
+\item \+\_\+format request attribute
+\item \$default
+\end{DoxyItemize}
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$default} & The default format \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The request format 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a91b1026ed524e8ece81eb56e47721256}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a91b1026ed524e8ece81eb56e47721256}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Request\+Uri@{get\+Request\+Uri}}
+\index{get\+Request\+Uri@{get\+Request\+Uri}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Request\+Uri()}{getRequestUri()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Request\+Uri (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the requested U\+RI (path and query string).
+
+\begin{DoxyReturn}{Returns}
+string The raw U\+RI (i.\+e. not U\+RI decoded) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a1f2c14881d3d33998ced0a661e2c1349}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a1f2c14881d3d33998ced0a661e2c1349}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Route\+Resolver@{get\+Route\+Resolver}}
+\index{get\+Route\+Resolver@{get\+Route\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Route\+Resolver()}{getRouteResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Route\+Resolver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the route resolver callback.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ab575d7512ffc8d22cf2f3facfaee0065}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ab575d7512ffc8d22cf2f3facfaee0065}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Scheme@{get\+Scheme}}
+\index{get\+Scheme@{get\+Scheme}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Scheme()}{getScheme()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Scheme (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the request\textquotesingle{}s scheme.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a6576e102a6c46aaf0a0167c7b45a51f5}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a6576e102a6c46aaf0a0167c7b45a51f5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Scheme\+And\+Http\+Host@{get\+Scheme\+And\+Http\+Host}}
+\index{get\+Scheme\+And\+Http\+Host@{get\+Scheme\+And\+Http\+Host}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Scheme\+And\+Http\+Host()}{getSchemeAndHttpHost()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Scheme\+And\+Http\+Host (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the scheme and H\+T\+TP host.
+
+If the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} was called with basic authentication, the user and the password are not added to the generated string.
+
+\begin{DoxyReturn}{Returns}
+string The scheme and H\+T\+TP host 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_abbaae1eb9e945968ecf88a6028fdad1d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_abbaae1eb9e945968ecf88a6028fdad1d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Script\+Name@{get\+Script\+Name}}
+\index{get\+Script\+Name@{get\+Script\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Script\+Name()}{getScriptName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Script\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns current script name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a19c092888199ad4b1e3e5f254bc65698}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a19c092888199ad4b1e3e5f254bc65698}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Session@{get\+Session}}
+\index{get\+Session@{get\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Session()}{getSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}}.
+
+\begin{DoxyReturn}{Returns}
+$\vert$null The session 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a55370a6f7198b65ee1ab0f8416f4fb40}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a55370a6f7198b65ee1ab0f8416f4fb40}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Trusted\+Header\+Name@{get\+Trusted\+Header\+Name}}
+\index{get\+Trusted\+Header\+Name@{get\+Trusted\+Header\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Trusted\+Header\+Name()}{getTrustedHeaderName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Trusted\+Header\+Name (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the trusted proxy header name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & The header key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The header name 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae3ef3d27cc0d73a108b3f97e4568bd76}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae3ef3d27cc0d73a108b3f97e4568bd76}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Trusted\+Header\+Set@{get\+Trusted\+Header\+Set}}
+\index{get\+Trusted\+Header\+Set@{get\+Trusted\+Header\+Set}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Trusted\+Header\+Set()}{getTrustedHeaderSet()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Trusted\+Header\+Set (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the set of trusted headers from trusted proxies.
+
+\begin{DoxyReturn}{Returns}
+int A bit field of Request\+::\+H\+E\+A\+D\+E\+R\+\_\+$\ast$ that defines which headers are trusted from your proxies 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a7af20f1cdde18bc998466e6b94613503}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a7af20f1cdde18bc998466e6b94613503}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Trusted\+Hosts@{get\+Trusted\+Hosts}}
+\index{get\+Trusted\+Hosts@{get\+Trusted\+Hosts}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Trusted\+Hosts()}{getTrustedHosts()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Trusted\+Hosts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the list of trusted host patterns.
+
+\begin{DoxyReturn}{Returns}
+array An array of trusted host patterns 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae27082de42e9584c5b87d6f4db424e2c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae27082de42e9584c5b87d6f4db424e2c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Trusted\+Proxies@{get\+Trusted\+Proxies}}
+\index{get\+Trusted\+Proxies@{get\+Trusted\+Proxies}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Trusted\+Proxies()}{getTrustedProxies()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Trusted\+Proxies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the list of trusted proxies.
+
+\begin{DoxyReturn}{Returns}
+array An array of trusted proxies 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a981fe9da5324bee9feb4664b5b574e87}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a981fe9da5324bee9feb4664b5b574e87}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Uri@{get\+Uri}}
+\index{get\+Uri@{get\+Uri}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Uri()}{getUri()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Uri (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Generates a normalized U\+RI (\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}}) for the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}}.
+
+\begin{DoxyReturn}{Returns}
+string A normalized U\+RI (\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}}) for the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_aec1fe0b0a5b7c90b9b3606f967083d82}{get\+Query\+String()}} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5f9581e38f5a7609b62f7fa4b1bd1116}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5f9581e38f5a7609b62f7fa4b1bd1116}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+Uri\+For\+Path@{get\+Uri\+For\+Path}}
+\index{get\+Uri\+For\+Path@{get\+Uri\+For\+Path}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+Uri\+For\+Path()}{getUriForPath()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+Uri\+For\+Path (\begin{DoxyParamCaption}\item[{}]{\$path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Generates a normalized U\+RI for the given path.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & A path to use instead of the current one \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string The normalized U\+RI for the path 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af6be07fd0431be5d0a2e28c874d7a39c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af6be07fd0431be5d0a2e28c874d7a39c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+User@{get\+User}}
+\index{get\+User@{get\+User}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+User()}{getUser()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns the user.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8ce2186aaa9ce132b469fd8e61b20a5e}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8ce2186aaa9ce132b469fd8e61b20a5e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+User\+Info@{get\+User\+Info}}
+\index{get\+User\+Info@{get\+User\+Info}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+User\+Info()}{getUserInfo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+User\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gets the user info.
+
+\begin{DoxyReturn}{Returns}
+string A user name and, optionally, scheme-\/specific information about how to gain authorization to access the server 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a8833d40ed5180cb3c3a712c131f8ff7b}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a8833d40ed5180cb3c3a712c131f8ff7b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!get\+User\+Resolver@{get\+User\+Resolver}}
+\index{get\+User\+Resolver@{get\+User\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{get\+User\+Resolver()}{getUserResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::get\+User\+Resolver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the user resolver callback.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af74661b161ff4bde8410cf70fe5e4ff2}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af74661b161ff4bde8410cf70fe5e4ff2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has@{has}}
+\index{has@{has}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has()}{has()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request contains a given input item key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a16f3ecff134eb810a48c7111c7edc3e2}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a16f3ecff134eb810a48c7111c7edc3e2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Any@{has\+Any}}
+\index{has\+Any@{has\+Any}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Any()}{hasAny()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Any (\begin{DoxyParamCaption}\item[{}]{\$keys = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request contains any of the given inputs.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a584ecc81891467684ae97ca5e12bc6b3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a584ecc81891467684ae97ca5e12bc6b3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Cookie@{has\+Cookie}}
+\index{has\+Cookie@{has\+Cookie}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Cookie()}{hasCookie()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Cookie (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if a cookie is set on the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a14261036d9d8192ae6bc760d7d1a354d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a14261036d9d8192ae6bc760d7d1a354d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+File@{has\+File}}
+\index{has\+File@{has\+File}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+File()}{hasFile()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+File (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the uploaded data contains a file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a56135a65dcaa5b1aa7b33112630af0cd}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a56135a65dcaa5b1aa7b33112630af0cd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Header@{has\+Header}}
+\index{has\+Header@{has\+Header}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Header()}{hasHeader()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Header (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if a header is set on the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0ef2bf9bd9b70f547700ce96c5b41076}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0ef2bf9bd9b70f547700ce96c5b41076}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a70640b694c1a135a6e196be88478c25f}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a70640b694c1a135a6e196be88478c25f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Previous\+Session@{has\+Previous\+Session}}
+\index{has\+Previous\+Session@{has\+Previous\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Previous\+Session()}{hasPreviousSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Previous\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Whether the request contains a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}} which was started in one of the previous requests.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_abdb40f9f98e0988e0d46701d84b08eaa}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_abdb40f9f98e0988e0d46701d84b08eaa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!has\+Session@{has\+Session}}
+\index{has\+Session@{has\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{has\+Session()}{hasSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::has\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Whether the request contains a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}} object.
+
+This method does not give any information about the state of the session object, like whether the session is started or not. It is just a way to check if this \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} is associated with a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}} instance.
+
+\begin{DoxyReturn}{Returns}
+bool true when the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} contains a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}} object, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a7e986c7ede7a776671568609fc13fc93}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a7e986c7ede7a776671568609fc13fc93}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!header@{header}}
+\index{header@{header}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{header()}{header()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::header (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a header from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a48b56a8b2a03a51267ac34fd60d90766}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a48b56a8b2a03a51267ac34fd60d90766}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!initialize@{initialize}}
+\index{initialize@{initialize}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{initialize()}{initialize()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::initialize (\begin{DoxyParamCaption}\item[{}]{\$query = {\ttfamily array()},  }\item[{}]{\$request = {\ttfamily array()},  }\item[{}]{\$attributes = {\ttfamily array()},  }\item[{}]{\$cookies = {\ttfamily array()},  }\item[{}]{\$files = {\ttfamily array()},  }\item[{}]{\$server = {\ttfamily array()},  }\item[{}]{\$content = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the parameters for this request.
+
+This method also re-\/initializes all properties.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$query} & The G\+ET parameters \\
+\hline
+array & {\em \$request} & The P\+O\+ST parameters \\
+\hline
+array & {\em \$attributes} & The request attributes (parameters parsed from the P\+A\+T\+H\+\_\+\+I\+N\+FO, ...) \\
+\hline
+array & {\em \$cookies} & The C\+O\+O\+K\+IE parameters \\
+\hline
+array & {\em \$files} & The F\+I\+L\+ES parameters \\
+\hline
+array & {\em \$server} & The S\+E\+R\+V\+ER parameters \\
+\hline
+string | resource & {\em \$content} & The raw body data \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a9ce57d739a5036919120eb369d80dd7a}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a9ce57d739a5036919120eb369d80dd7a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!input@{input}}
+\index{input@{input}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{input()}{input()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::input (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve an input item from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a46303e78a0876d7bba541b64581aec66}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a46303e78a0876d7bba541b64581aec66}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!instance@{instance}}
+\index{instance@{instance}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} instance.
+
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a4c0dc61a627ddae9c7c3ec74d845e483}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a4c0dc61a627ddae9c7c3ec74d845e483}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!ip@{ip}}
+\index{ip@{ip}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{ip()}{ip()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::ip (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the client IP address.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a907a99501b1a1f7a8349e71a5a51ee2b}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a907a99501b1a1f7a8349e71a5a51ee2b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!ips@{ips}}
+\index{ips@{ips}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{ips()}{ips()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::ips (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the client IP addresses.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aee3d15739be982a658320ac868c16a43}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aee3d15739be982a658320ac868c16a43}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is@{is}}
+\index{is@{is}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is()}{is()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current request U\+RI matches a pattern.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ab90670394e8992fee5da0dc77227f473}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ab90670394e8992fee5da0dc77227f473}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+From\+Trusted\+Proxy@{is\+From\+Trusted\+Proxy}}
+\index{is\+From\+Trusted\+Proxy@{is\+From\+Trusted\+Proxy}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+From\+Trusted\+Proxy()}{isFromTrustedProxy()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+From\+Trusted\+Proxy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Indicates whether this request originated from a trusted proxy.
+
+This can be useful to determine whether or not to trust the contents of a proxy-\/specific header.
+
+\begin{DoxyReturn}{Returns}
+bool true if the request came from a trusted proxy, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aeb9496ac11c40327963f0fa71425b37e}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aeb9496ac11c40327963f0fa71425b37e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Json@{is\+Json}}
+\index{is\+Json@{is\+Json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Json()}{isJson()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request is sending J\+S\+ON.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3711d10d844d086b2cd27c7c7ed1d76f}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3711d10d844d086b2cd27c7c7ed1d76f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Method@{is\+Method}}
+\index{is\+Method@{is\+Method}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Method()}{isMethod()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Method (\begin{DoxyParamCaption}\item[{}]{\$method }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if the request method is of specified type.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & Uppercase request method (G\+ET, P\+O\+ST etc) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a12a20ca1818c7c5ee617bb5ebeba3848}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a12a20ca1818c7c5ee617bb5ebeba3848}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Method\+Cacheable@{is\+Method\+Cacheable}}
+\index{is\+Method\+Cacheable@{is\+Method\+Cacheable}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Method\+Cacheable()}{isMethodCacheable()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Method\+Cacheable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks whether the method is cacheable or not.
+
+\begin{DoxySeeAlso}{See also}
+\href{https://tools.ietf.org/html/rfc7231#section-4.2.3}{\tt https\+://tools.\+ietf.\+org/html/rfc7231\#section-\/4.\+2.\+3} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aab7b89683fe78e6fc1541949134ff4d1}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aab7b89683fe78e6fc1541949134ff4d1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Method\+Idempotent@{is\+Method\+Idempotent}}
+\index{is\+Method\+Idempotent@{is\+Method\+Idempotent}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Method\+Idempotent()}{isMethodIdempotent()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Method\+Idempotent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks whether or not the method is idempotent.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae5c61ec58eda5633dd221ae99b3521d3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae5c61ec58eda5633dd221ae99b3521d3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Method\+Safe@{is\+Method\+Safe}}
+\index{is\+Method\+Safe@{is\+Method\+Safe}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Method\+Safe()}{isMethodSafe()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Method\+Safe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks whether or not the method is safe.
+
+\begin{DoxySeeAlso}{See also}
+\href{https://tools.ietf.org/html/rfc7231#section-4.2.1}{\tt https\+://tools.\+ietf.\+org/html/rfc7231\#section-\/4.\+2.\+1} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$and\+Cacheable} & Adds the additional condition that the method should be cacheable. True by default. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a336ff9cf1ed0222ac38432f1f0ac952f}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a336ff9cf1ed0222ac38432f1f0ac952f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+No\+Cache@{is\+No\+Cache}}
+\index{is\+No\+Cache@{is\+No\+Cache}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+No\+Cache()}{isNoCache()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+No\+Cache (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a9a401927e509ddb652b5656407b37bf2}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a9a401927e509ddb652b5656407b37bf2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Secure@{is\+Secure}}
+\index{is\+Secure@{is\+Secure}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Secure()}{isSecure()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Secure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks whether the request is secure or not.
+
+This method can read the client protocol from the \char`\"{}\+X-\/\+Forwarded-\/\+Proto\char`\"{} header when trusted proxies were set via \char`\"{}set\+Trusted\+Proxies()\char`\"{}.
+
+The \char`\"{}\+X-\/\+Forwarded-\/\+Proto\char`\"{} header must contain the protocol\+: \char`\"{}https\char`\"{} or \char`\"{}http\char`\"{}.
+
+If your reverse proxy uses a different header name than \char`\"{}\+X-\/\+Forwarded-\/\+Proto\char`\"{} (\char`\"{}\+S\+S\+L\+\_\+\+H\+T\+T\+P\+S\char`\"{} for instance), configure it via the \$trusted\+Header\+Set argument of the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}{Request\+::set\+Trusted\+Proxies()}} method instead.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aacae65b6bad777a385ac6ef34651e18a}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aacae65b6bad777a385ac6ef34651e18a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!is\+Xml\+Http\+Request@{is\+Xml\+Http\+Request}}
+\index{is\+Xml\+Http\+Request@{is\+Xml\+Http\+Request}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{is\+Xml\+Http\+Request()}{isXmlHttpRequest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::is\+Xml\+Http\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Returns true if the request is a X\+M\+L\+Http\+Request.
+
+It works if your Java\+Script library sets an X-\/\+Requested-\/\+With H\+T\+TP header. It is known to work with common Java\+Script frameworks\+:
+
+\begin{DoxySeeAlso}{See also}
+\href{http://en.wikipedia.org/wiki/List_of_Ajax_frameworks#JavaScript}{\tt http\+://en.\+wikipedia.\+org/wiki/\+List\+\_\+of\+\_\+\+Ajax\+\_\+frameworks\#\+Java\+Script} 
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+bool true if the request is an X\+M\+L\+Http\+Request, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ad03fe88fc6916a4a2a1a9f3da85bdc77}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ad03fe88fc6916a4a2a1a9f3da85bdc77}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!json@{json}}
+\index{json@{json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{json()}{json()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::json (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the J\+S\+ON payload for the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af2141683198d34ba665651ce8b9d6d83}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!keys@{keys}}
+\index{keys@{keys}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the keys for all of the input and files.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a56125949490a1267249e6260e2e56552}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a56125949490a1267249e6260e2e56552}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!macro@{macro}}
+\index{macro@{macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aee5d01eac11e7d1748507d446a09a762}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aee5d01eac11e7d1748507d446a09a762}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!matches\+Type@{matches\+Type}}
+\index{matches\+Type@{matches\+Type}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{matches\+Type()}{matchesType()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::matches\+Type (\begin{DoxyParamCaption}\item[{}]{\$actual,  }\item[{}]{\$type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the given content types match.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$actual} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a184ac93e1b0ebb5c9bd720a6bad67e95}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a184ac93e1b0ebb5c9bd720a6bad67e95}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!merge@{merge}}
+\index{merge@{merge}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{merge()}{merge()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::merge (\begin{DoxyParamCaption}\item[{}]{\$input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Merge new input into the current request\textquotesingle{}s input array.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$input} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_af4fe38392dfdd7f5daa7d2d811bad24d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!method@{method}}
+\index{method@{method}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{method()}{method()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the request method.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a6584f6b2aeabae7841abca43ba830d0a}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a6584f6b2aeabae7841abca43ba830d0a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!mixin@{mixin}}
+\index{mixin@{mixin}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a4e65d88d0e7c68e2b9aaafcfe83a91b5}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a4e65d88d0e7c68e2b9aaafcfe83a91b5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!normalize\+Query\+String@{normalize\+Query\+String}}
+\index{normalize\+Query\+String@{normalize\+Query\+String}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{normalize\+Query\+String()}{normalizeQueryString()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::normalize\+Query\+String (\begin{DoxyParamCaption}\item[{}]{\$qs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Normalizes a query string.
+
+It builds a normalized query string, where keys/value pairs are alphabetized, have consistent escaping and unneeded delimiters are removed.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$qs} & Query string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string A normalized query string for the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a846e51a1bad906d0b7dc34149d24b5da}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a846e51a1bad906d0b7dc34149d24b5da}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!offset\+Exists@{offset\+Exists}}
+\index{offset\+Exists@{offset\+Exists}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{offset\+Exists()}{offsetExists()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::offset\+Exists (\begin{DoxyParamCaption}\item[{}]{\$offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the given offset exists.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$offset} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5e9324bd92c95487e0e2d4c9e2fac814}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5e9324bd92c95487e0e2d4c9e2fac814}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!offset\+Get@{offset\+Get}}
+\index{offset\+Get@{offset\+Get}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{offset\+Get()}{offsetGet()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::offset\+Get (\begin{DoxyParamCaption}\item[{}]{\$offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the value at the given offset.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$offset} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a152259a20338648884c97f30fceebec3}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a152259a20338648884c97f30fceebec3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!offset\+Set@{offset\+Set}}
+\index{offset\+Set@{offset\+Set}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{offset\+Set()}{offsetSet()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::offset\+Set (\begin{DoxyParamCaption}\item[{}]{\$offset,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the value at the given offset.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$offset} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0a1207e664392d43d200cbcf94f0ecee}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0a1207e664392d43d200cbcf94f0ecee}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!offset\+Unset@{offset\+Unset}}
+\index{offset\+Unset@{offset\+Unset}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{offset\+Unset()}{offsetUnset()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::offset\+Unset (\begin{DoxyParamCaption}\item[{}]{\$offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove the value at the given offset.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$offset} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a7b7af1efc91c493e2eea32c265bdff61}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a7b7af1efc91c493e2eea32c265bdff61}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!old@{old}}
+\index{old@{old}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{old()}{old()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::old (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve an old input item.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a84e7d08204f612746c8ca6174fea05c6}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a84e7d08204f612746c8ca6174fea05c6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!only@{only}}
+\index{only@{only}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{only()}{only()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::only (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a subset containing the provided keys with values from the input data.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_afd2c5e18dcee250f7de186821bf7afab}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_afd2c5e18dcee250f7de186821bf7afab}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!override\+Globals@{override\+Globals}}
+\index{override\+Globals@{override\+Globals}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{override\+Globals()}{overrideGlobals()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::override\+Globals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Overrides the P\+HP global variables according to this request instance.
+
+It overrides \$\+\_\+\+G\+ET, \$\+\_\+\+P\+O\+ST, \$\+\_\+\+R\+E\+Q\+U\+E\+ST, \$\+\_\+\+S\+E\+R\+V\+ER, \$\+\_\+\+C\+O\+O\+K\+IE. \$\+\_\+\+F\+I\+L\+ES is never overridden, see rfc1867 \mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ad288b957470d9cdb3b2b35c65c6e7a4c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ad288b957470d9cdb3b2b35c65c6e7a4c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!path@{path}}
+\index{path@{path}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{path()}{path()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current path info for the request.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ab38ddcb23db31c0bc23ea576e28d868d}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ab38ddcb23db31c0bc23ea576e28d868d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!pjax@{pjax}}
+\index{pjax@{pjax}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{pjax()}{pjax()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::pjax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request is the result of an P\+J\+AX call.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a14e00874e76c2951c75c80116c791083}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a14e00874e76c2951c75c80116c791083}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!post@{post}}
+\index{post@{post}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{post()}{post()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::post (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a request payload item from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0e130db25d5def4c90ad0ab3fe9f71bd}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0e130db25d5def4c90ad0ab3fe9f71bd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!prefers@{prefers}}
+\index{prefers@{prefers}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{prefers()}{prefers()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::prefers (\begin{DoxyParamCaption}\item[{}]{\$content\+Types }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the most suitable content type from the given array based on content negotiation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$content\+Types} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_abaa6d157fd299de004ac80239a11aa5a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!query@{query}}
+\index{query@{query}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{query()}{query()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::query (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a query string item from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d323a9c8ad910a8eb27ba08116eaf0b}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d323a9c8ad910a8eb27ba08116eaf0b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!replace@{replace}}
+\index{replace@{replace}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{replace()}{replace()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::replace (\begin{DoxyParamCaption}\item[{}]{\$input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Replace the input for the current request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$input} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a49120cc9c3ade50c8d5ede20c186a1a4}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a49120cc9c3ade50c8d5ede20c186a1a4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!root@{root}}
+\index{root@{root}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{root()}{root()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::root (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the root \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} for the application.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_abf913e2bc3550d8804377ed6aed93be4}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_abf913e2bc3550d8804377ed6aed93be4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!route@{route}}
+\index{route@{route}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{route()}{route()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::route (\begin{DoxyParamCaption}\item[{}]{\$param = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the route handling the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$param} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$object$\vert$string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d91ee547365fbae69326d4331b12457}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d91ee547365fbae69326d4331b12457}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!route\+Is@{route\+Is}}
+\index{route\+Is@{route\+Is}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{route\+Is()}{routeIs()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::route\+Is (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the route name matches a given pattern.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a80f6609d3acb22116e64c05d6e0ecfb9}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a80f6609d3acb22116e64c05d6e0ecfb9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!secure@{secure}}
+\index{secure@{secure}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{secure()}{secure()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::secure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the request is over H\+T\+T\+PS.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a860203430647b4261b5ecbdd04242dd0}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a860203430647b4261b5ecbdd04242dd0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!segment@{segment}}
+\index{segment@{segment}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{segment()}{segment()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::segment (\begin{DoxyParamCaption}\item[{}]{\$index,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a segment from the U\+RI (1 based index).
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$index} & \\
+\hline
+string | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ad63ac5bdb7a81ce91043fda9e7e88685}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ad63ac5bdb7a81ce91043fda9e7e88685}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!segments@{segments}}
+\index{segments@{segments}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{segments()}{segments()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::segments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the segments for the request path.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aaea79f85875a529d365d560bde09bf16}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!server@{server}}
+\index{server@{server}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{server()}{server()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::server (\begin{DoxyParamCaption}\item[{}]{\$key = {\ttfamily null},  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve a server variable from the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | array | null & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string$\vert$array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3b3b1c25368c2e40ecdb0830a53183a8}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3b3b1c25368c2e40ecdb0830a53183a8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!session@{session}}
+\index{session@{session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{session()}{session()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the session associated with the request.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a934d94aebb334fe5d98af6dc7dad3097}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a934d94aebb334fe5d98af6dc7dad3097}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Default\+Locale@{set\+Default\+Locale}}
+\index{set\+Default\+Locale@{set\+Default\+Locale}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Default\+Locale()}{setDefaultLocale()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Default\+Locale (\begin{DoxyParamCaption}\item[{}]{\$locale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the default locale.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$locale} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a223c49b4b59ee06341172efbd2362139}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a223c49b4b59ee06341172efbd2362139}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Factory@{set\+Factory}}
+\index{set\+Factory@{set\+Factory}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Factory()}{setFactory()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Factory (\begin{DoxyParamCaption}\item[{}]{\$callable }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets a callable able to create a \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} instance.
+
+This is mainly useful when you need to override the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request}{Request}} class to keep BC with an existing system. It should not be used for any other purpose.
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable | null & {\em \$callable} & A P\+HP callable \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a87d801fec0dde744cad4df68ddcca2e6}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a87d801fec0dde744cad4df68ddcca2e6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Format@{set\+Format}}
+\index{set\+Format@{set\+Format}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Format()}{setFormat()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Format (\begin{DoxyParamCaption}\item[{}]{\$format,  }\item[{}]{\$mime\+Types }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Associates a format with mime types.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & The format \\
+\hline
+string | array & {\em \$mime\+Types} & The associated mime types (the preferred one must be the first as it will be used as the content type) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aaa19d5acec04b37afa4f6369d9276c54}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aaa19d5acec04b37afa4f6369d9276c54}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Json@{set\+Json}}
+\index{set\+Json@{set\+Json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Json()}{setJson()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Json (\begin{DoxyParamCaption}\item[{}]{\$json }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the J\+S\+ON payload for the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$json} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_afa28362d11bfebad752f6d684ee4dd8c}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_afa28362d11bfebad752f6d684ee4dd8c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Laravel\+Session@{set\+Laravel\+Session}}
+\index{set\+Laravel\+Session@{set\+Laravel\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Laravel\+Session()}{setLaravelSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Laravel\+Session (\begin{DoxyParamCaption}\item[{}]{\$session }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the session instance on the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Session\textbackslash{}\+Session & {\em \$session} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a4b9373832b64d3e19dc3aa04c6109c73}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a4b9373832b64d3e19dc3aa04c6109c73}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Locale@{set\+Locale}}
+\index{set\+Locale@{set\+Locale}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Locale()}{setLocale()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Locale (\begin{DoxyParamCaption}\item[{}]{\$locale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the locale.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$locale} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a18e4ed75cb2f1bc0090d3b908c967984}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a18e4ed75cb2f1bc0090d3b908c967984}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Method@{set\+Method}}
+\index{set\+Method@{set\+Method}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Method()}{setMethod()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Method (\begin{DoxyParamCaption}\item[{}]{\$method }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the request method.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_aaf9cb930a254f206113925d932c18b45}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_aaf9cb930a254f206113925d932c18b45}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Request\+Format@{set\+Request\+Format}}
+\index{set\+Request\+Format@{set\+Request\+Format}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Request\+Format()}{setRequestFormat()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Request\+Format (\begin{DoxyParamCaption}\item[{}]{\$format }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the request format.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$format} & The request format \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a5fb4b7d38a7b75fc2dea8ea36d8f3f56}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a5fb4b7d38a7b75fc2dea8ea36d8f3f56}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Route\+Resolver@{set\+Route\+Resolver}}
+\index{set\+Route\+Resolver@{set\+Route\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Route\+Resolver()}{setRouteResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Route\+Resolver (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the route resolver callback.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a89fade31642421bad06c770d5d3505fa}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a89fade31642421bad06c770d5d3505fa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Session@{set\+Session}}
+\index{set\+Session@{set\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Session()}{setSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Session (\begin{DoxyParamCaption}\item[{}]{\$session }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Symfony\textbackslash{}\+Component\textbackslash{}\+Http\+Foundation\textbackslash{}\+Session\+Interface & {\em \$session} & The \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_session}{Session}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_abbd0aa91652f2122be7a351876da3468}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_abbd0aa91652f2122be7a351876da3468}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Trusted\+Header\+Name@{set\+Trusted\+Header\+Name}}
+\index{set\+Trusted\+Header\+Name@{set\+Trusted\+Header\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Trusted\+Header\+Name()}{setTrustedHeaderName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Trusted\+Header\+Name (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets the name for trusted headers.
+
+The following header keys are supported\+:
+
+
+\begin{DoxyItemize}
+\item Request\+::\+H\+E\+A\+D\+E\+R\+\_\+\+C\+L\+I\+E\+N\+T\+\_\+\+IP\+: defaults to X-\/\+Forwarded-\/\+For (see \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ac78e7218a697e138ce105a04d49f2ff7}{get\+Client\+Ip()}})
+\item Request\+::\+H\+E\+A\+D\+E\+R\+\_\+\+C\+L\+I\+E\+N\+T\+\_\+\+H\+O\+ST\+: defaults to X-\/\+Forwarded-\/\+Host (see \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a4a7a300d1d1c514c99bb8ac080cfd872}{get\+Host()}})
+\item Request\+::\+H\+E\+A\+D\+E\+R\+\_\+\+C\+L\+I\+E\+N\+T\+\_\+\+P\+O\+RT\+: defaults to X-\/\+Forwarded-\/\+Port (see \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_afc28cdf3fdcae21e6c5d0596b041c5e8}{get\+Port()}})
+\item Request\+::\+H\+E\+A\+D\+E\+R\+\_\+\+C\+L\+I\+E\+N\+T\+\_\+\+P\+R\+O\+TO\+: defaults to X-\/\+Forwarded-\/\+Proto (see \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_ab575d7512ffc8d22cf2f3facfaee0065}{get\+Scheme()}} and \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_request_a9a401927e509ddb652b5656407b37bf2}{is\+Secure()}})
+\item Request\+::\+H\+E\+A\+D\+E\+R\+\_\+\+F\+O\+R\+W\+A\+R\+D\+ED\+: defaults to Forwarded (see R\+FC 7239)
+\end{DoxyItemize}
+
+Setting an empty value allows to disable the trusted header for the given key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & The header key \\
+\hline
+string & {\em \$value} & The header name \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a0f4e03016975d5e78f6841b4b3b2d853}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a0f4e03016975d5e78f6841b4b3b2d853}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Trusted\+Hosts@{set\+Trusted\+Hosts}}
+\index{set\+Trusted\+Hosts@{set\+Trusted\+Hosts}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Trusted\+Hosts()}{setTrustedHosts()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Trusted\+Hosts (\begin{DoxyParamCaption}\item[{}]{\$host\+Patterns }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets a list of trusted host patterns.
+
+You should only list the hosts you manage using regexs.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$host\+Patterns} & A list of trusted host patterns \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a1686fbcf12f72ed06a19adf0633054fa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+Trusted\+Proxies@{set\+Trusted\+Proxies}}
+\index{set\+Trusted\+Proxies@{set\+Trusted\+Proxies}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+Trusted\+Proxies()}{setTrustedProxies()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+Trusted\+Proxies (\begin{DoxyParamCaption}\item[{}]{\$proxies }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Sets a list of trusted proxies.
+
+You should only list the reverse proxies that you manage directly.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$proxies} & A list of trusted proxies \\
+\hline
+int & {\em \$trusted\+Header\+Set} & A bit field of Request\+::\+H\+E\+A\+D\+E\+R\+\_\+$\ast$, to set which headers to trust from your proxies \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d4ed4ec038935ba3db9a690184ede58}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3d4ed4ec038935ba3db9a690184ede58}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!set\+User\+Resolver@{set\+User\+Resolver}}
+\index{set\+User\+Resolver@{set\+User\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{set\+User\+Resolver()}{setUserResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::set\+User\+Resolver (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the user resolver callback.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ad2100d4f15a188ccce3dd8a9ec885389}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ad2100d4f15a188ccce3dd8a9ec885389}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!to\+Array@{to\+Array}}
+\index{to\+Array@{to\+Array}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{to\+Array()}{toArray()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::to\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the input and files for the request.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a2989a827618b1759471556aaacfe446f}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a2989a827618b1759471556aaacfe446f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!url@{url}}
+\index{url@{url}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{url()}{url()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} (no query string) for the request.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_ae16165d7bff8e8c3b2a1c8c58e59e719}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_ae16165d7bff8e8c3b2a1c8c58e59e719}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!user@{user}}
+\index{user@{user}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{user()}{user()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::user (\begin{DoxyParamCaption}\item[{}]{\$guard = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the user making the request.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$guard} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a185583cec2b7eefae89f509cb4f3ab}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a3a185583cec2b7eefae89f509cb4f3ab}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!user\+Agent@{user\+Agent}}
+\index{user\+Agent@{user\+Agent}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{user\+Agent()}{userAgent()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::user\+Agent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the client user agent.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_request_a427ab22e9702aeee550d669594ea7c03}\label{class_illuminate_1_1_support_1_1_facades_1_1_request_a427ab22e9702aeee550d669594ea7c03}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}!wants\+Json@{wants\+Json}}
+\index{wants\+Json@{wants\+Json}!Illuminate\+::\+Support\+::\+Facades\+::\+Request@{Illuminate\+::\+Support\+::\+Facades\+::\+Request}}
+\subsubsection{\texorpdfstring{wants\+Json()}{wantsJson()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Request\+::wants\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current request is asking for J\+S\+ON in return.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,156 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Crypt Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Crypt\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_crypt}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a24df7e61205c7f0732b98c430cec2822}{supported}} (\$key, \$cipher)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a3e38bd91ea1c66bd8e37032c98a1ed9f}{generate\+Key}} (\$cipher)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a63be1cb0c27d430f4c01ae6d813239fe}{encrypt}} (\$value, \$serialize=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a643aeaa8321cb1813d37cf52b9903714}{encrypt\+String}} (\$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a92aa7f25525e25d0c42cc748047b6a00}{decrypt}} (\$payload, \$unserialize=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a79cb996624fa47978e78cc48b6f7536d}{decrypt\+String}} (\$payload)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a9067fab9dcf1d9ed7d81439dcaa16a47}{get\+Key}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a92aa7f25525e25d0c42cc748047b6a00}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a92aa7f25525e25d0c42cc748047b6a00}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!decrypt@{decrypt}}
+\index{decrypt@{decrypt}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{decrypt()}{decrypt()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::decrypt (\begin{DoxyParamCaption}\item[{}]{\$payload,  }\item[{}]{\$unserialize = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Decrypt the given value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$payload} & \\
+\hline
+bool & {\em \$unserialize} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a79cb996624fa47978e78cc48b6f7536d}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a79cb996624fa47978e78cc48b6f7536d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!decrypt\+String@{decrypt\+String}}
+\index{decrypt\+String@{decrypt\+String}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{decrypt\+String()}{decryptString()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::decrypt\+String (\begin{DoxyParamCaption}\item[{}]{\$payload }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Decrypt the given string without unserialization.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$payload} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a63be1cb0c27d430f4c01ae6d813239fe}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a63be1cb0c27d430f4c01ae6d813239fe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!encrypt@{encrypt}}
+\index{encrypt@{encrypt}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{encrypt()}{encrypt()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::encrypt (\begin{DoxyParamCaption}\item[{}]{\$value,  }\item[{}]{\$serialize = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Encrypt the given value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+bool & {\em \$serialize} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a643aeaa8321cb1813d37cf52b9903714}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a643aeaa8321cb1813d37cf52b9903714}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!encrypt\+String@{encrypt\+String}}
+\index{encrypt\+String@{encrypt\+String}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{encrypt\+String()}{encryptString()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::encrypt\+String (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Encrypt a string without serialization.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a3e38bd91ea1c66bd8e37032c98a1ed9f}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a3e38bd91ea1c66bd8e37032c98a1ed9f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!generate\+Key@{generate\+Key}}
+\index{generate\+Key@{generate\+Key}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{generate\+Key()}{generateKey()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::generate\+Key (\begin{DoxyParamCaption}\item[{}]{\$cipher }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new encryption key for the given cipher.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cipher} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a9067fab9dcf1d9ed7d81439dcaa16a47}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a9067fab9dcf1d9ed7d81439dcaa16a47}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{get\+Key()}{getKey()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the encryption key.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a24df7e61205c7f0732b98c430cec2822}\label{class_illuminate_1_1_support_1_1_facades_1_1_crypt_a24df7e61205c7f0732b98c430cec2822}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}!supported@{supported}}
+\index{supported@{supported}!Illuminate\+::\+Support\+::\+Facades\+::\+Crypt@{Illuminate\+::\+Support\+::\+Facades\+::\+Crypt}}
+\subsubsection{\texorpdfstring{supported()}{supported()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Crypt\+::supported (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$cipher }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the given key and cipher combination is valid.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$cipher} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

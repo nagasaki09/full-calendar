@@ -1,0 +1,174 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Notification Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_notification}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Notification\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_notification}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a31adb0465773570a5615db01b7614e1d}{send}} (\$notifiables, \$notification)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a819fe4008c9dae1b5e73ed545c38da28}{send\+Now}} (\$notifiables, \$notification, \$channels=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a4b78c2b99146e23280f66bb0583b3b86}{channel}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab82a413b9b4724ddea3c230968b7f986}{get\+Default\+Driver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad85a8e98cfaac2699104bee89e9432ed}{delivers\+Via}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad63d78e3070748dcea4d9b54fd775312}{deliver\+Via}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a4b78c2b99146e23280f66bb0583b3b86}{channel}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a47a033fe464871a4d6a6279a157effcf}{driver}} (\$driver=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a584448fd4e1ce7434b76b0a8dd274352}{extend}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_a47a033fe464871a4d6a6279a157effcf}{driver}}, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab3df521a78ceb9f83d41e0e8af054936}{get\+Drivers}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_a4b78c2b99146e23280f66bb0583b3b86}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_a4b78c2b99146e23280f66bb0583b3b86}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!channel@{channel}}
+\index{channel@{channel}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{channel()}{channel()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::channel (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a channel instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad85a8e98cfaac2699104bee89e9432ed}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad85a8e98cfaac2699104bee89e9432ed}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!delivers\+Via@{delivers\+Via}}
+\index{delivers\+Via@{delivers\+Via}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{delivers\+Via()}{deliversVia()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::delivers\+Via (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default channel driver name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad63d78e3070748dcea4d9b54fd775312}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_ad63d78e3070748dcea4d9b54fd775312}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!deliver\+Via@{deliver\+Via}}
+\index{deliver\+Via@{deliver\+Via}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{deliver\+Via()}{deliverVia()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::deliver\+Via (\begin{DoxyParamCaption}\item[{}]{\$channel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default channel driver name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$channel} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_a47a033fe464871a4d6a6279a157effcf}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_a47a033fe464871a4d6a6279a157effcf}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!driver@{driver}}
+\index{driver@{driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{driver()}{driver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::driver (\begin{DoxyParamCaption}\item[{}]{\$driver = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a driver instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_a584448fd4e1ce7434b76b0a8dd274352}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_a584448fd4e1ce7434b76b0a8dd274352}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::extend (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom driver creator Closure.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab82a413b9b4724ddea3c230968b7f986}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab82a413b9b4724ddea3c230968b7f986}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!get\+Default\+Driver@{get\+Default\+Driver}}
+\index{get\+Default\+Driver@{get\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{get\+Default\+Driver()}{getDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::get\+Default\+Driver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default channel driver name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab3df521a78ceb9f83d41e0e8af054936}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_ab3df521a78ceb9f83d41e0e8af054936}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!get\+Drivers@{get\+Drivers}}
+\index{get\+Drivers@{get\+Drivers}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{get\+Drivers()}{getDrivers()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::get\+Drivers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the created \char`\"{}drivers\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_a31adb0465773570a5615db01b7614e1d}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_a31adb0465773570a5615db01b7614e1d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!send@{send}}
+\index{send@{send}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{send()}{send()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::send (\begin{DoxyParamCaption}\item[{}]{\$notifiables,  }\item[{}]{\$notification }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Send the given notification to the given notifiable entities.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Support\textbackslash{}\+Collection | array | mixed & {\em \$notifiables} & \\
+\hline
+mixed & {\em \$notification} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_notification_a819fe4008c9dae1b5e73ed545c38da28}\label{class_illuminate_1_1_support_1_1_facades_1_1_notification_a819fe4008c9dae1b5e73ed545c38da28}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}!send\+Now@{send\+Now}}
+\index{send\+Now@{send\+Now}!Illuminate\+::\+Support\+::\+Facades\+::\+Notification@{Illuminate\+::\+Support\+::\+Facades\+::\+Notification}}
+\subsubsection{\texorpdfstring{send\+Now()}{sendNow()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Notification\+::send\+Now (\begin{DoxyParamCaption}\item[{}]{\$notifiables,  }\item[{}]{\$notification,  }\item[{}]{\$channels = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Send the given notification immediately.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Support\textbackslash{}\+Collection | array | mixed & {\em \$notifiables} & \\
+\hline
+mixed & {\em \$notification} & \\
+\hline
+array | null & {\em \$channels} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,789 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Auth Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_auth}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Auth\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_auth}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a432fde79e22091b6140b1fdbc725a72d}{guard}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a62a5d99a2d3d429c0f268824ca653803}{create\+Session\+Driver}} (\$name, \$config)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aafc443ec8004cdce83d728e6f04f8994}{create\+Token\+Driver}} (\$name, \$config)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a28c2308e161fd8146ed3d2e8481827d0}{get\+Default\+Driver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_acc225c4397c62a6f93d9bd87bba44562}{should\+Use}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae76bb55b5f629f397cc1e4e6c1c7b214}{set\+Default\+Driver}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a6c74f6505618b87ab69949b662fba9b9}{via\+Request}} (\$driver, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab6601a8ada37b3aaaab8700de51eb523}{user\+Resolver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_af5d4285e6f94d28c07f9ab9f7077df5a}{resolve\+Users\+Using}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab6601a8ada37b3aaaab8700de51eb523}{user\+Resolver}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ad6fdb08c1e3db9081087ec888f3c0193}{extend}} (\$driver, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_abf132c9b8d5ccce533211625ec83dc35}{provider}} (\$name, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_afdd867755aae03ffd16c73de0daff938}{create\+User\+Provider}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_abf132c9b8d5ccce533211625ec83dc35}{provider}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a2b44e6e6ceebe194082a5ffe7db7aaaf}{get\+Default\+User\+Provider}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e25fe7a8574e495c4e48ee60813f249}{user}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab98365becdcd81b76d4be5aaa6971a05}{id}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a63d7ab8bd8f2fd996d828789d339566a}{once}} (\$credentials=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a91dc83481e1323700b6d3d69ce944f05}{once\+Using\+Id}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab98365becdcd81b76d4be5aaa6971a05}{id}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a3bae01dfeecf84ab4ab06d46ae4214f7}{validate}} (\$credentials=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_af8f2ff30a669fd33795db2d7947aa4bd}{basic}} (\$field=\textquotesingle{}email\textquotesingle{}, \$extra\+Conditions=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a655de6df527a9ea10578d8b273166f22}{once\+Basic}} (\$field=\textquotesingle{}email\textquotesingle{}, \$extra\+Conditions=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aaae9451317576aa597277bac1aa2331d}{attempt}} (\$credentials=array(), \$remember=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a96b66e55dc3ced8f3c89e77171f01f4b}{login\+Using\+Id}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab98365becdcd81b76d4be5aaa6971a05}{id}}, \$remember=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aeef81e7eab1a76858dfa1b5e2d251bf0}{login}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e25fe7a8574e495c4e48ee60813f249}{user}}, \$remember=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a53e1351df33655142a42751eba04297b}{logout}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a40f114974e5275c1151439c6e5b125a2}{attempting}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9894e0a62cb7c0f15bdb3f864ee907d0}{get\+Last\+Attempted}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a065ace7a83e0b21199870acf32eca1ba}{get\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a21da3c773fb2d59228c84cac75344034}{get\+Recaller\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a007b8696ba0250c38255e1bd3b23dbd5}{via\+Remember}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a33a191c912e59b497c73cf3b5c881f5e}{get\+Cookie\+Jar}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a89cb1bc85a383e7453d7b940651a4a04}{set\+Cookie\+Jar}} (\$cookie)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5085d618634062b5794d73702d2e58cc}{get\+Dispatcher}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ac8c611f42d922a4825347a7f92910922}{set\+Dispatcher}} (\$events)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aff8249330f0e005703f568c33a557566}{get\+Session}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a32bd05e2dde1227b3a8a32613cbe1bf6}{get\+User}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aef0606291d204ec7554b9afab827ceb7}{set\+User}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e25fe7a8574e495c4e48ee60813f249}{user}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_af626e26e10b0d8e17a624c8db984a65c}{get\+Request}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae0cb110e3c059aae5571e6ed4b11bd3b}{set\+Request}} (\$request)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa4b00209ad83c9a457af1cf9c0eb98a9}{authenticate}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4d5eba4e6245d756cd3eb807cadd2e2a}{check}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4aef095d6c9b7f60b7b1384d4064eb55}{guest}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e62552b70450b179a28f6e45d7cb937}{get\+Provider}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a8c2ecd65aa1a1607a35519b566bd66da}{set\+Provider}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_abf132c9b8d5ccce533211625ec83dc35}{provider}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa79d00741e5434bcb76731a02ffb361a}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5b3b067862dcf209c346a45f0addcf4d}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9ec6110e79e885017d5e4d3ad20392e1}{has\+Macro}} (\$name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aaae9451317576aa597277bac1aa2331d}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aaae9451317576aa597277bac1aa2331d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!attempt@{attempt}}
+\index{attempt@{attempt}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{attempt()}{attempt()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::attempt (\begin{DoxyParamCaption}\item[{}]{\$credentials = {\ttfamily array()},  }\item[{}]{\$remember = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Attempt to authenticate a user using the given credentials.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$credentials} & \\
+\hline
+bool & {\em \$remember} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a40f114974e5275c1151439c6e5b125a2}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a40f114974e5275c1151439c6e5b125a2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!attempting@{attempting}}
+\index{attempting@{attempting}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{attempting()}{attempting()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::attempting (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an authentication attempt event listener.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa4b00209ad83c9a457af1cf9c0eb98a9}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa4b00209ad83c9a457af1cf9c0eb98a9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!authenticate@{authenticate}}
+\index{authenticate@{authenticate}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{authenticate()}{authenticate()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::authenticate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current user is authenticated.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_af8f2ff30a669fd33795db2d7947aa4bd}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_af8f2ff30a669fd33795db2d7947aa4bd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!basic@{basic}}
+\index{basic@{basic}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{basic()}{basic()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::basic (\begin{DoxyParamCaption}\item[{}]{\$field = {\ttfamily \textquotesingle{}email\textquotesingle{}},  }\item[{}]{\$extra\+Conditions = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Attempt to authenticate using H\+T\+TP Basic \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_auth}{Auth}}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$field} & \\
+\hline
+array & {\em \$extra\+Conditions} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4d5eba4e6245d756cd3eb807cadd2e2a}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4d5eba4e6245d756cd3eb807cadd2e2a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!check@{check}}
+\index{check@{check}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{check()}{check()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::check (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current user is authenticated.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a62a5d99a2d3d429c0f268824ca653803}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a62a5d99a2d3d429c0f268824ca653803}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!create\+Session\+Driver@{create\+Session\+Driver}}
+\index{create\+Session\+Driver@{create\+Session\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{create\+Session\+Driver()}{createSessionDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::create\+Session\+Driver (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$config }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a session based authentication guard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$config} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aafc443ec8004cdce83d728e6f04f8994}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aafc443ec8004cdce83d728e6f04f8994}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!create\+Token\+Driver@{create\+Token\+Driver}}
+\index{create\+Token\+Driver@{create\+Token\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{create\+Token\+Driver()}{createTokenDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::create\+Token\+Driver (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$config }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a token based authentication guard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$config} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_afdd867755aae03ffd16c73de0daff938}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_afdd867755aae03ffd16c73de0daff938}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!create\+User\+Provider@{create\+User\+Provider}}
+\index{create\+User\+Provider@{create\+User\+Provider}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{create\+User\+Provider()}{createUserProvider()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::create\+User\+Provider (\begin{DoxyParamCaption}\item[{}]{\$provider = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create the user provider implementation for the driver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ad6fdb08c1e3db9081087ec888f3c0193}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ad6fdb08c1e3db9081087ec888f3c0193}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::extend (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom driver creator Closure.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a33a191c912e59b497c73cf3b5c881f5e}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a33a191c912e59b497c73cf3b5c881f5e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Cookie\+Jar@{get\+Cookie\+Jar}}
+\index{get\+Cookie\+Jar@{get\+Cookie\+Jar}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Cookie\+Jar()}{getCookieJar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Cookie\+Jar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the cookie creator instance used by the guard.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a28c2308e161fd8146ed3d2e8481827d0}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a28c2308e161fd8146ed3d2e8481827d0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Default\+Driver@{get\+Default\+Driver}}
+\index{get\+Default\+Driver@{get\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Default\+Driver()}{getDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Default\+Driver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default authentication driver name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a2b44e6e6ceebe194082a5ffe7db7aaaf}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a2b44e6e6ceebe194082a5ffe7db7aaaf}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Default\+User\+Provider@{get\+Default\+User\+Provider}}
+\index{get\+Default\+User\+Provider@{get\+Default\+User\+Provider}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Default\+User\+Provider()}{getDefaultUserProvider()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Default\+User\+Provider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default user provider name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5085d618634062b5794d73702d2e58cc}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5085d618634062b5794d73702d2e58cc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Dispatcher@{get\+Dispatcher}}
+\index{get\+Dispatcher@{get\+Dispatcher}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Dispatcher()}{getDispatcher()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Dispatcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the event dispatcher instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9894e0a62cb7c0f15bdb3f864ee907d0}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9894e0a62cb7c0f15bdb3f864ee907d0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Last\+Attempted@{get\+Last\+Attempted}}
+\index{get\+Last\+Attempted@{get\+Last\+Attempted}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Last\+Attempted()}{getLastAttempted()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Last\+Attempted (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the last user we attempted to authenticate.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a065ace7a83e0b21199870acf32eca1ba}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a065ace7a83e0b21199870acf32eca1ba}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a unique identifier for the auth session value.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e62552b70450b179a28f6e45d7cb937}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e62552b70450b179a28f6e45d7cb937}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Provider@{get\+Provider}}
+\index{get\+Provider@{get\+Provider}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Provider()}{getProvider()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Provider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the user provider used by the guard.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a21da3c773fb2d59228c84cac75344034}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a21da3c773fb2d59228c84cac75344034}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Recaller\+Name@{get\+Recaller\+Name}}
+\index{get\+Recaller\+Name@{get\+Recaller\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Recaller\+Name()}{getRecallerName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Recaller\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the name of the cookie used to store the \char`\"{}recaller\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_af626e26e10b0d8e17a624c8db984a65c}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_af626e26e10b0d8e17a624c8db984a65c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Request@{get\+Request}}
+\index{get\+Request@{get\+Request}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Request()}{getRequest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current request instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aff8249330f0e005703f568c33a557566}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aff8249330f0e005703f568c33a557566}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+Session@{get\+Session}}
+\index{get\+Session@{get\+Session}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+Session()}{getSession()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+Session (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the session store used by the guard.
+
+\begin{DoxyReturn}{Returns}
+. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a32bd05e2dde1227b3a8a32613cbe1bf6}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a32bd05e2dde1227b3a8a32613cbe1bf6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!get\+User@{get\+User}}
+\index{get\+User@{get\+User}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{get\+User()}{getUser()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::get\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the currently cached user.
+
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a432fde79e22091b6140b1fdbc725a72d}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a432fde79e22091b6140b1fdbc725a72d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!guard@{guard}}
+\index{guard@{guard}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{guard()}{guard()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::guard (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Attempt to get the guard from the local cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4aef095d6c9b7f60b7b1384d4064eb55}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a4aef095d6c9b7f60b7b1384d4064eb55}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!guest@{guest}}
+\index{guest@{guest}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{guest()}{guest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::guest (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current user is a guest.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9ec6110e79e885017d5e4d3ad20392e1}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a9ec6110e79e885017d5e4d3ad20392e1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab98365becdcd81b76d4be5aaa6971a05}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab98365becdcd81b76d4be5aaa6971a05}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!id@{id}}
+\index{id@{id}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{id()}{id()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the ID for the currently authenticated user.
+
+\begin{DoxyReturn}{Returns}
+int$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aeef81e7eab1a76858dfa1b5e2d251bf0}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aeef81e7eab1a76858dfa1b5e2d251bf0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!login@{login}}
+\index{login@{login}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{login()}{login()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::login (\begin{DoxyParamCaption}\item[{}]{\$user,  }\item[{}]{\$remember = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} a user into the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Auth\textbackslash{}\+Authenticatable & {\em \$user} & \\
+\hline
+bool & {\em \$remember} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a96b66e55dc3ced8f3c89e77171f01f4b}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a96b66e55dc3ced8f3c89e77171f01f4b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!login\+Using\+Id@{login\+Using\+Id}}
+\index{login\+Using\+Id@{login\+Using\+Id}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{login\+Using\+Id()}{loginUsingId()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::login\+Using\+Id (\begin{DoxyParamCaption}\item[{}]{\$id,  }\item[{}]{\$remember = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} the given user ID into the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+bool & {\em \$remember} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a53e1351df33655142a42751eba04297b}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a53e1351df33655142a42751eba04297b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!logout@{logout}}
+\index{logout@{logout}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{logout()}{logout()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::logout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} the user out of the application.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa79d00741e5434bcb76731a02ffb361a}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aa79d00741e5434bcb76731a02ffb361a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!macro@{macro}}
+\index{macro@{macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5b3b067862dcf209c346a45f0addcf4d}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a5b3b067862dcf209c346a45f0addcf4d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!mixin@{mixin}}
+\index{mixin@{mixin}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a63d7ab8bd8f2fd996d828789d339566a}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a63d7ab8bd8f2fd996d828789d339566a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!once@{once}}
+\index{once@{once}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{once()}{once()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::once (\begin{DoxyParamCaption}\item[{}]{\$credentials = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} a user into the application without sessions or cookies.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$credentials} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a655de6df527a9ea10578d8b273166f22}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a655de6df527a9ea10578d8b273166f22}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!once\+Basic@{once\+Basic}}
+\index{once\+Basic@{once\+Basic}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{once\+Basic()}{onceBasic()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::once\+Basic (\begin{DoxyParamCaption}\item[{}]{\$field = {\ttfamily \textquotesingle{}email\textquotesingle{}},  }\item[{}]{\$extra\+Conditions = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Perform a stateless H\+T\+TP Basic login attempt.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$field} & \\
+\hline
+array & {\em \$extra\+Conditions} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a91dc83481e1323700b6d3d69ce944f05}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a91dc83481e1323700b6d3d69ce944f05}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!once\+Using\+Id@{once\+Using\+Id}}
+\index{once\+Using\+Id@{once\+Using\+Id}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{once\+Using\+Id()}{onceUsingId()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::once\+Using\+Id (\begin{DoxyParamCaption}\item[{}]{\$id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} the given user ID into the application without sessions or cookies.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_abf132c9b8d5ccce533211625ec83dc35}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_abf132c9b8d5ccce533211625ec83dc35}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!provider@{provider}}
+\index{provider@{provider}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{provider()}{provider()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::provider (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom provider creator Closure.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_af5d4285e6f94d28c07f9ab9f7077df5a}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_af5d4285e6f94d28c07f9ab9f7077df5a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!resolve\+Users\+Using@{resolve\+Users\+Using}}
+\index{resolve\+Users\+Using@{resolve\+Users\+Using}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{resolve\+Users\+Using()}{resolveUsersUsing()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::resolve\+Users\+Using (\begin{DoxyParamCaption}\item[{}]{\$user\+Resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the callback to be used to resolve users.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$user\+Resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a89cb1bc85a383e7453d7b940651a4a04}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a89cb1bc85a383e7453d7b940651a4a04}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+Cookie\+Jar@{set\+Cookie\+Jar}}
+\index{set\+Cookie\+Jar@{set\+Cookie\+Jar}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+Cookie\+Jar()}{setCookieJar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+Cookie\+Jar (\begin{DoxyParamCaption}\item[{}]{\$cookie }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the cookie creator instance used by the guard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Cookie\textbackslash{}\+Queueing\+Factory & {\em \$cookie} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae76bb55b5f629f397cc1e4e6c1c7b214}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae76bb55b5f629f397cc1e4e6c1c7b214}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+Default\+Driver@{set\+Default\+Driver}}
+\index{set\+Default\+Driver@{set\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+Default\+Driver()}{setDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+Default\+Driver (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default authentication driver name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ac8c611f42d922a4825347a7f92910922}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ac8c611f42d922a4825347a7f92910922}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+Dispatcher@{set\+Dispatcher}}
+\index{set\+Dispatcher@{set\+Dispatcher}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+Dispatcher()}{setDispatcher()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+Dispatcher (\begin{DoxyParamCaption}\item[{}]{\$events }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the event dispatcher instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Events\textbackslash{}\+Dispatcher & {\em \$events} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a8c2ecd65aa1a1607a35519b566bd66da}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a8c2ecd65aa1a1607a35519b566bd66da}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+Provider@{set\+Provider}}
+\index{set\+Provider@{set\+Provider}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+Provider()}{setProvider()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+Provider (\begin{DoxyParamCaption}\item[{}]{\$provider }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the user provider used by the guard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Auth\textbackslash{}\+User\+Provider & {\em \$provider} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae0cb110e3c059aae5571e6ed4b11bd3b}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ae0cb110e3c059aae5571e6ed4b11bd3b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+Request@{set\+Request}}
+\index{set\+Request@{set\+Request}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+Request()}{setRequest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+Request (\begin{DoxyParamCaption}\item[{}]{\$request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the current request instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Symfony\textbackslash{}\+Component\textbackslash{}\+Http\+Foundation\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_aef0606291d204ec7554b9afab827ceb7}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_aef0606291d204ec7554b9afab827ceb7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!set\+User@{set\+User}}
+\index{set\+User@{set\+User}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{set\+User()}{setUser()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::set\+User (\begin{DoxyParamCaption}\item[{}]{\$user }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the current user.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Auth\textbackslash{}\+Authenticatable & {\em \$user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_acc225c4397c62a6f93d9bd87bba44562}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_acc225c4397c62a6f93d9bd87bba44562}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!should\+Use@{should\+Use}}
+\index{should\+Use@{should\+Use}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{should\+Use()}{shouldUse()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::should\+Use (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default guard driver the factory should serve.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e25fe7a8574e495c4e48ee60813f249}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a0e25fe7a8574e495c4e48ee60813f249}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!user@{user}}
+\index{user@{user}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{user()}{user()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::user (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the currently authenticated user.
+
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab6601a8ada37b3aaaab8700de51eb523}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_ab6601a8ada37b3aaaab8700de51eb523}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!user\+Resolver@{user\+Resolver}}
+\index{user\+Resolver@{user\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{user\+Resolver()}{userResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::user\+Resolver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the user resolver callback.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a3bae01dfeecf84ab4ab06d46ae4214f7}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a3bae01dfeecf84ab4ab06d46ae4214f7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!validate@{validate}}
+\index{validate@{validate}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::validate (\begin{DoxyParamCaption}\item[{}]{\$credentials = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Validate a user\textquotesingle{}s credentials.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$credentials} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a007b8696ba0250c38255e1bd3b23dbd5}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a007b8696ba0250c38255e1bd3b23dbd5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!via\+Remember@{via\+Remember}}
+\index{via\+Remember@{via\+Remember}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{via\+Remember()}{viaRemember()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::via\+Remember (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the user was authenticated via \char`\"{}remember me\char`\"{} cookie.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_auth_a6c74f6505618b87ab69949b662fba9b9}\label{class_illuminate_1_1_support_1_1_facades_1_1_auth_a6c74f6505618b87ab69949b662fba9b9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}!via\+Request@{via\+Request}}
+\index{via\+Request@{via\+Request}!Illuminate\+::\+Support\+::\+Facades\+::\+Auth@{Illuminate\+::\+Support\+::\+Facades\+::\+Auth}}
+\subsubsection{\texorpdfstring{via\+Request()}{viaRequest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Auth\+::via\+Request (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new callback based request guard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+callable & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

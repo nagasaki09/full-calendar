@@ -1,0 +1,3121 @@
+\hypertarget{class_eloquent}{}\section{Eloquent Class Reference}
+\label{class_eloquent}\index{Eloquent@{Eloquent}}
+Inheritance diagram for Eloquent\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_eloquent}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_eloquent_a9987d6aaba201b36451caaea8065c7e4}{make}} (\$attributes=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a061c1fd5ab3d8e4e497f5e96a90d4ae3}{with\+Global\+Scope}} (\$identifier, \$scope)
+\item 
+static \mbox{\hyperlink{class_eloquent_a47d5d4f0f7be1ee5db65013ef9b79908}{without\+Global\+Scope}} (\$scope)
+\item 
+static \mbox{\hyperlink{class_eloquent_a65043ab2772d0ad732a64602fd6c3e2f}{without\+Global\+Scopes}} (\$\mbox{\hyperlink{class_eloquent_a30187b0aba1d255c83ca54ade893942a}{scopes}}=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a91d9856422b9e0ef6ea89683e6bca894}{removed\+Scopes}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a99288a406c5f9d209b951ea47b09c900}{where\+Key}} (\$id)
+\item 
+static \mbox{\hyperlink{class_eloquent_aa270e04797f3bcd3e062ddbcbb9df59a}{where\+Key\+Not}} (\$id)
+\item 
+static \mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}} (\$column, \$operator=null, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a24dd07936a2d5bfa885be38cf82ecb7a}{or\+Where}} (\$column, \$operator=null, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a4898fa742bed182f7ce97fc3301a10b2}{hydrate}} (\$items)
+\item 
+static \mbox{\hyperlink{class_eloquent_a5b042d9f31bce4d9423bcd5cee19e541}{from\+Query}} (\$query, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_ab6ef1f841da5e0d7853767d5a35eff41}{find}} (\$id, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a09565e061d998ef7b435f8b7c89af7f9}{find\+Many}} (\$ids, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a5c4e81f02d09cebec4ea283bb2d14ac7}{find\+Or\+Fail}} (\$id, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a5b2fd22847f1ae9772ea88792808e06b}{find\+Or\+New}} (\$id, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a462f0af15dd12a99bc154d8f3808b594}{first\+Or\+New}} (\$attributes, \$values=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a1cbf899f6b24ec8dcd888d69bf17e21d}{first\+Or\+Create}} (\$attributes, \$values=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a215b8431dad0c732d5b8650df9fc1476}{update\+Or\+Create}} (\$attributes, \$values=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a013e6c21af18280b92abc71a1ea88763}{first\+Or\+Fail}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a77202ee7dec38ef2364d93ed60643ede}{first\+Or}} (\$columns=array(), \$callback=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a6c45f389bc6894c7f4b37a8e0b9bc700}{get}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a20abe0ed9fc973599d443fb3a9302394}{get\+Models}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_ad3df22a0761eea733b9007d0f70d3369}{eager\+Load\+Relations}} (\$models)
+\item 
+static \mbox{\hyperlink{class_eloquent_a7c3fb913f8b3492f3d62ed0de9e1080d}{cursor}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a546b19f3697175b86e7860c186f3b592}{chunk\+By\+Id}} (\$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}, \$callback, \$column=null, \$alias=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_afe73f673c6d6d904f677ecb1ab1036ae}{pluck}} (\$column, \$key=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a772255be01bb78f48d5e817299913aae}{paginate}} (\$per\+Page=null, \$columns=array(), \$page\+Name=\textquotesingle{}page\textquotesingle{}, \$page=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a62be57b10fee0b64068fe6ea7ee6f528}{simple\+Paginate}} (\$per\+Page=null, \$columns=array(), \$page\+Name=\textquotesingle{}page\textquotesingle{}, \$page=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_af00cc719bafb53826d7adb0a4e79ed07}{create}} (\$attributes=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a3c4756036067296c077879f3deddbe32}{force\+Create}} (\$attributes)
+\item 
+static \mbox{\hyperlink{class_eloquent_a41dbb3edd9824b60aa6793e8e4f0d5de}{on\+Delete}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_eloquent_a30187b0aba1d255c83ca54ade893942a}{scopes}} (\$scopes)
+\item 
+static \mbox{\hyperlink{class_eloquent_a324fd31d8a6e6391edfb691be4d2c1e4}{apply\+Scopes}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a4d5bb95ee2ccbee4d66d20f96e58a2f8}{without}} (\$relations)
+\item 
+static \mbox{\hyperlink{class_eloquent_a8526cec0d6d3c0af7baf17035b5bcc9d}{new\+Model\+Instance}} (\$attributes=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a4c4d0601b74e31267f0526b02438e155}{get\+Query}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a9f643b610f962c2ebc7a56cb6fcc0f71}{set\+Query}} (\$query)
+\item 
+static \mbox{\hyperlink{class_eloquent_abc76b992d3cb97247cd15d2d66c6e2d2}{to\+Base}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a2384b7d44541eec22f7d5a34c4bac4a4}{get\+Eager\+Loads}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a546bbd87b7916e506cf6d42d80ad0530}{set\+Eager\+Loads}} (\$eager\+Load)
+\item 
+static \mbox{\hyperlink{class_eloquent_ab711475432b10dd5e0b8992dd4b47b64}{get\+Model}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_af58001ac756944267c404a2ebc585cfc}{set\+Model}} (\$model)
+\item 
+static \mbox{\hyperlink{class_eloquent_a14eeb1ef9d588a63a99e7e2824cae2bb}{get\+Macro}} (\$name)
+\item 
+static \mbox{\hyperlink{class_eloquent_a48c14c8ed872ba28234c2697d75235d7}{chunk}} (\$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}, \$callback)
+\item 
+static \mbox{\hyperlink{class_eloquent_ab30a605412c7b2ba2693d4216db68ef8}{each}} (\$callback, \$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}=1000)
+\item 
+static \mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a72b824dce01f0fa80a87803b42b46ad2}{when}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}, \$callback, \$default=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0dd65fb10e55398ea958ac8f9a400c5e}{tap}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_eloquent_accafe93f07a9d607402021b0c2df2c6e}{unless}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}, \$callback, \$default=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_ab786bef6379c67769eee53bb950fd389}{has}} (\$relation, \$operator=\textquotesingle{}$>$=\textquotesingle{}, \$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}=1, \$boolean=\textquotesingle{}and\textquotesingle{}, \$callback=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_ab69605000942044dafd16ce8701a8565}{or\+Has}} (\$relation, \$operator=\textquotesingle{}$>$=\textquotesingle{}, \$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}=1)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0856f1bda42e0b3846becb4329bf214a}{doesnt\+Have}} (\$relation, \$boolean=\textquotesingle{}and\textquotesingle{}, \$callback=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a00b0d5adff6b69d4b8eb864d64656a97}{or\+Doesnt\+Have}} (\$relation)
+\item 
+static \mbox{\hyperlink{class_eloquent_a2aa796efce7c1d1140d409b67c06f51d}{where\+Has}} (\$relation, \$callback=null, \$operator=\textquotesingle{}$>$=\textquotesingle{}, \$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}=1)
+\item 
+static \mbox{\hyperlink{class_eloquent_ae47b5731c4d49fc51c418d1b9eda590e}{or\+Where\+Has}} (\$relation, \$callback=null, \$operator=\textquotesingle{}$>$=\textquotesingle{}, \$\mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}}=1)
+\item 
+static \mbox{\hyperlink{class_eloquent_a71116973df1571c2a9d16aa656957557}{where\+Doesnt\+Have}} (\$relation, \$callback=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_abe51aca19cc993e96f996fa60c1c25e6}{or\+Where\+Doesnt\+Have}} (\$relation, \$callback=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a42b7896267dd0cee14d24f21f48ffe71}{with\+Count}} (\$relations)
+\item 
+static \mbox{\hyperlink{class_eloquent_a543e7d748eb32bb2b2b526c1519fe3ff}{merge\+Constraints\+From}} (\$\mbox{\hyperlink{class_eloquent_ac379856973100a47e6c99a30189be914}{from}})
+\item 
+static \mbox{\hyperlink{class_eloquent_a8e370395d0f8769923458070affe6569}{select}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_abaad4d45b5af66399360943de7e06088}{select\+Raw}} (\$expression, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_af3d3893d466f371ddee0d6ec27fe4346}{select\+Sub}} (\$query, \$as)
+\item 
+static \mbox{\hyperlink{class_eloquent_af424d9b4dbb022b5320947d1d7316019}{add\+Select}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0d922f51ce3d5fb3033a90a04edb2cf3}{distinct}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_ac379856973100a47e6c99a30189be914}{from}} (\$table)
+\item 
+static \mbox{\hyperlink{class_eloquent_aa041492793f1023acbce5a83b55b8cca}{join}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator=null, \$second=null, \$type=\textquotesingle{}inner\textquotesingle{}, \$\mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}}=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_ae729011c181ac1a0bbf3b1a8b729f4c0}{join\+Where}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator, \$second, \$type=\textquotesingle{}inner\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_aca726c1b1d75be9165046973b7fde75a}{left\+Join}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator=null, \$second=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0028d51e963f25f4e3bc2e8f8595457f}{left\+Join\+Where}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator, \$second)
+\item 
+static \mbox{\hyperlink{class_eloquent_a523091b2e22ae2ec38c67cea95e6b032}{right\+Join}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator=null, \$second=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a7da048e8b8edcf7c9fc154756d95217f}{right\+Join\+Where}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator, \$second)
+\item 
+static \mbox{\hyperlink{class_eloquent_a8a23e4c7ff6e59bf6a8337018dcf1063}{cross\+Join}} (\$table, \$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}=null, \$operator=null, \$second=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_ad8f6918463427fbcea1a870ec8ffd883}{merge\+Wheres}} (\$wheres, \$bindings)
+\item 
+static \mbox{\hyperlink{class_eloquent_a3bdca7345f418215cb3e48ccea64f8e2}{where\+Column}} (\$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator=null, \$second=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a7fb5678acda4390052f891418895762a}{or\+Where\+Column}} (\$\mbox{\hyperlink{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}{first}}, \$operator=null, \$second=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a67c4e71aff7e9c4304516de058845610}{where\+Raw}} (\$sql, \$bindings=array(), \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_afbe643f67e54beddea0721074a50093e}{or\+Where\+Raw}} (\$sql, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_ae4274acd45de3339f0718ad3fa0fea34}{where\+In}} (\$column, \$values, \$boolean=\textquotesingle{}and\textquotesingle{}, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_ac49cc6a793b16ab8edc3eb0b91d0c355}{or\+Where\+In}} (\$column, \$values)
+\item 
+static \mbox{\hyperlink{class_eloquent_aea049d383c88e86dc7456fb0aed328f5}{where\+Not\+In}} (\$column, \$values, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a07382bcdd1d4e66e2440cc1c5f5ba77b}{or\+Where\+Not\+In}} (\$column, \$values)
+\item 
+static \mbox{\hyperlink{class_eloquent_ae53f3a49e729b996083e5d835f737e23}{where\+Null}} (\$column, \$boolean=\textquotesingle{}and\textquotesingle{}, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_ad05158229fe7106000cde4d97cb07537}{or\+Where\+Null}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a16cb0cdb621e7bfeec2cd87af4a224db}{where\+Not\+Null}} (\$column, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a4fa71165cd2667a557c0125fa3292896}{where\+Between}} (\$column, \$values, \$boolean=\textquotesingle{}and\textquotesingle{}, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0e1487272eea316ffc9019c50e8aa025}{or\+Where\+Between}} (\$column, \$values)
+\item 
+static \mbox{\hyperlink{class_eloquent_aa337ce79cac3593ee4c6fdf072b3528d}{where\+Not\+Between}} (\$column, \$values, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a17c4940b6622bb7210567714b237b23a}{or\+Where\+Not\+Between}} (\$column, \$values)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0f49fc5796ee0ed0b9d8c8bda60718e4}{or\+Where\+Not\+Null}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a5f295e03df6a9022fa12ce9a1607d08d}{where\+Date}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_abac95061fffa73cb51b275e5ee5fa09a}{or\+Where\+Date}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_ac534556e3ff4230a01e36cf6c4131cc7}{where\+Time}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a00cf4a8d42cc19861a94719dbb5177e4}{or\+Where\+Time}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_a8442c6da11bda9fe1fad7b412ce48ec9}{where\+Day}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a530752faf5aed57517a152e74eceffd3}{where\+Month}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a02fd683aa7d0c0159379f8d3b27d5230}{where\+Year}} (\$column, \$operator, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a1e91f1cb7ebaef1a1dac7aef95a95916}{where\+Nested}} (\$callback, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a73ee05439dd72e88926cd48a01b2ba6b}{for\+Nested\+Where}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_aa2f16128ef6e7142fc3a0fcf2c4590a0}{add\+Nested\+Where\+Query}} (\$query, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_abe35963f00cb4cbba9c09bf9c7a36881}{where\+Exists}} (\$callback, \$boolean=\textquotesingle{}and\textquotesingle{}, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_a461302857867cda6902c6fcaa9581d67}{or\+Where\+Exists}} (\$callback, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_aa2b4f08f03816e520e6f55d21ca49c06}{where\+Not\+Exists}} (\$callback, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a0b8b11378bd5bdfcc39a9879a54adacf}{or\+Where\+Not\+Exists}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_eloquent_aa890d018e0ad839b0bb5a2c2d243243c}{add\+Where\+Exists\+Query}} (\$query, \$boolean=\textquotesingle{}and\textquotesingle{}, \$not=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_a92ee7d621c7c646a0e2da14be557ec53}{dynamic\+Where}} (\$method, \$parameters)
+\item 
+static \mbox{\hyperlink{class_eloquent_aeebb6f260f6d6fd5afab7b02ff15248a}{group\+By}} (\$groups=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a1a90ee18a28cc2930fbf1ba43e7a8736}{having}} (\$column, \$operator=null, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null, \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a5dec38cf2c59fd1fd2f1aeba5508e0cc}{or\+Having}} (\$column, \$operator=null, \$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a756265cf9b44ab3d9d63a5364763d9f2}{having\+Raw}} (\$sql, \$bindings=array(), \$boolean=\textquotesingle{}and\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a6fac6b159c4a57120d5a6ac77cbca16c}{or\+Having\+Raw}} (\$sql, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a892149342bab8cc0e624dd009c0aaa01}{order\+By}} (\$column, \$direction=\textquotesingle{}asc\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_af93c2d362571fd37e1e7cf33aa627a0a}{order\+By\+Desc}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a6ece4c9b56f9334272522c306f283a2f}{latest}} (\$column=\textquotesingle{}created\+\_\+at\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a3a6232dc598b629da754e20f19a02a81}{oldest}} (\$column=\textquotesingle{}created\+\_\+at\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a75919dc1a77ec126c2188aa97c890b45}{in\+Random\+Order}} (\$seed=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a817e3e9e4221b1bb88b1c5bc57e18c3c}{order\+By\+Raw}} (\$sql, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a2fd45cfad88ad5d4d5a2a77920cabfcf}{skip}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_ab8f792a4282a6d9fb5897ef7eb066dda}{offset}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_ae3c0357543a8e9d871ca61bf64109793}{take}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_a4c6d298be10cf541f36b4c50311cd8cc}{limit}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_a6bcc6951a0901e619a303e777ec1d971}{for\+Page}} (\$page, \$per\+Page=15)
+\item 
+static \mbox{\hyperlink{class_eloquent_ac7f037ea162597f9d44b8e9010e60c77}{for\+Page\+After\+Id}} (\$per\+Page=15, \$last\+Id=0, \$column=\textquotesingle{}id\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a24685bd0575b3a51452944bee875b83c}{union}} (\$query, \$all=false)
+\item 
+static \mbox{\hyperlink{class_eloquent_a7a81a35976fe17001e5a7ffad92f5256}{union\+All}} (\$query)
+\item 
+static \mbox{\hyperlink{class_eloquent_a99a6223b6ef3008aff9b1d113f67449f}{lock}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}=true)
+\item 
+static \mbox{\hyperlink{class_eloquent_a8424881c1216eeb0bf339b38c713a090}{lock\+For\+Update}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a7f299b24133d1b7b5614210b34907801}{shared\+Lock}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_ac788e862f43bba3f9d0ff6a13b82774b}{to\+Sql}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a1978abdf53fe44de908f19767234e984}{get\+Count\+For\+Pagination}} (\$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a61e6ba8ce2c591132da5397c88b976b9}{implode}} (\$column, \$glue=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a0778402ef6d4010610378d9a470e6d4b}{exists}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_af7f114e287681eb2333c97d6bf26285d}{count}} (\$columns=\textquotesingle{} $\ast$\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a0c9b274069dc6503f3ac3d7592c7c69d}{min}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a74732442e996af19bbb46d839a6fddf3}{max}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a74c6b202fd0d2f82c2dc9a326ab4f8fc}{sum}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a0b3828a100dd3fdcb15a5df6bc4c0f16}{avg}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_a7ad1944b3c3cc2e9f11b9d028ffa5501}{average}} (\$column)
+\item 
+static \mbox{\hyperlink{class_eloquent_abebad76dc3dba8a1894b8a2554e0a4ff}{aggregate}} (\$function, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_ae0d141ad31eacf1a97177bb8b1e896e0}{numeric\+Aggregate}} (\$function, \$columns=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_af7d0fbced37746ae8bd902ef5f68a7ae}{insert}} (\$values)
+\item 
+static \mbox{\hyperlink{class_eloquent_a1844f44a1ce5e328d145034b7536e2ea}{insert\+Get\+Id}} (\$values, \$sequence=null)
+\item 
+static \mbox{\hyperlink{class_eloquent_a9000a3ec879c46fbd69d07e9818da617}{update\+Or\+Insert}} (\$attributes, \$values=array())
+\item 
+static \mbox{\hyperlink{class_eloquent_a96ac4ef3c15f8420f7517ef3a5c75b8c}{truncate}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a526a8894771e444ed5aa81987eecd3cf}{raw}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}})
+\item 
+static \mbox{\hyperlink{class_eloquent_a2354a3b999001c7332d956e5cc2fcf07}{get\+Bindings}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a0e2f203149983e1293a215f5d010e014}{get\+Raw\+Bindings}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a3ce121762513ed5de49b13594887f51c}{set\+Bindings}} (\$bindings, \$type=\textquotesingle{}\mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_ab657124a93444b0a941f40d943bac574}{add\+Binding}} (\$\mbox{\hyperlink{class_eloquent_a653061eb837042f61e82447886e15a72}{value}}, \$type=\textquotesingle{}\mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_eloquent_a590622affbe9e982b13019733af32012}{merge\+Bindings}} (\$query)
+\item 
+static \mbox{\hyperlink{class_eloquent_af06482fd0045347d96e02da15e1bcd2c}{get\+Processor}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_ad1d4b842e0773138ab7660b968cc180b}{get\+Grammar}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_a8e99b1a02f0cb83410036aea50c23b24}{use\+Write\+Pdo}} ()
+\item 
+static \mbox{\hyperlink{class_eloquent_acbd1833f18473cd1dd4fb755460592f3}{clone\+Without}} (\$properties)
+\item 
+static \mbox{\hyperlink{class_eloquent_a3794141227f450194be39fe46372cfa3}{clone\+Without\+Bindings}} (\$except)
+\item 
+static \mbox{\hyperlink{class_eloquent_a8839c902460bd7744993f61693711cf7}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_eloquent_a59e9f5c02a0686de57f66eeb0230df58}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_eloquent_a02e81dba5c768e3cb30a0394d697582a}{has\+Macro}} (\$name)
+\item 
+static \mbox{\hyperlink{class_eloquent_a6afe5c89170eab3d8de7693f741accfa}{macro\+Call}} (\$method, \$parameters)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_eloquent_ab657124a93444b0a941f40d943bac574}\label{class_eloquent_ab657124a93444b0a941f40d943bac574}} 
+\index{Eloquent@{Eloquent}!add\+Binding@{add\+Binding}}
+\index{add\+Binding@{add\+Binding}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{add\+Binding()}{addBinding()}}
+{\footnotesize\ttfamily static Eloquent\+::add\+Binding (\begin{DoxyParamCaption}\item[{}]{\$value,  }\item[{}]{\$type = {\ttfamily \textquotesingle{}\mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a binding to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_aa2f16128ef6e7142fc3a0fcf2c4590a0}\label{class_eloquent_aa2f16128ef6e7142fc3a0fcf2c4590a0}} 
+\index{Eloquent@{Eloquent}!add\+Nested\+Where\+Query@{add\+Nested\+Where\+Query}}
+\index{add\+Nested\+Where\+Query@{add\+Nested\+Where\+Query}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{add\+Nested\+Where\+Query()}{addNestedWhereQuery()}}
+{\footnotesize\ttfamily static Eloquent\+::add\+Nested\+Where\+Query (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add another query builder as a nested where to the query builder.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder | static & {\em \$query} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af424d9b4dbb022b5320947d1d7316019}\label{class_eloquent_af424d9b4dbb022b5320947d1d7316019}} 
+\index{Eloquent@{Eloquent}!add\+Select@{add\+Select}}
+\index{add\+Select@{add\+Select}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{add\+Select()}{addSelect()}}
+{\footnotesize\ttfamily static Eloquent\+::add\+Select (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a new select column to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aa890d018e0ad839b0bb5a2c2d243243c}\label{class_eloquent_aa890d018e0ad839b0bb5a2c2d243243c}} 
+\index{Eloquent@{Eloquent}!add\+Where\+Exists\+Query@{add\+Where\+Exists\+Query}}
+\index{add\+Where\+Exists\+Query@{add\+Where\+Exists\+Query}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{add\+Where\+Exists\+Query()}{addWhereExistsQuery()}}
+{\footnotesize\ttfamily static Eloquent\+::add\+Where\+Exists\+Query (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an exists clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder & {\em \$query} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abebad76dc3dba8a1894b8a2554e0a4ff}\label{class_eloquent_abebad76dc3dba8a1894b8a2554e0a4ff}} 
+\index{Eloquent@{Eloquent}!aggregate@{aggregate}}
+\index{aggregate@{aggregate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{aggregate()}{aggregate()}}
+{\footnotesize\ttfamily static Eloquent\+::aggregate (\begin{DoxyParamCaption}\item[{}]{\$function,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute an aggregate function on the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$function} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a324fd31d8a6e6391edfb691be4d2c1e4}\label{class_eloquent_a324fd31d8a6e6391edfb691be4d2c1e4}} 
+\index{Eloquent@{Eloquent}!apply\+Scopes@{apply\+Scopes}}
+\index{apply\+Scopes@{apply\+Scopes}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{apply\+Scopes()}{applyScopes()}}
+{\footnotesize\ttfamily static Eloquent\+::apply\+Scopes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Apply the scopes to the \mbox{\hyperlink{class_eloquent}{Eloquent}} builder instance and return it.
+
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7ad1944b3c3cc2e9f11b9d028ffa5501}\label{class_eloquent_a7ad1944b3c3cc2e9f11b9d028ffa5501}} 
+\index{Eloquent@{Eloquent}!average@{average}}
+\index{average@{average}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{average()}{average()}}
+{\footnotesize\ttfamily static Eloquent\+::average (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Alias for the \char`\"{}avg\char`\"{} method.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0b3828a100dd3fdcb15a5df6bc4c0f16}\label{class_eloquent_a0b3828a100dd3fdcb15a5df6bc4c0f16}} 
+\index{Eloquent@{Eloquent}!avg@{avg}}
+\index{avg@{avg}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{avg()}{avg()}}
+{\footnotesize\ttfamily static Eloquent\+::avg (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the average of the values of a given column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a48c14c8ed872ba28234c2697d75235d7}\label{class_eloquent_a48c14c8ed872ba28234c2697d75235d7}} 
+\index{Eloquent@{Eloquent}!chunk@{chunk}}
+\index{chunk@{chunk}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{chunk()}{chunk()}}
+{\footnotesize\ttfamily static Eloquent\+::chunk (\begin{DoxyParamCaption}\item[{}]{\$count,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Chunk the results of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$count} & \\
+\hline
+callable & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a546b19f3697175b86e7860c186f3b592}\label{class_eloquent_a546b19f3697175b86e7860c186f3b592}} 
+\index{Eloquent@{Eloquent}!chunk\+By\+Id@{chunk\+By\+Id}}
+\index{chunk\+By\+Id@{chunk\+By\+Id}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{chunk\+By\+Id()}{chunkById()}}
+{\footnotesize\ttfamily static Eloquent\+::chunk\+By\+Id (\begin{DoxyParamCaption}\item[{}]{\$count,  }\item[{}]{\$callback,  }\item[{}]{\$column = {\ttfamily null},  }\item[{}]{\$alias = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Chunk the results of a query by comparing numeric I\+Ds.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$count} & \\
+\hline
+callable & {\em \$callback} & \\
+\hline
+string & {\em \$column} & \\
+\hline
+string | null & {\em \$alias} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_acbd1833f18473cd1dd4fb755460592f3}\label{class_eloquent_acbd1833f18473cd1dd4fb755460592f3}} 
+\index{Eloquent@{Eloquent}!clone\+Without@{clone\+Without}}
+\index{clone\+Without@{clone\+Without}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{clone\+Without()}{cloneWithout()}}
+{\footnotesize\ttfamily static Eloquent\+::clone\+Without (\begin{DoxyParamCaption}\item[{}]{\$properties }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clone the query without the given properties.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$properties} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a3794141227f450194be39fe46372cfa3}\label{class_eloquent_a3794141227f450194be39fe46372cfa3}} 
+\index{Eloquent@{Eloquent}!clone\+Without\+Bindings@{clone\+Without\+Bindings}}
+\index{clone\+Without\+Bindings@{clone\+Without\+Bindings}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{clone\+Without\+Bindings()}{cloneWithoutBindings()}}
+{\footnotesize\ttfamily static Eloquent\+::clone\+Without\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$except }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clone the query without the given bindings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$except} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af7f114e287681eb2333c97d6bf26285d}\label{class_eloquent_af7f114e287681eb2333c97d6bf26285d}} 
+\index{Eloquent@{Eloquent}!count@{count}}
+\index{count@{count}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{count()}{count()}}
+{\footnotesize\ttfamily static Eloquent\+::count (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily \textquotesingle{}$\ast$\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the \char`\"{}count\char`\"{} result of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af00cc719bafb53826d7adb0a4e79ed07}\label{class_eloquent_af00cc719bafb53826d7adb0a4e79ed07}} 
+\index{Eloquent@{Eloquent}!create@{create}}
+\index{create@{create}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{create()}{create()}}
+{\footnotesize\ttfamily static Eloquent\+::create (\begin{DoxyParamCaption}\item[{}]{\$attributes = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Save a new model and return the instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8a23e4c7ff6e59bf6a8337018dcf1063}\label{class_eloquent_a8a23e4c7ff6e59bf6a8337018dcf1063}} 
+\index{Eloquent@{Eloquent}!cross\+Join@{cross\+Join}}
+\index{cross\+Join@{cross\+Join}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{cross\+Join()}{crossJoin()}}
+{\footnotesize\ttfamily static Eloquent\+::cross\+Join (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first = {\ttfamily null},  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}cross join\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string | null & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7c3fb913f8b3492f3d62ed0de9e1080d}\label{class_eloquent_a7c3fb913f8b3492f3d62ed0de9e1080d}} 
+\index{Eloquent@{Eloquent}!cursor@{cursor}}
+\index{cursor@{cursor}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{cursor()}{cursor()}}
+{\footnotesize\ttfamily static Eloquent\+::cursor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a generator for the given query.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0d922f51ce3d5fb3033a90a04edb2cf3}\label{class_eloquent_a0d922f51ce3d5fb3033a90a04edb2cf3}} 
+\index{Eloquent@{Eloquent}!distinct@{distinct}}
+\index{distinct@{distinct}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{distinct()}{distinct()}}
+{\footnotesize\ttfamily static Eloquent\+::distinct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Force the query to only return distinct results.
+
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0856f1bda42e0b3846becb4329bf214a}\label{class_eloquent_a0856f1bda42e0b3846becb4329bf214a}} 
+\index{Eloquent@{Eloquent}!doesnt\+Have@{doesnt\+Have}}
+\index{doesnt\+Have@{doesnt\+Have}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{doesnt\+Have()}{doesntHave()}}
+{\footnotesize\ttfamily static Eloquent\+::doesnt\+Have (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a92ee7d621c7c646a0e2da14be557ec53}\label{class_eloquent_a92ee7d621c7c646a0e2da14be557ec53}} 
+\index{Eloquent@{Eloquent}!dynamic\+Where@{dynamic\+Where}}
+\index{dynamic\+Where@{dynamic\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{dynamic\+Where()}{dynamicWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::dynamic\+Where (\begin{DoxyParamCaption}\item[{}]{\$method,  }\item[{}]{\$parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Handles dynamic \char`\"{}where\char`\"{} clauses to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+string & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab30a605412c7b2ba2693d4216db68ef8}\label{class_eloquent_ab30a605412c7b2ba2693d4216db68ef8}} 
+\index{Eloquent@{Eloquent}!each@{each}}
+\index{each@{each}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{each()}{each()}}
+{\footnotesize\ttfamily static Eloquent\+::each (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$count = {\ttfamily 1000} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute a callback over each item while chunking.
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable & {\em \$callback} & \\
+\hline
+int & {\em \$count} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ad3df22a0761eea733b9007d0f70d3369}\label{class_eloquent_ad3df22a0761eea733b9007d0f70d3369}} 
+\index{Eloquent@{Eloquent}!eager\+Load\+Relations@{eager\+Load\+Relations}}
+\index{eager\+Load\+Relations@{eager\+Load\+Relations}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{eager\+Load\+Relations()}{eagerLoadRelations()}}
+{\footnotesize\ttfamily static Eloquent\+::eager\+Load\+Relations (\begin{DoxyParamCaption}\item[{}]{\$models }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Eager load the relationships for the models.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$models} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0778402ef6d4010610378d9a470e6d4b}\label{class_eloquent_a0778402ef6d4010610378d9a470e6d4b}} 
+\index{Eloquent@{Eloquent}!exists@{exists}}
+\index{exists@{exists}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{exists()}{exists()}}
+{\footnotesize\ttfamily static Eloquent\+::exists (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if any rows exist for the current query.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab6ef1f841da5e0d7853767d5a35eff41}\label{class_eloquent_ab6ef1f841da5e0d7853767d5a35eff41}} 
+\index{Eloquent@{Eloquent}!find@{find}}
+\index{find@{find}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily static Eloquent\+::find (\begin{DoxyParamCaption}\item[{}]{\$id,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Find a model by its primary key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$$\vert$static\mbox{[}\mbox{]}$\vert$static$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a09565e061d998ef7b435f8b7c89af7f9}\label{class_eloquent_a09565e061d998ef7b435f8b7c89af7f9}} 
+\index{Eloquent@{Eloquent}!find\+Many@{find\+Many}}
+\index{find\+Many@{find\+Many}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{find\+Many()}{findMany()}}
+{\footnotesize\ttfamily static Eloquent\+::find\+Many (\begin{DoxyParamCaption}\item[{}]{\$ids,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Find multiple models by their primary keys.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Support\textbackslash{}\+Arrayable | array & {\em \$ids} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a5c4e81f02d09cebec4ea283bb2d14ac7}\label{class_eloquent_a5c4e81f02d09cebec4ea283bb2d14ac7}} 
+\index{Eloquent@{Eloquent}!find\+Or\+Fail@{find\+Or\+Fail}}
+\index{find\+Or\+Fail@{find\+Or\+Fail}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{find\+Or\+Fail()}{findOrFail()}}
+{\footnotesize\ttfamily static Eloquent\+::find\+Or\+Fail (\begin{DoxyParamCaption}\item[{}]{\$id,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Find a model by its primary key or throw an exception.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_a5b2fd22847f1ae9772ea88792808e06b}\label{class_eloquent_a5b2fd22847f1ae9772ea88792808e06b}} 
+\index{Eloquent@{Eloquent}!find\+Or\+New@{find\+Or\+New}}
+\index{find\+Or\+New@{find\+Or\+New}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{find\+Or\+New()}{findOrNew()}}
+{\footnotesize\ttfamily static Eloquent\+::find\+Or\+New (\begin{DoxyParamCaption}\item[{}]{\$id,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Find a model by its primary key or return fresh model instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}\label{class_eloquent_a9a02499790abaadb7a9dc307a2b8403a}} 
+\index{Eloquent@{Eloquent}!first@{first}}
+\index{first@{first}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{first()}{first()}}
+{\footnotesize\ttfamily static Eloquent\+::first (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the query and get the first result.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a77202ee7dec38ef2364d93ed60643ede}\label{class_eloquent_a77202ee7dec38ef2364d93ed60643ede}} 
+\index{Eloquent@{Eloquent}!first\+Or@{first\+Or}}
+\index{first\+Or@{first\+Or}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{first\+Or()}{firstOr()}}
+{\footnotesize\ttfamily static Eloquent\+::first\+Or (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()},  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the query and get the first result or call a callback.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure | array & {\em \$columns} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static$\vert$mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a1cbf899f6b24ec8dcd888d69bf17e21d}\label{class_eloquent_a1cbf899f6b24ec8dcd888d69bf17e21d}} 
+\index{Eloquent@{Eloquent}!first\+Or\+Create@{first\+Or\+Create}}
+\index{first\+Or\+Create@{first\+Or\+Create}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{first\+Or\+Create()}{firstOrCreate()}}
+{\footnotesize\ttfamily static Eloquent\+::first\+Or\+Create (\begin{DoxyParamCaption}\item[{}]{\$attributes,  }\item[{}]{\$values = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the first record matching the attributes or create it.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a013e6c21af18280b92abc71a1ea88763}\label{class_eloquent_a013e6c21af18280b92abc71a1ea88763}} 
+\index{Eloquent@{Eloquent}!first\+Or\+Fail@{first\+Or\+Fail}}
+\index{first\+Or\+Fail@{first\+Or\+Fail}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{first\+Or\+Fail()}{firstOrFail()}}
+{\footnotesize\ttfamily static Eloquent\+::first\+Or\+Fail (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the query and get the first result or throw an exception.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_a462f0af15dd12a99bc154d8f3808b594}\label{class_eloquent_a462f0af15dd12a99bc154d8f3808b594}} 
+\index{Eloquent@{Eloquent}!first\+Or\+New@{first\+Or\+New}}
+\index{first\+Or\+New@{first\+Or\+New}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{first\+Or\+New()}{firstOrNew()}}
+{\footnotesize\ttfamily static Eloquent\+::first\+Or\+New (\begin{DoxyParamCaption}\item[{}]{\$attributes,  }\item[{}]{\$values = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the first record matching the attributes or instantiate it.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a3c4756036067296c077879f3deddbe32}\label{class_eloquent_a3c4756036067296c077879f3deddbe32}} 
+\index{Eloquent@{Eloquent}!force\+Create@{force\+Create}}
+\index{force\+Create@{force\+Create}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{force\+Create()}{forceCreate()}}
+{\footnotesize\ttfamily static Eloquent\+::force\+Create (\begin{DoxyParamCaption}\item[{}]{\$attributes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Save a new model and return the instance. Allow mass-\/assignment.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a73ee05439dd72e88926cd48a01b2ba6b}\label{class_eloquent_a73ee05439dd72e88926cd48a01b2ba6b}} 
+\index{Eloquent@{Eloquent}!for\+Nested\+Where@{for\+Nested\+Where}}
+\index{for\+Nested\+Where@{for\+Nested\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{for\+Nested\+Where()}{forNestedWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::for\+Nested\+Where (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new query instance for nested where condition.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a6bcc6951a0901e619a303e777ec1d971}\label{class_eloquent_a6bcc6951a0901e619a303e777ec1d971}} 
+\index{Eloquent@{Eloquent}!for\+Page@{for\+Page}}
+\index{for\+Page@{for\+Page}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{for\+Page()}{forPage()}}
+{\footnotesize\ttfamily static Eloquent\+::for\+Page (\begin{DoxyParamCaption}\item[{}]{\$page,  }\item[{}]{\$per\+Page = {\ttfamily 15} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the limit and offset for a given page.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$page} & \\
+\hline
+int & {\em \$per\+Page} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ac7f037ea162597f9d44b8e9010e60c77}\label{class_eloquent_ac7f037ea162597f9d44b8e9010e60c77}} 
+\index{Eloquent@{Eloquent}!for\+Page\+After\+Id@{for\+Page\+After\+Id}}
+\index{for\+Page\+After\+Id@{for\+Page\+After\+Id}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{for\+Page\+After\+Id()}{forPageAfterId()}}
+{\footnotesize\ttfamily static Eloquent\+::for\+Page\+After\+Id (\begin{DoxyParamCaption}\item[{}]{\$per\+Page = {\ttfamily 15},  }\item[{}]{\$last\+Id = {\ttfamily 0},  }\item[{}]{\$column = {\ttfamily \textquotesingle{}id\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Constrain the query to the next \char`\"{}page\char`\"{} of results after a given ID.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$per\+Page} & \\
+\hline
+int & {\em \$last\+Id} & \\
+\hline
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ac379856973100a47e6c99a30189be914}\label{class_eloquent_ac379856973100a47e6c99a30189be914}} 
+\index{Eloquent@{Eloquent}!from@{from}}
+\index{from@{from}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{from()}{from()}}
+{\footnotesize\ttfamily static Eloquent\+::from (\begin{DoxyParamCaption}\item[{}]{\$table }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the table which the query is targeting.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a5b042d9f31bce4d9423bcd5cee19e541}\label{class_eloquent_a5b042d9f31bce4d9423bcd5cee19e541}} 
+\index{Eloquent@{Eloquent}!from\+Query@{from\+Query}}
+\index{from\+Query@{from\+Query}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{from\+Query()}{fromQuery()}}
+{\footnotesize\ttfamily static Eloquent\+::from\+Query (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a collection of models from a raw query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a6c45f389bc6894c7f4b37a8e0b9bc700}\label{class_eloquent_a6c45f389bc6894c7f4b37a8e0b9bc700}} 
+\index{Eloquent@{Eloquent}!get@{get}}
+\index{get@{get}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily static Eloquent\+::get (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the query as a \char`\"{}select\char`\"{} statement.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a2354a3b999001c7332d956e5cc2fcf07}\label{class_eloquent_a2354a3b999001c7332d956e5cc2fcf07}} 
+\index{Eloquent@{Eloquent}!get\+Bindings@{get\+Bindings}}
+\index{get\+Bindings@{get\+Bindings}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Bindings()}{getBindings()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Bindings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current query value bindings in a flattened array.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a1978abdf53fe44de908f19767234e984}\label{class_eloquent_a1978abdf53fe44de908f19767234e984}} 
+\index{Eloquent@{Eloquent}!get\+Count\+For\+Pagination@{get\+Count\+For\+Pagination}}
+\index{get\+Count\+For\+Pagination@{get\+Count\+For\+Pagination}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Count\+For\+Pagination()}{getCountForPagination()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Count\+For\+Pagination (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the count of the total records for the paginator.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a2384b7d44541eec22f7d5a34c4bac4a4}\label{class_eloquent_a2384b7d44541eec22f7d5a34c4bac4a4}} 
+\index{Eloquent@{Eloquent}!get\+Eager\+Loads@{get\+Eager\+Loads}}
+\index{get\+Eager\+Loads@{get\+Eager\+Loads}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Eager\+Loads()}{getEagerLoads()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Eager\+Loads (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the relationships being eagerly loaded.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ad1d4b842e0773138ab7660b968cc180b}\label{class_eloquent_ad1d4b842e0773138ab7660b968cc180b}} 
+\index{Eloquent@{Eloquent}!get\+Grammar@{get\+Grammar}}
+\index{get\+Grammar@{get\+Grammar}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Grammar()}{getGrammar()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Grammar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the query grammar instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a14eeb1ef9d588a63a99e7e2824cae2bb}\label{class_eloquent_a14eeb1ef9d588a63a99e7e2824cae2bb}} 
+\index{Eloquent@{Eloquent}!get\+Macro@{get\+Macro}}
+\index{get\+Macro@{get\+Macro}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Macro()}{getMacro()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the given macro by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab711475432b10dd5e0b8992dd4b47b64}\label{class_eloquent_ab711475432b10dd5e0b8992dd4b47b64}} 
+\index{Eloquent@{Eloquent}!get\+Model@{get\+Model}}
+\index{get\+Model@{get\+Model}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Model()}{getModel()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the model instance being queried.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a20abe0ed9fc973599d443fb3a9302394}\label{class_eloquent_a20abe0ed9fc973599d443fb3a9302394}} 
+\index{Eloquent@{Eloquent}!get\+Models@{get\+Models}}
+\index{get\+Models@{get\+Models}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Models()}{getModels()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Models (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the hydrated models without eager loading.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{[}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af06482fd0045347d96e02da15e1bcd2c}\label{class_eloquent_af06482fd0045347d96e02da15e1bcd2c}} 
+\index{Eloquent@{Eloquent}!get\+Processor@{get\+Processor}}
+\index{get\+Processor@{get\+Processor}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Processor()}{getProcessor()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Processor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the database query processor instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a4c4d0601b74e31267f0526b02438e155}\label{class_eloquent_a4c4d0601b74e31267f0526b02438e155}} 
+\index{Eloquent@{Eloquent}!get\+Query@{get\+Query}}
+\index{get\+Query@{get\+Query}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Query()}{getQuery()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the underlying query builder instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0e2f203149983e1293a215f5d010e014}\label{class_eloquent_a0e2f203149983e1293a215f5d010e014}} 
+\index{Eloquent@{Eloquent}!get\+Raw\+Bindings@{get\+Raw\+Bindings}}
+\index{get\+Raw\+Bindings@{get\+Raw\+Bindings}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{get\+Raw\+Bindings()}{getRawBindings()}}
+{\footnotesize\ttfamily static Eloquent\+::get\+Raw\+Bindings (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the raw array of bindings.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aeebb6f260f6d6fd5afab7b02ff15248a}\label{class_eloquent_aeebb6f260f6d6fd5afab7b02ff15248a}} 
+\index{Eloquent@{Eloquent}!group\+By@{group\+By}}
+\index{group\+By@{group\+By}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{group\+By()}{groupBy()}}
+{\footnotesize\ttfamily static Eloquent\+::group\+By (\begin{DoxyParamCaption}\item[{}]{\$groups = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}group by\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$groups} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab786bef6379c67769eee53bb950fd389}\label{class_eloquent_ab786bef6379c67769eee53bb950fd389}} 
+\index{Eloquent@{Eloquent}!has@{has}}
+\index{has@{has}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{has()}{has()}}
+{\footnotesize\ttfamily static Eloquent\+::has (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$operator = {\ttfamily \textquotesingle{}$>$=\textquotesingle{}},  }\item[{}]{\$count = {\ttfamily 1},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$count} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a02e81dba5c768e3cb30a0394d697582a}\label{class_eloquent_a02e81dba5c768e3cb30a0394d697582a}} 
+\index{Eloquent@{Eloquent}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Eloquent\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a1a90ee18a28cc2930fbf1ba43e7a8736}\label{class_eloquent_a1a90ee18a28cc2930fbf1ba43e7a8736}} 
+\index{Eloquent@{Eloquent}!having@{having}}
+\index{having@{having}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{having()}{having()}}
+{\footnotesize\ttfamily static Eloquent\+::having (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}having\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a756265cf9b44ab3d9d63a5364763d9f2}\label{class_eloquent_a756265cf9b44ab3d9d63a5364763d9f2}} 
+\index{Eloquent@{Eloquent}!having\+Raw@{having\+Raw}}
+\index{having\+Raw@{having\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{having\+Raw()}{havingRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::having\+Raw (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$bindings = {\ttfamily array()},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a raw having clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a4898fa742bed182f7ce97fc3301a10b2}\label{class_eloquent_a4898fa742bed182f7ce97fc3301a10b2}} 
+\index{Eloquent@{Eloquent}!hydrate@{hydrate}}
+\index{hydrate@{hydrate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{hydrate()}{hydrate()}}
+{\footnotesize\ttfamily static Eloquent\+::hydrate (\begin{DoxyParamCaption}\item[{}]{\$items }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a collection of models from plain arrays.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$items} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a61e6ba8ce2c591132da5397c88b976b9}\label{class_eloquent_a61e6ba8ce2c591132da5397c88b976b9}} 
+\index{Eloquent@{Eloquent}!implode@{implode}}
+\index{implode@{implode}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{implode()}{implode()}}
+{\footnotesize\ttfamily static Eloquent\+::implode (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$glue = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Concatenate values of a given column as a string.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$glue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a75919dc1a77ec126c2188aa97c890b45}\label{class_eloquent_a75919dc1a77ec126c2188aa97c890b45}} 
+\index{Eloquent@{Eloquent}!in\+Random\+Order@{in\+Random\+Order}}
+\index{in\+Random\+Order@{in\+Random\+Order}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{in\+Random\+Order()}{inRandomOrder()}}
+{\footnotesize\ttfamily static Eloquent\+::in\+Random\+Order (\begin{DoxyParamCaption}\item[{}]{\$seed = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Put the query\textquotesingle{}s results in random order.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$seed} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af7d0fbced37746ae8bd902ef5f68a7ae}\label{class_eloquent_af7d0fbced37746ae8bd902ef5f68a7ae}} 
+\index{Eloquent@{Eloquent}!insert@{insert}}
+\index{insert@{insert}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily static Eloquent\+::insert (\begin{DoxyParamCaption}\item[{}]{\$values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Insert a new record into the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a1844f44a1ce5e328d145034b7536e2ea}\label{class_eloquent_a1844f44a1ce5e328d145034b7536e2ea}} 
+\index{Eloquent@{Eloquent}!insert\+Get\+Id@{insert\+Get\+Id}}
+\index{insert\+Get\+Id@{insert\+Get\+Id}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{insert\+Get\+Id()}{insertGetId()}}
+{\footnotesize\ttfamily static Eloquent\+::insert\+Get\+Id (\begin{DoxyParamCaption}\item[{}]{\$values,  }\item[{}]{\$sequence = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Insert a new record and get the value of the primary key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$values} & \\
+\hline
+string | null & {\em \$sequence} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aa041492793f1023acbce5a83b55b8cca}\label{class_eloquent_aa041492793f1023acbce5a83b55b8cca}} 
+\index{Eloquent@{Eloquent}!join@{join}}
+\index{join@{join}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{join()}{join()}}
+{\footnotesize\ttfamily static Eloquent\+::join (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null},  }\item[{}]{\$type = {\ttfamily \textquotesingle{}inner\textquotesingle{}},  }\item[{}]{\$where = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a join clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+bool & {\em \$where} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae729011c181ac1a0bbf3b1a8b729f4c0}\label{class_eloquent_ae729011c181ac1a0bbf3b1a8b729f4c0}} 
+\index{Eloquent@{Eloquent}!join\+Where@{join\+Where}}
+\index{join\+Where@{join\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{join\+Where()}{joinWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::join\+Where (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator,  }\item[{}]{\$second,  }\item[{}]{\$type = {\ttfamily \textquotesingle{}inner\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}join where\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+string & {\em \$second} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a6ece4c9b56f9334272522c306f283a2f}\label{class_eloquent_a6ece4c9b56f9334272522c306f283a2f}} 
+\index{Eloquent@{Eloquent}!latest@{latest}}
+\index{latest@{latest}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{latest()}{latest()}}
+{\footnotesize\ttfamily static Eloquent\+::latest (\begin{DoxyParamCaption}\item[{}]{\$column = {\ttfamily \textquotesingle{}created\+\_\+at\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}order by\char`\"{} clause for a timestamp to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aca726c1b1d75be9165046973b7fde75a}\label{class_eloquent_aca726c1b1d75be9165046973b7fde75a}} 
+\index{Eloquent@{Eloquent}!left\+Join@{left\+Join}}
+\index{left\+Join@{left\+Join}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{left\+Join()}{leftJoin()}}
+{\footnotesize\ttfamily static Eloquent\+::left\+Join (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a left join to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0028d51e963f25f4e3bc2e8f8595457f}\label{class_eloquent_a0028d51e963f25f4e3bc2e8f8595457f}} 
+\index{Eloquent@{Eloquent}!left\+Join\+Where@{left\+Join\+Where}}
+\index{left\+Join\+Where@{left\+Join\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{left\+Join\+Where()}{leftJoinWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::left\+Join\+Where (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator,  }\item[{}]{\$second }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}join where\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+string & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a4c6d298be10cf541f36b4c50311cd8cc}\label{class_eloquent_a4c6d298be10cf541f36b4c50311cd8cc}} 
+\index{Eloquent@{Eloquent}!limit@{limit}}
+\index{limit@{limit}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{limit()}{limit()}}
+{\footnotesize\ttfamily static Eloquent\+::limit (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the \char`\"{}limit\char`\"{} value of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a99a6223b6ef3008aff9b1d113f67449f}\label{class_eloquent_a99a6223b6ef3008aff9b1d113f67449f}} 
+\index{Eloquent@{Eloquent}!lock@{lock}}
+\index{lock@{lock}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{lock()}{lock()}}
+{\footnotesize\ttfamily static Eloquent\+::lock (\begin{DoxyParamCaption}\item[{}]{\$value = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Lock the selected rows in the table.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | bool & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8424881c1216eeb0bf339b38c713a090}\label{class_eloquent_a8424881c1216eeb0bf339b38c713a090}} 
+\index{Eloquent@{Eloquent}!lock\+For\+Update@{lock\+For\+Update}}
+\index{lock\+For\+Update@{lock\+For\+Update}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{lock\+For\+Update()}{lockForUpdate()}}
+{\footnotesize\ttfamily static Eloquent\+::lock\+For\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Lock the selected rows in the table for updating.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8839c902460bd7744993f61693711cf7}\label{class_eloquent_a8839c902460bd7744993f61693711cf7}} 
+\index{Eloquent@{Eloquent}!macro@{macro}}
+\index{macro@{macro}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Eloquent\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a6afe5c89170eab3d8de7693f741accfa}\label{class_eloquent_a6afe5c89170eab3d8de7693f741accfa}} 
+\index{Eloquent@{Eloquent}!macro\+Call@{macro\+Call}}
+\index{macro\+Call@{macro\+Call}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{macro\+Call()}{macroCall()}}
+{\footnotesize\ttfamily static Eloquent\+::macro\+Call (\begin{DoxyParamCaption}\item[{}]{\$method,  }\item[{}]{\$parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dynamically handle calls to the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+array & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_a9987d6aaba201b36451caaea8065c7e4}\label{class_eloquent_a9987d6aaba201b36451caaea8065c7e4}} 
+\index{Eloquent@{Eloquent}!make@{make}}
+\index{make@{make}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{make()}{make()}}
+{\footnotesize\ttfamily static Eloquent\+::make (\begin{DoxyParamCaption}\item[{}]{\$attributes = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create and return an un-\/saved model instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a74732442e996af19bbb46d839a6fddf3}\label{class_eloquent_a74732442e996af19bbb46d839a6fddf3}} 
+\index{Eloquent@{Eloquent}!max@{max}}
+\index{max@{max}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{max()}{max()}}
+{\footnotesize\ttfamily static Eloquent\+::max (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the maximum value of a given column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a590622affbe9e982b13019733af32012}\label{class_eloquent_a590622affbe9e982b13019733af32012}} 
+\index{Eloquent@{Eloquent}!merge\+Bindings@{merge\+Bindings}}
+\index{merge\+Bindings@{merge\+Bindings}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{merge\+Bindings()}{mergeBindings()}}
+{\footnotesize\ttfamily static Eloquent\+::merge\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Merge an array of bindings into our bindings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder & {\em \$query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a543e7d748eb32bb2b2b526c1519fe3ff}\label{class_eloquent_a543e7d748eb32bb2b2b526c1519fe3ff}} 
+\index{Eloquent@{Eloquent}!merge\+Constraints\+From@{merge\+Constraints\+From}}
+\index{merge\+Constraints\+From@{merge\+Constraints\+From}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{merge\+Constraints\+From()}{mergeConstraintsFrom()}}
+{\footnotesize\ttfamily static Eloquent\+::merge\+Constraints\+From (\begin{DoxyParamCaption}\item[{}]{\$from }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Merge the where constraints from another query to the current query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Builder & {\em \$from} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ad8f6918463427fbcea1a870ec8ffd883}\label{class_eloquent_ad8f6918463427fbcea1a870ec8ffd883}} 
+\index{Eloquent@{Eloquent}!merge\+Wheres@{merge\+Wheres}}
+\index{merge\+Wheres@{merge\+Wheres}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{merge\+Wheres()}{mergeWheres()}}
+{\footnotesize\ttfamily static Eloquent\+::merge\+Wheres (\begin{DoxyParamCaption}\item[{}]{\$wheres,  }\item[{}]{\$bindings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Merge an array of where clauses and bindings.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$wheres} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0c9b274069dc6503f3ac3d7592c7c69d}\label{class_eloquent_a0c9b274069dc6503f3ac3d7592c7c69d}} 
+\index{Eloquent@{Eloquent}!min@{min}}
+\index{min@{min}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{min()}{min()}}
+{\footnotesize\ttfamily static Eloquent\+::min (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the minimum value of a given column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a59e9f5c02a0686de57f66eeb0230df58}\label{class_eloquent_a59e9f5c02a0686de57f66eeb0230df58}} 
+\index{Eloquent@{Eloquent}!mixin@{mixin}}
+\index{mixin@{mixin}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Eloquent\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8526cec0d6d3c0af7baf17035b5bcc9d}\label{class_eloquent_a8526cec0d6d3c0af7baf17035b5bcc9d}} 
+\index{Eloquent@{Eloquent}!new\+Model\+Instance@{new\+Model\+Instance}}
+\index{new\+Model\+Instance@{new\+Model\+Instance}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{new\+Model\+Instance()}{newModelInstance()}}
+{\footnotesize\ttfamily static Eloquent\+::new\+Model\+Instance (\begin{DoxyParamCaption}\item[{}]{\$attributes = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new instance of the model being queried.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae0d141ad31eacf1a97177bb8b1e896e0}\label{class_eloquent_ae0d141ad31eacf1a97177bb8b1e896e0}} 
+\index{Eloquent@{Eloquent}!numeric\+Aggregate@{numeric\+Aggregate}}
+\index{numeric\+Aggregate@{numeric\+Aggregate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{numeric\+Aggregate()}{numericAggregate()}}
+{\footnotesize\ttfamily static Eloquent\+::numeric\+Aggregate (\begin{DoxyParamCaption}\item[{}]{\$function,  }\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute a numeric aggregate function on the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$function} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float$\vert$int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab8f792a4282a6d9fb5897ef7eb066dda}\label{class_eloquent_ab8f792a4282a6d9fb5897ef7eb066dda}} 
+\index{Eloquent@{Eloquent}!offset@{offset}}
+\index{offset@{offset}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{offset()}{offset()}}
+{\footnotesize\ttfamily static Eloquent\+::offset (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the \char`\"{}offset\char`\"{} value of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a3a6232dc598b629da754e20f19a02a81}\label{class_eloquent_a3a6232dc598b629da754e20f19a02a81}} 
+\index{Eloquent@{Eloquent}!oldest@{oldest}}
+\index{oldest@{oldest}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{oldest()}{oldest()}}
+{\footnotesize\ttfamily static Eloquent\+::oldest (\begin{DoxyParamCaption}\item[{}]{\$column = {\ttfamily \textquotesingle{}created\+\_\+at\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}order by\char`\"{} clause for a timestamp to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a41dbb3edd9824b60aa6793e8e4f0d5de}\label{class_eloquent_a41dbb3edd9824b60aa6793e8e4f0d5de}} 
+\index{Eloquent@{Eloquent}!on\+Delete@{on\+Delete}}
+\index{on\+Delete@{on\+Delete}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{on\+Delete()}{onDelete()}}
+{\footnotesize\ttfamily static Eloquent\+::on\+Delete (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a replacement for the default delete function.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a892149342bab8cc0e624dd009c0aaa01}\label{class_eloquent_a892149342bab8cc0e624dd009c0aaa01}} 
+\index{Eloquent@{Eloquent}!order\+By@{order\+By}}
+\index{order\+By@{order\+By}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{order\+By()}{orderBy()}}
+{\footnotesize\ttfamily static Eloquent\+::order\+By (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$direction = {\ttfamily \textquotesingle{}asc\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}order by\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$direction} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af93c2d362571fd37e1e7cf33aa627a0a}\label{class_eloquent_af93c2d362571fd37e1e7cf33aa627a0a}} 
+\index{Eloquent@{Eloquent}!order\+By\+Desc@{order\+By\+Desc}}
+\index{order\+By\+Desc@{order\+By\+Desc}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{order\+By\+Desc()}{orderByDesc()}}
+{\footnotesize\ttfamily static Eloquent\+::order\+By\+Desc (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a descending \char`\"{}order by\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a817e3e9e4221b1bb88b1c5bc57e18c3c}\label{class_eloquent_a817e3e9e4221b1bb88b1c5bc57e18c3c}} 
+\index{Eloquent@{Eloquent}!order\+By\+Raw@{order\+By\+Raw}}
+\index{order\+By\+Raw@{order\+By\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{order\+By\+Raw()}{orderByRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::order\+By\+Raw (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a raw \char`\"{}order by\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a00b0d5adff6b69d4b8eb864d64656a97}\label{class_eloquent_a00b0d5adff6b69d4b8eb864d64656a97}} 
+\index{Eloquent@{Eloquent}!or\+Doesnt\+Have@{or\+Doesnt\+Have}}
+\index{or\+Doesnt\+Have@{or\+Doesnt\+Have}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Doesnt\+Have()}{orDoesntHave()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Doesnt\+Have (\begin{DoxyParamCaption}\item[{}]{\$relation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with an \char`\"{}or\char`\"{}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ab69605000942044dafd16ce8701a8565}\label{class_eloquent_ab69605000942044dafd16ce8701a8565}} 
+\index{Eloquent@{Eloquent}!or\+Has@{or\+Has}}
+\index{or\+Has@{or\+Has}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Has()}{orHas()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Has (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$operator = {\ttfamily \textquotesingle{}$>$=\textquotesingle{}},  }\item[{}]{\$count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with an \char`\"{}or\char`\"{}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$count} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a5dec38cf2c59fd1fd2f1aeba5508e0cc}\label{class_eloquent_a5dec38cf2c59fd1fd2f1aeba5508e0cc}} 
+\index{Eloquent@{Eloquent}!or\+Having@{or\+Having}}
+\index{or\+Having@{or\+Having}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Having()}{orHaving()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Having (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$value = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}or having\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a6fac6b159c4a57120d5a6ac77cbca16c}\label{class_eloquent_a6fac6b159c4a57120d5a6ac77cbca16c}} 
+\index{Eloquent@{Eloquent}!or\+Having\+Raw@{or\+Having\+Raw}}
+\index{or\+Having\+Raw@{or\+Having\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Having\+Raw()}{orHavingRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Having\+Raw (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a raw or having clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a24dd07936a2d5bfa885be38cf82ecb7a}\label{class_eloquent_a24dd07936a2d5bfa885be38cf82ecb7a}} 
+\index{Eloquent@{Eloquent}!or\+Where@{or\+Where}}
+\index{or\+Where@{or\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where()}{orWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$value = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure | array | string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0e1487272eea316ffc9019c50e8aa025}\label{class_eloquent_a0e1487272eea316ffc9019c50e8aa025}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Between@{or\+Where\+Between}}
+\index{or\+Where\+Between@{or\+Where\+Between}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Between()}{orWhereBetween()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Between (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an or where between statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7fb5678acda4390052f891418895762a}\label{class_eloquent_a7fb5678acda4390052f891418895762a}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Column@{or\+Where\+Column}}
+\index{or\+Where\+Column@{or\+Where\+Column}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Column()}{orWhereColumn()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Column (\begin{DoxyParamCaption}\item[{}]{\$first,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where\char`\"{} clause comparing two columns to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abac95061fffa73cb51b275e5ee5fa09a}\label{class_eloquent_abac95061fffa73cb51b275e5ee5fa09a}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Date@{or\+Where\+Date}}
+\index{or\+Where\+Date@{or\+Where\+Date}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Date()}{orWhereDate()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Date (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where date\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+string & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abe51aca19cc993e96f996fa60c1c25e6}\label{class_eloquent_abe51aca19cc993e96f996fa60c1c25e6}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Doesnt\+Have@{or\+Where\+Doesnt\+Have}}
+\index{or\+Where\+Doesnt\+Have@{or\+Where\+Doesnt\+Have}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Doesnt\+Have()}{orWhereDoesntHave()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Doesnt\+Have (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with where clauses and an \char`\"{}or\char`\"{}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a461302857867cda6902c6fcaa9581d67}\label{class_eloquent_a461302857867cda6902c6fcaa9581d67}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Exists@{or\+Where\+Exists}}
+\index{or\+Where\+Exists@{or\+Where\+Exists}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Exists()}{orWhereExists()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Exists (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an or exists clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae47b5731c4d49fc51c418d1b9eda590e}\label{class_eloquent_ae47b5731c4d49fc51c418d1b9eda590e}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Has@{or\+Where\+Has}}
+\index{or\+Where\+Has@{or\+Where\+Has}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Has()}{orWhereHas()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Has (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$callback = {\ttfamily null},  }\item[{}]{\$operator = {\ttfamily \textquotesingle{}$>$=\textquotesingle{}},  }\item[{}]{\$count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with where clauses and an \char`\"{}or\char`\"{}.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$count} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ac49cc6a793b16ab8edc3eb0b91d0c355}\label{class_eloquent_ac49cc6a793b16ab8edc3eb0b91d0c355}} 
+\index{Eloquent@{Eloquent}!or\+Where\+In@{or\+Where\+In}}
+\index{or\+Where\+In@{or\+Where\+In}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+In()}{orWhereIn()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+In (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where in\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+mixed & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a17c4940b6622bb7210567714b237b23a}\label{class_eloquent_a17c4940b6622bb7210567714b237b23a}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Not\+Between@{or\+Where\+Not\+Between}}
+\index{or\+Where\+Not\+Between@{or\+Where\+Not\+Between}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Not\+Between()}{orWhereNotBetween()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Not\+Between (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an or where not between statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0b8b11378bd5bdfcc39a9879a54adacf}\label{class_eloquent_a0b8b11378bd5bdfcc39a9879a54adacf}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Not\+Exists@{or\+Where\+Not\+Exists}}
+\index{or\+Where\+Not\+Exists@{or\+Where\+Not\+Exists}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Not\+Exists()}{orWhereNotExists()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Not\+Exists (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where not exists clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a07382bcdd1d4e66e2440cc1c5f5ba77b}\label{class_eloquent_a07382bcdd1d4e66e2440cc1c5f5ba77b}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Not\+In@{or\+Where\+Not\+In}}
+\index{or\+Where\+Not\+In@{or\+Where\+Not\+In}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Not\+In()}{orWhereNotIn()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Not\+In (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where not in\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+mixed & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0f49fc5796ee0ed0b9d8c8bda60718e4}\label{class_eloquent_a0f49fc5796ee0ed0b9d8c8bda60718e4}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Not\+Null@{or\+Where\+Not\+Null}}
+\index{or\+Where\+Not\+Null@{or\+Where\+Not\+Null}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Not\+Null()}{orWhereNotNull()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Not\+Null (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where not null\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ad05158229fe7106000cde4d97cb07537}\label{class_eloquent_ad05158229fe7106000cde4d97cb07537}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Null@{or\+Where\+Null}}
+\index{or\+Where\+Null@{or\+Where\+Null}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Null()}{orWhereNull()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Null (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where null\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_afbe643f67e54beddea0721074a50093e}\label{class_eloquent_afbe643f67e54beddea0721074a50093e}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Raw@{or\+Where\+Raw}}
+\index{or\+Where\+Raw@{or\+Where\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Raw()}{orWhereRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Raw (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a raw or where clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & \\
+\hline
+mixed & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a00cf4a8d42cc19861a94719dbb5177e4}\label{class_eloquent_a00cf4a8d42cc19861a94719dbb5177e4}} 
+\index{Eloquent@{Eloquent}!or\+Where\+Time@{or\+Where\+Time}}
+\index{or\+Where\+Time@{or\+Where\+Time}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{or\+Where\+Time()}{orWhereTime()}}
+{\footnotesize\ttfamily static Eloquent\+::or\+Where\+Time (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an \char`\"{}or where time\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a772255be01bb78f48d5e817299913aae}\label{class_eloquent_a772255be01bb78f48d5e817299913aae}} 
+\index{Eloquent@{Eloquent}!paginate@{paginate}}
+\index{paginate@{paginate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{paginate()}{paginate()}}
+{\footnotesize\ttfamily static Eloquent\+::paginate (\begin{DoxyParamCaption}\item[{}]{\$per\+Page = {\ttfamily null},  }\item[{}]{\$columns = {\ttfamily array()},  }\item[{}]{\$page\+Name = {\ttfamily \textquotesingle{}page\textquotesingle{}},  }\item[{}]{\$page = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Paginate the given query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$per\+Page} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+string & {\em \$page\+Name} & \\
+\hline
+int | null & {\em \$page} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_afe73f673c6d6d904f677ecb1ab1036ae}\label{class_eloquent_afe73f673c6d6d904f677ecb1ab1036ae}} 
+\index{Eloquent@{Eloquent}!pluck@{pluck}}
+\index{pluck@{pluck}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{pluck()}{pluck()}}
+{\footnotesize\ttfamily static Eloquent\+::pluck (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$key = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an array with the values of a given column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string | null & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a526a8894771e444ed5aa81987eecd3cf}\label{class_eloquent_a526a8894771e444ed5aa81987eecd3cf}} 
+\index{Eloquent@{Eloquent}!raw@{raw}}
+\index{raw@{raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{raw()}{raw()}}
+{\footnotesize\ttfamily static Eloquent\+::raw (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a raw database expression.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a91d9856422b9e0ef6ea89683e6bca894}\label{class_eloquent_a91d9856422b9e0ef6ea89683e6bca894}} 
+\index{Eloquent@{Eloquent}!removed\+Scopes@{removed\+Scopes}}
+\index{removed\+Scopes@{removed\+Scopes}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{removed\+Scopes()}{removedScopes()}}
+{\footnotesize\ttfamily static Eloquent\+::removed\+Scopes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an array of global scopes that were removed from the query.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a523091b2e22ae2ec38c67cea95e6b032}\label{class_eloquent_a523091b2e22ae2ec38c67cea95e6b032}} 
+\index{Eloquent@{Eloquent}!right\+Join@{right\+Join}}
+\index{right\+Join@{right\+Join}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{right\+Join()}{rightJoin()}}
+{\footnotesize\ttfamily static Eloquent\+::right\+Join (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a right join to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7da048e8b8edcf7c9fc154756d95217f}\label{class_eloquent_a7da048e8b8edcf7c9fc154756d95217f}} 
+\index{Eloquent@{Eloquent}!right\+Join\+Where@{right\+Join\+Where}}
+\index{right\+Join\+Where@{right\+Join\+Where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{right\+Join\+Where()}{rightJoinWhere()}}
+{\footnotesize\ttfamily static Eloquent\+::right\+Join\+Where (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$first,  }\item[{}]{\$operator,  }\item[{}]{\$second }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}right join where\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$first} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+string & {\em \$second} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a30187b0aba1d255c83ca54ade893942a}\label{class_eloquent_a30187b0aba1d255c83ca54ade893942a}} 
+\index{Eloquent@{Eloquent}!scopes@{scopes}}
+\index{scopes@{scopes}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{scopes()}{scopes()}}
+{\footnotesize\ttfamily static Eloquent\+::scopes (\begin{DoxyParamCaption}\item[{}]{\$scopes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Call the given local model scopes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$scopes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8e370395d0f8769923458070affe6569}\label{class_eloquent_a8e370395d0f8769923458070affe6569}} 
+\index{Eloquent@{Eloquent}!select@{select}}
+\index{select@{select}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily static Eloquent\+::select (\begin{DoxyParamCaption}\item[{}]{\$columns = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the columns to be selected.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$columns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abaad4d45b5af66399360943de7e06088}\label{class_eloquent_abaad4d45b5af66399360943de7e06088}} 
+\index{Eloquent@{Eloquent}!select\+Raw@{select\+Raw}}
+\index{select\+Raw@{select\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{select\+Raw()}{selectRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::select\+Raw (\begin{DoxyParamCaption}\item[{}]{\$expression,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a new \char`\"{}raw\char`\"{} select expression to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$expression} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af3d3893d466f371ddee0d6ec27fe4346}\label{class_eloquent_af3d3893d466f371ddee0d6ec27fe4346}} 
+\index{Eloquent@{Eloquent}!select\+Sub@{select\+Sub}}
+\index{select\+Sub@{select\+Sub}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{select\+Sub()}{selectSub()}}
+{\footnotesize\ttfamily static Eloquent\+::select\+Sub (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$as }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a subselect expression to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure | \textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder | string & {\em \$query} & \\
+\hline
+string & {\em \$as} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_a3ce121762513ed5de49b13594887f51c}\label{class_eloquent_a3ce121762513ed5de49b13594887f51c}} 
+\index{Eloquent@{Eloquent}!set\+Bindings@{set\+Bindings}}
+\index{set\+Bindings@{set\+Bindings}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{set\+Bindings()}{setBindings()}}
+{\footnotesize\ttfamily static Eloquent\+::set\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$bindings,  }\item[{}]{\$type = {\ttfamily \textquotesingle{}\mbox{\hyperlink{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}{where}}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the bindings on the query builder.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$bindings} & \\
+\hline
+string & {\em \$type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_eloquent_a546bbd87b7916e506cf6d42d80ad0530}\label{class_eloquent_a546bbd87b7916e506cf6d42d80ad0530}} 
+\index{Eloquent@{Eloquent}!set\+Eager\+Loads@{set\+Eager\+Loads}}
+\index{set\+Eager\+Loads@{set\+Eager\+Loads}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{set\+Eager\+Loads()}{setEagerLoads()}}
+{\footnotesize\ttfamily static Eloquent\+::set\+Eager\+Loads (\begin{DoxyParamCaption}\item[{}]{\$eager\+Load }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the relationships being eagerly loaded.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$eager\+Load} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_af58001ac756944267c404a2ebc585cfc}\label{class_eloquent_af58001ac756944267c404a2ebc585cfc}} 
+\index{Eloquent@{Eloquent}!set\+Model@{set\+Model}}
+\index{set\+Model@{set\+Model}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{set\+Model()}{setModel()}}
+{\footnotesize\ttfamily static Eloquent\+::set\+Model (\begin{DoxyParamCaption}\item[{}]{\$model }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set a model instance for the model being queried.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Model & {\em \$model} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a9f643b610f962c2ebc7a56cb6fcc0f71}\label{class_eloquent_a9f643b610f962c2ebc7a56cb6fcc0f71}} 
+\index{Eloquent@{Eloquent}!set\+Query@{set\+Query}}
+\index{set\+Query@{set\+Query}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{set\+Query()}{setQuery()}}
+{\footnotesize\ttfamily static Eloquent\+::set\+Query (\begin{DoxyParamCaption}\item[{}]{\$query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the underlying query builder instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder & {\em \$query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7f299b24133d1b7b5614210b34907801}\label{class_eloquent_a7f299b24133d1b7b5614210b34907801}} 
+\index{Eloquent@{Eloquent}!shared\+Lock@{shared\+Lock}}
+\index{shared\+Lock@{shared\+Lock}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{shared\+Lock()}{sharedLock()}}
+{\footnotesize\ttfamily static Eloquent\+::shared\+Lock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Share lock the selected rows in the table.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a62be57b10fee0b64068fe6ea7ee6f528}\label{class_eloquent_a62be57b10fee0b64068fe6ea7ee6f528}} 
+\index{Eloquent@{Eloquent}!simple\+Paginate@{simple\+Paginate}}
+\index{simple\+Paginate@{simple\+Paginate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{simple\+Paginate()}{simplePaginate()}}
+{\footnotesize\ttfamily static Eloquent\+::simple\+Paginate (\begin{DoxyParamCaption}\item[{}]{\$per\+Page = {\ttfamily null},  }\item[{}]{\$columns = {\ttfamily array()},  }\item[{}]{\$page\+Name = {\ttfamily \textquotesingle{}page\textquotesingle{}},  }\item[{}]{\$page = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Paginate the given query into a simple paginator.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$per\+Page} & \\
+\hline
+array & {\em \$columns} & \\
+\hline
+string & {\em \$page\+Name} & \\
+\hline
+int | null & {\em \$page} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a2fd45cfad88ad5d4d5a2a77920cabfcf}\label{class_eloquent_a2fd45cfad88ad5d4d5a2a77920cabfcf}} 
+\index{Eloquent@{Eloquent}!skip@{skip}}
+\index{skip@{skip}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{skip()}{skip()}}
+{\footnotesize\ttfamily static Eloquent\+::skip (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Alias to set the \char`\"{}offset\char`\"{} value of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a74c6b202fd0d2f82c2dc9a326ab4f8fc}\label{class_eloquent_a74c6b202fd0d2f82c2dc9a326ab4f8fc}} 
+\index{Eloquent@{Eloquent}!sum@{sum}}
+\index{sum@{sum}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily static Eloquent\+::sum (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the sum of the values of a given column.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae3c0357543a8e9d871ca61bf64109793}\label{class_eloquent_ae3c0357543a8e9d871ca61bf64109793}} 
+\index{Eloquent@{Eloquent}!take@{take}}
+\index{take@{take}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{take()}{take()}}
+{\footnotesize\ttfamily static Eloquent\+::take (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Alias to set the \char`\"{}limit\char`\"{} value of the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a0dd65fb10e55398ea958ac8f9a400c5e}\label{class_eloquent_a0dd65fb10e55398ea958ac8f9a400c5e}} 
+\index{Eloquent@{Eloquent}!tap@{tap}}
+\index{tap@{tap}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{tap()}{tap()}}
+{\footnotesize\ttfamily static Eloquent\+::tap (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Pass the query to a given callback.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abc76b992d3cb97247cd15d2d66c6e2d2}\label{class_eloquent_abc76b992d3cb97247cd15d2d66c6e2d2}} 
+\index{Eloquent@{Eloquent}!to\+Base@{to\+Base}}
+\index{to\+Base@{to\+Base}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{to\+Base()}{toBase()}}
+{\footnotesize\ttfamily static Eloquent\+::to\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a base query builder instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ac788e862f43bba3f9d0ff6a13b82774b}\label{class_eloquent_ac788e862f43bba3f9d0ff6a13b82774b}} 
+\index{Eloquent@{Eloquent}!to\+Sql@{to\+Sql}}
+\index{to\+Sql@{to\+Sql}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{to\+Sql()}{toSql()}}
+{\footnotesize\ttfamily static Eloquent\+::to\+Sql (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the S\+QL representation of the query.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a96ac4ef3c15f8420f7517ef3a5c75b8c}\label{class_eloquent_a96ac4ef3c15f8420f7517ef3a5c75b8c}} 
+\index{Eloquent@{Eloquent}!truncate@{truncate}}
+\index{truncate@{truncate}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{truncate()}{truncate()}}
+{\footnotesize\ttfamily static Eloquent\+::truncate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a truncate statement on the table.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a24685bd0575b3a51452944bee875b83c}\label{class_eloquent_a24685bd0575b3a51452944bee875b83c}} 
+\index{Eloquent@{Eloquent}!union@{union}}
+\index{union@{union}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{union()}{union()}}
+{\footnotesize\ttfamily static Eloquent\+::union (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$all = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a union statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder | \textbackslash{}\+Closure & {\em \$query} & \\
+\hline
+bool & {\em \$all} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a7a81a35976fe17001e5a7ffad92f5256}\label{class_eloquent_a7a81a35976fe17001e5a7ffad92f5256}} 
+\index{Eloquent@{Eloquent}!union\+All@{union\+All}}
+\index{union\+All@{union\+All}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{union\+All()}{unionAll()}}
+{\footnotesize\ttfamily static Eloquent\+::union\+All (\begin{DoxyParamCaption}\item[{}]{\$query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a union all statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Builder | \textbackslash{}\+Closure & {\em \$query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_accafe93f07a9d607402021b0c2df2c6e}\label{class_eloquent_accafe93f07a9d607402021b0c2df2c6e}} 
+\index{Eloquent@{Eloquent}!unless@{unless}}
+\index{unless@{unless}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{unless()}{unless()}}
+{\footnotesize\ttfamily static Eloquent\+::unless (\begin{DoxyParamCaption}\item[{}]{\$value,  }\item[{}]{\$callback,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Apply the callback\textquotesingle{}s query changes if the given \char`\"{}value\char`\"{} is false.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+callable & {\em \$callback} & \\
+\hline
+callable & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a215b8431dad0c732d5b8650df9fc1476}\label{class_eloquent_a215b8431dad0c732d5b8650df9fc1476}} 
+\index{Eloquent@{Eloquent}!update\+Or\+Create@{update\+Or\+Create}}
+\index{update\+Or\+Create@{update\+Or\+Create}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{update\+Or\+Create()}{updateOrCreate()}}
+{\footnotesize\ttfamily static Eloquent\+::update\+Or\+Create (\begin{DoxyParamCaption}\item[{}]{\$attributes,  }\item[{}]{\$values = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create or update a record matching the attributes, and fill it with values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a9000a3ec879c46fbd69d07e9818da617}\label{class_eloquent_a9000a3ec879c46fbd69d07e9818da617}} 
+\index{Eloquent@{Eloquent}!update\+Or\+Insert@{update\+Or\+Insert}}
+\index{update\+Or\+Insert@{update\+Or\+Insert}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{update\+Or\+Insert()}{updateOrInsert()}}
+{\footnotesize\ttfamily static Eloquent\+::update\+Or\+Insert (\begin{DoxyParamCaption}\item[{}]{\$attributes,  }\item[{}]{\$values = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Insert or update a record matching the attributes, and fill it with values.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8e99b1a02f0cb83410036aea50c23b24}\label{class_eloquent_a8e99b1a02f0cb83410036aea50c23b24}} 
+\index{Eloquent@{Eloquent}!use\+Write\+Pdo@{use\+Write\+Pdo}}
+\index{use\+Write\+Pdo@{use\+Write\+Pdo}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{use\+Write\+Pdo()}{useWritePdo()}}
+{\footnotesize\ttfamily static Eloquent\+::use\+Write\+Pdo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Use the write pdo for query.
+
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a653061eb837042f61e82447886e15a72}\label{class_eloquent_a653061eb837042f61e82447886e15a72}} 
+\index{Eloquent@{Eloquent}!value@{value}}
+\index{value@{value}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{value()}{value()}}
+{\footnotesize\ttfamily static Eloquent\+::value (\begin{DoxyParamCaption}\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a single column\textquotesingle{}s value from the first result of a query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a72b824dce01f0fa80a87803b42b46ad2}\label{class_eloquent_a72b824dce01f0fa80a87803b42b46ad2}} 
+\index{Eloquent@{Eloquent}!when@{when}}
+\index{when@{when}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{when()}{when()}}
+{\footnotesize\ttfamily static Eloquent\+::when (\begin{DoxyParamCaption}\item[{}]{\$value,  }\item[{}]{\$callback,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Apply the callback\textquotesingle{}s query changes if the given \char`\"{}value\char`\"{} is true.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+callable & {\em \$callback} & \\
+\hline
+callable & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}\label{class_eloquent_a73746da2a8ac07c59c577acde0606d5d}} 
+\index{Eloquent@{Eloquent}!where@{where}}
+\index{where@{where}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where()}{where()}}
+{\footnotesize\ttfamily static Eloquent\+::where (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a basic where clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array | \textbackslash{}\+Closure & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a4fa71165cd2667a557c0125fa3292896}\label{class_eloquent_a4fa71165cd2667a557c0125fa3292896}} 
+\index{Eloquent@{Eloquent}!where\+Between@{where\+Between}}
+\index{where\+Between@{where\+Between}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Between()}{whereBetween()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Between (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where between statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a3bdca7345f418215cb3e48ccea64f8e2}\label{class_eloquent_a3bdca7345f418215cb3e48ccea64f8e2}} 
+\index{Eloquent@{Eloquent}!where\+Column@{where\+Column}}
+\index{where\+Column@{where\+Column}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Column()}{whereColumn()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Column (\begin{DoxyParamCaption}\item[{}]{\$first,  }\item[{}]{\$operator = {\ttfamily null},  }\item[{}]{\$second = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where\char`\"{} clause comparing two columns to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$first} & \\
+\hline
+string | null & {\em \$operator} & \\
+\hline
+string | null & {\em \$second} & \\
+\hline
+string | null & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a5f295e03df6a9022fa12ce9a1607d08d}\label{class_eloquent_a5f295e03df6a9022fa12ce9a1607d08d}} 
+\index{Eloquent@{Eloquent}!where\+Date@{where\+Date}}
+\index{where\+Date@{where\+Date}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Date()}{whereDate()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Date (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where date\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a8442c6da11bda9fe1fad7b412ce48ec9}\label{class_eloquent_a8442c6da11bda9fe1fad7b412ce48ec9}} 
+\index{Eloquent@{Eloquent}!where\+Day@{where\+Day}}
+\index{where\+Day@{where\+Day}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Day()}{whereDay()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Day (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where day\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a71116973df1571c2a9d16aa656957557}\label{class_eloquent_a71116973df1571c2a9d16aa656957557}} 
+\index{Eloquent@{Eloquent}!where\+Doesnt\+Have@{where\+Doesnt\+Have}}
+\index{where\+Doesnt\+Have@{where\+Doesnt\+Have}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Doesnt\+Have()}{whereDoesntHave()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Doesnt\+Have (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with where clauses.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_abe35963f00cb4cbba9c09bf9c7a36881}\label{class_eloquent_abe35963f00cb4cbba9c09bf9c7a36881}} 
+\index{Eloquent@{Eloquent}!where\+Exists@{where\+Exists}}
+\index{where\+Exists@{where\+Exists}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Exists()}{whereExists()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Exists (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add an exists clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a2aa796efce7c1d1140d409b67c06f51d}\label{class_eloquent_a2aa796efce7c1d1140d409b67c06f51d}} 
+\index{Eloquent@{Eloquent}!where\+Has@{where\+Has}}
+\index{where\+Has@{where\+Has}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Has()}{whereHas()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Has (\begin{DoxyParamCaption}\item[{}]{\$relation,  }\item[{}]{\$callback = {\ttfamily null},  }\item[{}]{\$operator = {\ttfamily \textquotesingle{}$>$=\textquotesingle{}},  }\item[{}]{\$count = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a relationship count / exists condition to the query with where clauses.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$relation} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$count} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae4274acd45de3339f0718ad3fa0fea34}\label{class_eloquent_ae4274acd45de3339f0718ad3fa0fea34}} 
+\index{Eloquent@{Eloquent}!where\+In@{where\+In}}
+\index{where\+In@{where\+In}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+In()}{whereIn()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+In (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where in\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+mixed & {\em \$values} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a99288a406c5f9d209b951ea47b09c900}\label{class_eloquent_a99288a406c5f9d209b951ea47b09c900}} 
+\index{Eloquent@{Eloquent}!where\+Key@{where\+Key}}
+\index{where\+Key@{where\+Key}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Key()}{whereKey()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Key (\begin{DoxyParamCaption}\item[{}]{\$id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where clause on the primary key to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aa270e04797f3bcd3e062ddbcbb9df59a}\label{class_eloquent_aa270e04797f3bcd3e062ddbcbb9df59a}} 
+\index{Eloquent@{Eloquent}!where\+Key\+Not@{where\+Key\+Not}}
+\index{where\+Key\+Not@{where\+Key\+Not}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Key\+Not()}{whereKeyNot()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Key\+Not (\begin{DoxyParamCaption}\item[{}]{\$id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where clause on the primary key to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a530752faf5aed57517a152e74eceffd3}\label{class_eloquent_a530752faf5aed57517a152e74eceffd3}} 
+\index{Eloquent@{Eloquent}!where\+Month@{where\+Month}}
+\index{where\+Month@{where\+Month}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Month()}{whereMonth()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Month (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where month\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a1e91f1cb7ebaef1a1dac7aef95a95916}\label{class_eloquent_a1e91f1cb7ebaef1a1dac7aef95a95916}} 
+\index{Eloquent@{Eloquent}!where\+Nested@{where\+Nested}}
+\index{where\+Nested@{where\+Nested}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Nested()}{whereNested()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Nested (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a nested where statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aa337ce79cac3593ee4c6fdf072b3528d}\label{class_eloquent_aa337ce79cac3593ee4c6fdf072b3528d}} 
+\index{Eloquent@{Eloquent}!where\+Not\+Between@{where\+Not\+Between}}
+\index{where\+Not\+Between@{where\+Not\+Between}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Not\+Between()}{whereNotBetween()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Not\+Between (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where not between statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+array & {\em \$values} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aa2b4f08f03816e520e6f55d21ca49c06}\label{class_eloquent_aa2b4f08f03816e520e6f55d21ca49c06}} 
+\index{Eloquent@{Eloquent}!where\+Not\+Exists@{where\+Not\+Exists}}
+\index{where\+Not\+Exists@{where\+Not\+Exists}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Not\+Exists()}{whereNotExists()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Not\+Exists (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a where not exists clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_aea049d383c88e86dc7456fb0aed328f5}\label{class_eloquent_aea049d383c88e86dc7456fb0aed328f5}} 
+\index{Eloquent@{Eloquent}!where\+Not\+In@{where\+Not\+In}}
+\index{where\+Not\+In@{where\+Not\+In}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Not\+In()}{whereNotIn()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Not\+In (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$values,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where not in\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+mixed & {\em \$values} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a16cb0cdb621e7bfeec2cd87af4a224db}\label{class_eloquent_a16cb0cdb621e7bfeec2cd87af4a224db}} 
+\index{Eloquent@{Eloquent}!where\+Not\+Null@{where\+Not\+Null}}
+\index{where\+Not\+Null@{where\+Not\+Null}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Not\+Null()}{whereNotNull()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Not\+Null (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where not null\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ae53f3a49e729b996083e5d835f737e23}\label{class_eloquent_ae53f3a49e729b996083e5d835f737e23}} 
+\index{Eloquent@{Eloquent}!where\+Null@{where\+Null}}
+\index{where\+Null@{where\+Null}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Null()}{whereNull()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Null (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}},  }\item[{}]{\$not = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where null\char`\"{} clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+bool & {\em \$not} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a67c4e71aff7e9c4304516de058845610}\label{class_eloquent_a67c4e71aff7e9c4304516de058845610}} 
+\index{Eloquent@{Eloquent}!where\+Raw@{where\+Raw}}
+\index{where\+Raw@{where\+Raw}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Raw()}{whereRaw()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Raw (\begin{DoxyParamCaption}\item[{}]{\$sql,  }\item[{}]{\$bindings = {\ttfamily array()},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a raw where clause to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$sql} & \\
+\hline
+mixed & {\em \$bindings} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_ac534556e3ff4230a01e36cf6c4131cc7}\label{class_eloquent_ac534556e3ff4230a01e36cf6c4131cc7}} 
+\index{Eloquent@{Eloquent}!where\+Time@{where\+Time}}
+\index{where\+Time@{where\+Time}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Time()}{whereTime()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Time (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value,  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where time\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+int & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a02fd683aa7d0c0159379f8d3b27d5230}\label{class_eloquent_a02fd683aa7d0c0159379f8d3b27d5230}} 
+\index{Eloquent@{Eloquent}!where\+Year@{where\+Year}}
+\index{where\+Year@{where\+Year}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{where\+Year()}{whereYear()}}
+{\footnotesize\ttfamily static Eloquent\+::where\+Year (\begin{DoxyParamCaption}\item[{}]{\$column,  }\item[{}]{\$operator,  }\item[{}]{\$value = {\ttfamily null},  }\item[{}]{\$boolean = {\ttfamily \textquotesingle{}and\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a \char`\"{}where year\char`\"{} statement to the query.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$column} & \\
+\hline
+string & {\em \$operator} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+string & {\em \$boolean} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$static 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a42b7896267dd0cee14d24f21f48ffe71}\label{class_eloquent_a42b7896267dd0cee14d24f21f48ffe71}} 
+\index{Eloquent@{Eloquent}!with\+Count@{with\+Count}}
+\index{with\+Count@{with\+Count}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{with\+Count()}{withCount()}}
+{\footnotesize\ttfamily static Eloquent\+::with\+Count (\begin{DoxyParamCaption}\item[{}]{\$relations }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add subselect queries to count the relations.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$relations} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a061c1fd5ab3d8e4e497f5e96a90d4ae3}\label{class_eloquent_a061c1fd5ab3d8e4e497f5e96a90d4ae3}} 
+\index{Eloquent@{Eloquent}!with\+Global\+Scope@{with\+Global\+Scope}}
+\index{with\+Global\+Scope@{with\+Global\+Scope}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{with\+Global\+Scope()}{withGlobalScope()}}
+{\footnotesize\ttfamily static Eloquent\+::with\+Global\+Scope (\begin{DoxyParamCaption}\item[{}]{\$identifier,  }\item[{}]{\$scope }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new global scope.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$identifier} & \\
+\hline
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Scope | \textbackslash{}\+Closure & {\em \$scope} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a4d5bb95ee2ccbee4d66d20f96e58a2f8}\label{class_eloquent_a4d5bb95ee2ccbee4d66d20f96e58a2f8}} 
+\index{Eloquent@{Eloquent}!without@{without}}
+\index{without@{without}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{without()}{without()}}
+{\footnotesize\ttfamily static Eloquent\+::without (\begin{DoxyParamCaption}\item[{}]{\$relations }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Prevent the specified relations from being eager loaded.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$relations} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a47d5d4f0f7be1ee5db65013ef9b79908}\label{class_eloquent_a47d5d4f0f7be1ee5db65013ef9b79908}} 
+\index{Eloquent@{Eloquent}!without\+Global\+Scope@{without\+Global\+Scope}}
+\index{without\+Global\+Scope@{without\+Global\+Scope}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{without\+Global\+Scope()}{withoutGlobalScope()}}
+{\footnotesize\ttfamily static Eloquent\+::without\+Global\+Scope (\begin{DoxyParamCaption}\item[{}]{\$scope }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove a registered global scope.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Eloquent\textbackslash{}\+Scope | string & {\em \$scope} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_eloquent_a65043ab2772d0ad732a64602fd6c3e2f}\label{class_eloquent_a65043ab2772d0ad732a64602fd6c3e2f}} 
+\index{Eloquent@{Eloquent}!without\+Global\+Scopes@{without\+Global\+Scopes}}
+\index{without\+Global\+Scopes@{without\+Global\+Scopes}!Eloquent@{Eloquent}}
+\subsubsection{\texorpdfstring{without\+Global\+Scopes()}{withoutGlobalScopes()}}
+{\footnotesize\ttfamily static Eloquent\+::without\+Global\+Scopes (\begin{DoxyParamCaption}\item[{}]{\$scopes = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove all or passed registered global scopes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | null & {\em \$scopes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

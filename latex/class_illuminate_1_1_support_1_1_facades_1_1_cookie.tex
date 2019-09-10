@@ -1,0 +1,218 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Cookie Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Cookie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_cookie}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_afd4e81472bf1dcdc75900bef6a35718d}{make}} (\$name, \$value, \$minutes=0, \$path=null, \$domain=null, \$secure=false, \$http\+Only=true, \$raw=false, \$same\+Site=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a8c53563a74ebc6627ff18f490dc188bd}{forever}} (\$name, \$value, \$path=null, \$domain=null, \$secure=false, \$http\+Only=true, \$raw=false, \$same\+Site=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a3e7bf07e1e089ddc3588dc686b61207f}{forget}} (\$name, \$path=null, \$domain=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a044ed9de6b432c56f78571b56b834f57}{has\+Queued}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a49f771a37e7f2ada5d03c132bef166a3}{queued}} (\$key, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae325fe7d454cb2e9beb73b3968aeec50}{queue}} (\$parameters=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a4a30cd4fe0e78ba8debf5ccd1b543923}{unqueue}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ad50ea75cd9b57428c3945e55a42c154b}{set\+Default\+Path\+And\+Domain}} (\$path, \$domain, \$secure=false, \$same\+Site=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae7de7df09b6a05ed10f9d261d8dda31b}{get\+Queued\+Cookies}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a8c53563a74ebc6627ff18f490dc188bd}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a8c53563a74ebc6627ff18f490dc188bd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!forever@{forever}}
+\index{forever@{forever}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{forever()}{forever()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::forever (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$value,  }\item[{}]{\$path = {\ttfamily null},  }\item[{}]{\$domain = {\ttfamily null},  }\item[{}]{\$secure = {\ttfamily false},  }\item[{}]{\$http\+Only = {\ttfamily true},  }\item[{}]{\$raw = {\ttfamily false},  }\item[{}]{\$same\+Site = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a cookie that lasts \char`\"{}forever\char`\"{} (five years).
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$value} & \\
+\hline
+string & {\em \$path} & \\
+\hline
+string & {\em \$domain} & \\
+\hline
+bool & {\em \$secure} & \\
+\hline
+bool & {\em \$http\+Only} & \\
+\hline
+bool & {\em \$raw} & \\
+\hline
+string | null & {\em \$same\+Site} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a3e7bf07e1e089ddc3588dc686b61207f}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a3e7bf07e1e089ddc3588dc686b61207f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!forget@{forget}}
+\index{forget@{forget}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{forget()}{forget()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::forget (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$path = {\ttfamily null},  }\item[{}]{\$domain = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Expire the given cookie.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$path} & \\
+\hline
+string & {\em \$domain} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae7de7df09b6a05ed10f9d261d8dda31b}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae7de7df09b6a05ed10f9d261d8dda31b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!get\+Queued\+Cookies@{get\+Queued\+Cookies}}
+\index{get\+Queued\+Cookies@{get\+Queued\+Cookies}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{get\+Queued\+Cookies()}{getQueuedCookies()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::get\+Queued\+Cookies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the cookies which have been queued for the next request.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a044ed9de6b432c56f78571b56b834f57}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a044ed9de6b432c56f78571b56b834f57}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!has\+Queued@{has\+Queued}}
+\index{has\+Queued@{has\+Queued}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{has\+Queued()}{hasQueued()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::has\+Queued (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if a cookie has been queued.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_afd4e81472bf1dcdc75900bef6a35718d}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_afd4e81472bf1dcdc75900bef6a35718d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!make@{make}}
+\index{make@{make}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{make()}{make()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::make (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$value,  }\item[{}]{\$minutes = {\ttfamily 0},  }\item[{}]{\$path = {\ttfamily null},  }\item[{}]{\$domain = {\ttfamily null},  }\item[{}]{\$secure = {\ttfamily false},  }\item[{}]{\$http\+Only = {\ttfamily true},  }\item[{}]{\$raw = {\ttfamily false},  }\item[{}]{\$same\+Site = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new cookie instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$value} & \\
+\hline
+int & {\em \$minutes} & \\
+\hline
+string & {\em \$path} & \\
+\hline
+string & {\em \$domain} & \\
+\hline
+bool & {\em \$secure} & \\
+\hline
+bool & {\em \$http\+Only} & \\
+\hline
+bool & {\em \$raw} & \\
+\hline
+string | null & {\em \$same\+Site} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae325fe7d454cb2e9beb73b3968aeec50}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ae325fe7d454cb2e9beb73b3968aeec50}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!queue@{queue}}
+\index{queue@{queue}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{queue()}{queue()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::queue (\begin{DoxyParamCaption}\item[{}]{\$parameters = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue}{Queue}} a cookie to send with the next response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a49f771a37e7f2ada5d03c132bef166a3}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a49f771a37e7f2ada5d03c132bef166a3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!queued@{queued}}
+\index{queued@{queued}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{queued()}{queued()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::queued (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a queued cookie instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ad50ea75cd9b57428c3945e55a42c154b}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_ad50ea75cd9b57428c3945e55a42c154b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!set\+Default\+Path\+And\+Domain@{set\+Default\+Path\+And\+Domain}}
+\index{set\+Default\+Path\+And\+Domain@{set\+Default\+Path\+And\+Domain}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{set\+Default\+Path\+And\+Domain()}{setDefaultPathAndDomain()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::set\+Default\+Path\+And\+Domain (\begin{DoxyParamCaption}\item[{}]{\$path,  }\item[{}]{\$domain,  }\item[{}]{\$secure = {\ttfamily false},  }\item[{}]{\$same\+Site = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default path and domain for the jar.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+string & {\em \$domain} & \\
+\hline
+bool & {\em \$secure} & \\
+\hline
+string & {\em \$same\+Site} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a4a30cd4fe0e78ba8debf5ccd1b543923}\label{class_illuminate_1_1_support_1_1_facades_1_1_cookie_a4a30cd4fe0e78ba8debf5ccd1b543923}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}!unqueue@{unqueue}}
+\index{unqueue@{unqueue}!Illuminate\+::\+Support\+::\+Facades\+::\+Cookie@{Illuminate\+::\+Support\+::\+Facades\+::\+Cookie}}
+\subsubsection{\texorpdfstring{unqueue()}{unqueue()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cookie\+::unqueue (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove a cookie from the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

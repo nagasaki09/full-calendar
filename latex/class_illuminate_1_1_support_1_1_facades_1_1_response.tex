@@ -1,0 +1,357 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Response Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_response}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Response\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_response}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_ace4ab69686b08e356cd4305c9c4a5dbf}{make}} (\$content=\textquotesingle{}\textquotesingle{}, \$status=200, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a779627335e2e4bbb7858382cd706c00e}{view}} (\$view, \$data=array(), \$status=200, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a2ea308811b844bd1aa314083c14c8605}{json}} (\$data=array(), \$status=200, \$headers=array(), \$options=0)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_ae3af25f8ecea63cc6d2bbdb3b4faa656}{jsonp}} (\$callback, \$data=array(), \$status=200, \$headers=array(), \$options=0)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_aa2886263a826cf6d6481b5affc009656}{stream}} (\$callback, \$status=200, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a8496fd2c8b9553a89fde5d7b0faefce3}{download}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a0791c3f7a4abd07bc240d6734d9ebbfe}{file}}, \$name=null, \$headers=array(), \$disposition=\textquotesingle{}attachment\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a0791c3f7a4abd07bc240d6734d9ebbfe}{file}} (\$file, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a39a92b65c6598c8e72cf1c9dbad5cad1}{redirect\+To}} (\$path, \$status=302, \$headers=array(), \$secure=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a3c4ceb412071ae0fe5d3fe1ce611a2db}{redirect\+To\+Route}} (\$route, \$parameters=array(), \$status=302, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_af2811d5e6a939fbf613802bf656d9dd4}{redirect\+To\+Action}} (\$action, \$parameters=array(), \$status=302, \$headers=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a73fcb2d662fbc4c5750385e548f7635d}{redirect\+Guest}} (\$path, \$status=302, \$headers=array(), \$secure=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a75f7f05f8a855eac8f76bb0b93d7f6c0}{redirect\+To\+Intended}} (\$default=\textquotesingle{}/\textquotesingle{}, \$status=302, \$headers=array(), \$secure=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_ae12308120a0e244c64181a0111100568}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a6d0c18c89b5227e2e9ccf6a073a549ea}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_response_a83ab61ed5befa2f787536443b466a7f2}{has\+Macro}} (\$name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a8496fd2c8b9553a89fde5d7b0faefce3}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a8496fd2c8b9553a89fde5d7b0faefce3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!download@{download}}
+\index{download@{download}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{download()}{download()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::download (\begin{DoxyParamCaption}\item[{}]{\$file,  }\item[{}]{\$name = {\ttfamily null},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$disposition = {\ttfamily \textquotesingle{}attachment\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new file download response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Spl\+File\+Info | string & {\em \$file} & \\
+\hline
+string & {\em \$name} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+string | null & {\em \$disposition} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a0791c3f7a4abd07bc240d6734d9ebbfe}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a0791c3f7a4abd07bc240d6734d9ebbfe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!file@{file}}
+\index{file@{file}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{file()}{file()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::file (\begin{DoxyParamCaption}\item[{}]{\$file,  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the raw contents of a binary file.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Spl\+File\+Info | string & {\em \$file} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a83ab61ed5befa2f787536443b466a7f2}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a83ab61ed5befa2f787536443b466a7f2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a2ea308811b844bd1aa314083c14c8605}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a2ea308811b844bd1aa314083c14c8605}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!json@{json}}
+\index{json@{json}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{json()}{json()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::json (\begin{DoxyParamCaption}\item[{}]{\$data = {\ttfamily array()},  }\item[{}]{\$status = {\ttfamily 200},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$options = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return a new J\+S\+ON response from the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$data} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+int & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_ae3af25f8ecea63cc6d2bbdb3b4faa656}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_ae3af25f8ecea63cc6d2bbdb3b4faa656}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!jsonp@{jsonp}}
+\index{jsonp@{jsonp}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{jsonp()}{jsonp()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::jsonp (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$data = {\ttfamily array()},  }\item[{}]{\$status = {\ttfamily 200},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$options = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return a new J\+S\+O\+NP response from the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$callback} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+int & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_ae12308120a0e244c64181a0111100568}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_ae12308120a0e244c64181a0111100568}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!macro@{macro}}
+\index{macro@{macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_ace4ab69686b08e356cd4305c9c4a5dbf}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_ace4ab69686b08e356cd4305c9c4a5dbf}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!make@{make}}
+\index{make@{make}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{make()}{make()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::make (\begin{DoxyParamCaption}\item[{}]{\$content = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$status = {\ttfamily 200},  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return a new response from the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$content} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a6d0c18c89b5227e2e9ccf6a073a549ea}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a6d0c18c89b5227e2e9ccf6a073a549ea}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!mixin@{mixin}}
+\index{mixin@{mixin}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a73fcb2d662fbc4c5750385e548f7635d}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a73fcb2d662fbc4c5750385e548f7635d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!redirect\+Guest@{redirect\+Guest}}
+\index{redirect\+Guest@{redirect\+Guest}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{redirect\+Guest()}{redirectGuest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::redirect\+Guest (\begin{DoxyParamCaption}\item[{}]{\$path,  }\item[{}]{\$status = {\ttfamily 302},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$secure = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new redirect response, while putting the current \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_u_r_l}{U\+RL}} in the session.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+bool | null & {\em \$secure} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a39a92b65c6598c8e72cf1c9dbad5cad1}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a39a92b65c6598c8e72cf1c9dbad5cad1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!redirect\+To@{redirect\+To}}
+\index{redirect\+To@{redirect\+To}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{redirect\+To()}{redirectTo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::redirect\+To (\begin{DoxyParamCaption}\item[{}]{\$path,  }\item[{}]{\$status = {\ttfamily 302},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$secure = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new redirect response to the given path.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$path} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+bool | null & {\em \$secure} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_af2811d5e6a939fbf613802bf656d9dd4}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_af2811d5e6a939fbf613802bf656d9dd4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!redirect\+To\+Action@{redirect\+To\+Action}}
+\index{redirect\+To\+Action@{redirect\+To\+Action}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{redirect\+To\+Action()}{redirectToAction()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::redirect\+To\+Action (\begin{DoxyParamCaption}\item[{}]{\$action,  }\item[{}]{\$parameters = {\ttfamily array()},  }\item[{}]{\$status = {\ttfamily 302},  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new redirect response to a controller action.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & \\
+\hline
+array & {\em \$parameters} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a75f7f05f8a855eac8f76bb0b93d7f6c0}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a75f7f05f8a855eac8f76bb0b93d7f6c0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!redirect\+To\+Intended@{redirect\+To\+Intended}}
+\index{redirect\+To\+Intended@{redirect\+To\+Intended}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{redirect\+To\+Intended()}{redirectToIntended()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::redirect\+To\+Intended (\begin{DoxyParamCaption}\item[{}]{\$default = {\ttfamily \textquotesingle{}/\textquotesingle{}},  }\item[{}]{\$status = {\ttfamily 302},  }\item[{}]{\$headers = {\ttfamily array()},  }\item[{}]{\$secure = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new redirect response to the previously intended location.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$default} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+bool | null & {\em \$secure} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a3c4ceb412071ae0fe5d3fe1ce611a2db}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a3c4ceb412071ae0fe5d3fe1ce611a2db}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!redirect\+To\+Route@{redirect\+To\+Route}}
+\index{redirect\+To\+Route@{redirect\+To\+Route}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{redirect\+To\+Route()}{redirectToRoute()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::redirect\+To\+Route (\begin{DoxyParamCaption}\item[{}]{\$route,  }\item[{}]{\$parameters = {\ttfamily array()},  }\item[{}]{\$status = {\ttfamily 302},  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new redirect response to a named route.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$route} & \\
+\hline
+array & {\em \$parameters} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_aa2886263a826cf6d6481b5affc009656}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_aa2886263a826cf6d6481b5affc009656}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!stream@{stream}}
+\index{stream@{stream}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{stream()}{stream()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::stream (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$status = {\ttfamily 200},  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return a new streamed response from the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_response_a779627335e2e4bbb7858382cd706c00e}\label{class_illuminate_1_1_support_1_1_facades_1_1_response_a779627335e2e4bbb7858382cd706c00e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}!view@{view}}
+\index{view@{view}!Illuminate\+::\+Support\+::\+Facades\+::\+Response@{Illuminate\+::\+Support\+::\+Facades\+::\+Response}}
+\subsubsection{\texorpdfstring{view()}{view()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Response\+::view (\begin{DoxyParamCaption}\item[{}]{\$view,  }\item[{}]{\$data = {\ttfamily array()},  }\item[{}]{\$status = {\ttfamily 200},  }\item[{}]{\$headers = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return a new view response from the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$view} & \\
+\hline
+array & {\em \$data} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+array & {\em \$headers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

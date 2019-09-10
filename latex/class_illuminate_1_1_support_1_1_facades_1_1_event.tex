@@ -1,0 +1,284 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Event Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_event}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Event\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_event}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_af6c77b8d45f8a0388c29f575bfec20db}{listen}} (\$events, \$listener)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_af1445f8e4da4a24d97aec517d82923b9}{has\+Listeners}} (\$event\+Name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a92bcef26cffc44eaa728d5a42213b43c}{push}} (\$event, \$payload=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_ae092ef357ca1cb0e7acca1407529f94c}{flush}} (\$event)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_afe5054be218b0935bdf84281f57a8910}{subscribe}} (\$subscriber)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_aa040042f059fbe08c9b936276c70f9cc}{until}} (\$event, \$payload=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a44e799906c5fc88d04fb7859d6a42641}{fire}} (\$event, \$payload=array(), \$halt=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a8807dbfc639e38325c8efbc58bcf97cc}{dispatch}} (\$event, \$payload=array(), \$halt=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a03cc35afaa8327ba99604171c312198e}{get\+Listeners}} (\$event\+Name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a6264ee9533ccc8443b4a892979ad1211}{make\+Listener}} (\$listener, \$wildcard=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a1339e5e820a8d509e50d6787fb145c54}{create\+Class\+Listener}} (\$listener, \$wildcard=false)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_a34e852aad1b68390255dcdb664fcdf13}{forget}} (\$event)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_ad1e8988ddbc72a930b91bb9e30b15c6e}{forget\+Pushed}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_event_af335a488b7fd410572a91b3e60efde50}{set\+Queue\+Resolver}} (\$resolver)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a1339e5e820a8d509e50d6787fb145c54}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a1339e5e820a8d509e50d6787fb145c54}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!create\+Class\+Listener@{create\+Class\+Listener}}
+\index{create\+Class\+Listener@{create\+Class\+Listener}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{create\+Class\+Listener()}{createClassListener()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::create\+Class\+Listener (\begin{DoxyParamCaption}\item[{}]{\$listener,  }\item[{}]{\$wildcard = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a class based listener using the IoC container.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$listener} & \\
+\hline
+bool & {\em \$wildcard} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a8807dbfc639e38325c8efbc58bcf97cc}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a8807dbfc639e38325c8efbc58bcf97cc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!dispatch@{dispatch}}
+\index{dispatch@{dispatch}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{dispatch()}{dispatch()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::dispatch (\begin{DoxyParamCaption}\item[{}]{\$event,  }\item[{}]{\$payload = {\ttfamily array()},  }\item[{}]{\$halt = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fire an event and call the listeners.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | object & {\em \$event} & \\
+\hline
+mixed & {\em \$payload} & \\
+\hline
+bool & {\em \$halt} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a44e799906c5fc88d04fb7859d6a42641}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a44e799906c5fc88d04fb7859d6a42641}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!fire@{fire}}
+\index{fire@{fire}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{fire()}{fire()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::fire (\begin{DoxyParamCaption}\item[{}]{\$event,  }\item[{}]{\$payload = {\ttfamily array()},  }\item[{}]{\$halt = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fire an event and call the listeners.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | object & {\em \$event} & \\
+\hline
+mixed & {\em \$payload} & \\
+\hline
+bool & {\em \$halt} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_ae092ef357ca1cb0e7acca1407529f94c}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_ae092ef357ca1cb0e7acca1407529f94c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!flush@{flush}}
+\index{flush@{flush}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::flush (\begin{DoxyParamCaption}\item[{}]{\$event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Flush a set of pushed events.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a34e852aad1b68390255dcdb664fcdf13}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a34e852aad1b68390255dcdb664fcdf13}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!forget@{forget}}
+\index{forget@{forget}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{forget()}{forget()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::forget (\begin{DoxyParamCaption}\item[{}]{\$event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove a set of listeners from the dispatcher.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_ad1e8988ddbc72a930b91bb9e30b15c6e}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_ad1e8988ddbc72a930b91bb9e30b15c6e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!forget\+Pushed@{forget\+Pushed}}
+\index{forget\+Pushed@{forget\+Pushed}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{forget\+Pushed()}{forgetPushed()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::forget\+Pushed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Forget all of the pushed listeners.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a03cc35afaa8327ba99604171c312198e}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a03cc35afaa8327ba99604171c312198e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!get\+Listeners@{get\+Listeners}}
+\index{get\+Listeners@{get\+Listeners}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{get\+Listeners()}{getListeners()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::get\+Listeners (\begin{DoxyParamCaption}\item[{}]{\$event\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the listeners for a given event name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$event\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_af1445f8e4da4a24d97aec517d82923b9}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_af1445f8e4da4a24d97aec517d82923b9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!has\+Listeners@{has\+Listeners}}
+\index{has\+Listeners@{has\+Listeners}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{has\+Listeners()}{hasListeners()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::has\+Listeners (\begin{DoxyParamCaption}\item[{}]{\$event\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if a given event has listeners.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$event\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_af6c77b8d45f8a0388c29f575bfec20db}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_af6c77b8d45f8a0388c29f575bfec20db}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!listen@{listen}}
+\index{listen@{listen}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::listen (\begin{DoxyParamCaption}\item[{}]{\$events,  }\item[{}]{\$listener }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener with the dispatcher.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | array & {\em \$events} & \\
+\hline
+mixed & {\em \$listener} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a6264ee9533ccc8443b4a892979ad1211}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a6264ee9533ccc8443b4a892979ad1211}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!make\+Listener@{make\+Listener}}
+\index{make\+Listener@{make\+Listener}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{make\+Listener()}{makeListener()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::make\+Listener (\begin{DoxyParamCaption}\item[{}]{\$listener,  }\item[{}]{\$wildcard = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener with the dispatcher.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure | string & {\em \$listener} & \\
+\hline
+bool & {\em \$wildcard} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_a92bcef26cffc44eaa728d5a42213b43c}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_a92bcef26cffc44eaa728d5a42213b43c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!push@{push}}
+\index{push@{push}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::push (\begin{DoxyParamCaption}\item[{}]{\$event,  }\item[{}]{\$payload = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event and payload to be fired later.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$event} & \\
+\hline
+array & {\em \$payload} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_af335a488b7fd410572a91b3e60efde50}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_af335a488b7fd410572a91b3e60efde50}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!set\+Queue\+Resolver@{set\+Queue\+Resolver}}
+\index{set\+Queue\+Resolver@{set\+Queue\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{set\+Queue\+Resolver()}{setQueueResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::set\+Queue\+Resolver (\begin{DoxyParamCaption}\item[{}]{\$resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the queue resolver implementation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable & {\em \$resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_afe5054be218b0935bdf84281f57a8910}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_afe5054be218b0935bdf84281f57a8910}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!subscribe@{subscribe}}
+\index{subscribe@{subscribe}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{subscribe()}{subscribe()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::subscribe (\begin{DoxyParamCaption}\item[{}]{\$subscriber }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event subscriber with the dispatcher.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object | string & {\em \$subscriber} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_event_aa040042f059fbe08c9b936276c70f9cc}\label{class_illuminate_1_1_support_1_1_facades_1_1_event_aa040042f059fbe08c9b936276c70f9cc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}!until@{until}}
+\index{until@{until}!Illuminate\+::\+Support\+::\+Facades\+::\+Event@{Illuminate\+::\+Support\+::\+Facades\+::\+Event}}
+\subsubsection{\texorpdfstring{until()}{until()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Event\+::until (\begin{DoxyParamCaption}\item[{}]{\$event,  }\item[{}]{\$payload = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Fire an event until the first non-\/null response is returned.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | object & {\em \$event} & \\
+\hline
+mixed & {\em \$payload} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array$\vert$null 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

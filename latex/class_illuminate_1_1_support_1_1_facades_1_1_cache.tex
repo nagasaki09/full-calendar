@@ -1,0 +1,834 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Cache Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_cache}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_cache}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a38e0420a18737d8cb49a6338174e58c5}{store}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_afb69f3cc434ae38820079598349e543c}{driver}} (\$driver=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a85e3c1206e480386f4944aea0040b681}{repository}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a38e0420a18737d8cb49a6338174e58c5}{store}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_aefecc75567ab9855d949ddb8eaa434b5}{get\+Default\+Driver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06a08b9ba638eb410c7e209092fa21bc}{set\+Default\+Driver}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7ed3e4ef136849940ce40de0094563ef}{extend}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_afb69f3cc434ae38820079598349e543c}{driver}}, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_af87ff499ffa620f8bf4a7e93571009e8}{has}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a470e91259e64ae2ba44cef45bece6234}{get}} (\$key, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad164c41f53a86d42e3049cefc49cacb9}{many}} (\$keys)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6ad46fca73497fd215a74a7edea74102}{get\+Multiple}} (\$keys, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d755e8df5b565d68fa8fbd88aa25a1a}{pull}} (\$key, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_adda0a194865ce491f1beb2c92b3ab562}{put}} (\$key, \$value, \$minutes=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_aae56ae54487230d52f542ccc1e44b9e0}{set}} (\$key, \$value, \$ttl=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e11599beb3fba7bafc407cdf87b0465}{put\+Many}} (\$values, \$minutes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ae003e01cbfd273316452592dac9899cc}{set\+Multiple}} (\$values, \$ttl=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d3c1ec6a3f551739e6c3b360e48e938}{add}} (\$key, \$value, \$minutes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac922e6a2e98d1e8b294dc4d3988868b8}{increment}} (\$key, \$value=1)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a19a2ac21616577006738d270ebf66d1b}{decrement}} (\$key, \$value=1)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad5857aecf260156120fb7cf288c0ae24}{forever}} (\$key, \$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_aaa1f933dcd2732482b7818feb648fb5c}{remember}} (\$key, \$minutes, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2cd54fc860d738ed8388d33ee8bd05d4}{sear}} (\$key, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e979a52ee4fdab7288c423516151a7a}{remember\+Forever}} (\$key, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a95df8d5b2309d9b776fd3572273730b0}{forget}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6a8c952c13ec741d6ce668652c9d42f9}{delete}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9fbf5c08887ab8fec2eeab94a5ea09c3}{delete\+Multiple}} (\$keys)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9928cda1869d6b3ea92ff1da3783ed36}{clear}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a1d88420b147e30e153a7f22aeefc42a8}{tags}} (\$names)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac00588a31484814762860326d0bd20a1}{get\+Default\+Cache\+Time}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a778dc87a9a89af6e7efcaa6d264d3e4b}{set\+Default\+Cache\+Time}} (\$minutes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a92e60124c2a55214d9692a14bdfa1083}{get\+Store}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_aac5b4b794ac19fbd44e66d46a9e298ba}{set\+Event\+Dispatcher}} (\$events)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06b6deee91c4b1543fca7416885614f2}{offset\+Exists}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac1f18c1895c1879f4759dfadbe63f7df}{offset\+Get}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a51056a380e3d655397251c75bbe34c79}{offset\+Set}} (\$key, \$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a41dc27b1a2a2ab6c69be0550627ebadf}{offset\+Unset}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a55a38c2032c537bbee8835736477e051}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7478b2077250bc5d8e79df6450914e55}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ab77431154c802f667267725a67d81de9}{has\+Macro}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6e137ad51d66f934dd10a880c36f1abb}{macro\+Call}} (\$method, \$parameters)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad105f7d6cd0231543aeb58eea214149f}{flush}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_accbbacb3b8c964be370c343ec31724b2}{get\+Filesystem}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_a24345561ebd16cc82568f5d6dc32d753}{get\+Directory}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache_aafd084ec4353419c5e807c1eac406bb4}{get\+Prefix}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d3c1ec6a3f551739e6c3b360e48e938}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d3c1ec6a3f551739e6c3b360e48e938}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!add@{add}}
+\index{add@{add}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::add (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value,  }\item[{}]{\$minutes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Store an item in the cache if the key does not exist.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | float | int & {\em \$minutes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9928cda1869d6b3ea92ff1da3783ed36}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9928cda1869d6b3ea92ff1da3783ed36}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!clear@{clear}}
+\index{clear@{clear}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Wipes clean the entire cache\textquotesingle{}s keys.
+
+\begin{DoxyReturn}{Returns}
+bool True on success and false on failure. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a19a2ac21616577006738d270ebf66d1b}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a19a2ac21616577006738d270ebf66d1b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!decrement@{decrement}}
+\index{decrement@{decrement}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{decrement()}{decrement()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::decrement (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Decrement the value of an item in the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int$\vert$bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6a8c952c13ec741d6ce668652c9d42f9}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6a8c952c13ec741d6ce668652c9d42f9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!delete@{delete}}
+\index{delete@{delete}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::delete (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Delete an item from the cache by its unique key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & The unique cache key of the item to delete. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if the item was successfully removed. False if there was an error. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9fbf5c08887ab8fec2eeab94a5ea09c3}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a9fbf5c08887ab8fec2eeab94a5ea09c3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!delete\+Multiple@{delete\+Multiple}}
+\index{delete\+Multiple@{delete\+Multiple}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{delete\+Multiple()}{deleteMultiple()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::delete\+Multiple (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Deletes multiple cache items in a single operation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Psr\textbackslash{}\+Simple\+Cache\textbackslash{}iterable & {\em \$keys} & A list of string-\/based keys to be deleted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if the items were successfully removed. False if there was an error. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_afb69f3cc434ae38820079598349e543c}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_afb69f3cc434ae38820079598349e543c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!driver@{driver}}
+\index{driver@{driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{driver()}{driver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::driver (\begin{DoxyParamCaption}\item[{}]{\$driver = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a cache driver instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7ed3e4ef136849940ce40de0094563ef}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7ed3e4ef136849940ce40de0094563ef}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::extend (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom driver creator Closure.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad105f7d6cd0231543aeb58eea214149f}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad105f7d6cd0231543aeb58eea214149f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!flush@{flush}}
+\index{flush@{flush}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::flush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove all items from the cache.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad5857aecf260156120fb7cf288c0ae24}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad5857aecf260156120fb7cf288c0ae24}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!forever@{forever}}
+\index{forever@{forever}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{forever()}{forever()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::forever (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Store an item in the cache indefinitely.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a95df8d5b2309d9b776fd3572273730b0}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a95df8d5b2309d9b776fd3572273730b0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!forget@{forget}}
+\index{forget@{forget}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{forget()}{forget()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::forget (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove an item from the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a470e91259e64ae2ba44cef45bece6234}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a470e91259e64ae2ba44cef45bece6234}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get@{get}}
+\index{get@{get}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve an item from the cache by key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac00588a31484814762860326d0bd20a1}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac00588a31484814762860326d0bd20a1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Default\+Cache\+Time@{get\+Default\+Cache\+Time}}
+\index{get\+Default\+Cache\+Time@{get\+Default\+Cache\+Time}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Default\+Cache\+Time()}{getDefaultCacheTime()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Default\+Cache\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default cache time.
+
+\begin{DoxyReturn}{Returns}
+float$\vert$int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_aefecc75567ab9855d949ddb8eaa434b5}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_aefecc75567ab9855d949ddb8eaa434b5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Default\+Driver@{get\+Default\+Driver}}
+\index{get\+Default\+Driver@{get\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Default\+Driver()}{getDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Default\+Driver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default cache driver name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a24345561ebd16cc82568f5d6dc32d753}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a24345561ebd16cc82568f5d6dc32d753}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Directory@{get\+Directory}}
+\index{get\+Directory@{get\+Directory}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Directory()}{getDirectory()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the working directory of the cache.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_accbbacb3b8c964be370c343ec31724b2}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_accbbacb3b8c964be370c343ec31724b2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Filesystem@{get\+Filesystem}}
+\index{get\+Filesystem@{get\+Filesystem}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Filesystem()}{getFilesystem()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Filesystem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the Filesystem instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6ad46fca73497fd215a74a7edea74102}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6ad46fca73497fd215a74a7edea74102}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Multiple@{get\+Multiple}}
+\index{get\+Multiple@{get\+Multiple}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Multiple()}{getMultiple()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Multiple (\begin{DoxyParamCaption}\item[{}]{\$keys,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Obtains multiple cache items by their unique keys.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Psr\textbackslash{}\+Simple\+Cache\textbackslash{}iterable & {\em \$keys} & A list of keys that can obtained in a single operation. \\
+\hline
+mixed & {\em \$default} & Default value to return for keys that do not exist. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A list of key =$>$ value pairs. \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_cache}{Cache}} keys that do not exist or are stale will have \$default as value. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_aafd084ec4353419c5e807c1eac406bb4}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_aafd084ec4353419c5e807c1eac406bb4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Prefix@{get\+Prefix}}
+\index{get\+Prefix@{get\+Prefix}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Prefix()}{getPrefix()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Prefix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the cache key prefix.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a92e60124c2a55214d9692a14bdfa1083}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a92e60124c2a55214d9692a14bdfa1083}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!get\+Store@{get\+Store}}
+\index{get\+Store@{get\+Store}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{get\+Store()}{getStore()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::get\+Store (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the cache store implementation.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_af87ff499ffa620f8bf4a7e93571009e8}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_af87ff499ffa620f8bf4a7e93571009e8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!has@{has}}
+\index{has@{has}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{has()}{has()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::has (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if an item exists in the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ab77431154c802f667267725a67d81de9}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ab77431154c802f667267725a67d81de9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac922e6a2e98d1e8b294dc4d3988868b8}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac922e6a2e98d1e8b294dc4d3988868b8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!increment@{increment}}
+\index{increment@{increment}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{increment()}{increment()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::increment (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Increment the value of an item in the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int$\vert$bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a55a38c2032c537bbee8835736477e051}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a55a38c2032c537bbee8835736477e051}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!macro@{macro}}
+\index{macro@{macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6e137ad51d66f934dd10a880c36f1abb}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a6e137ad51d66f934dd10a880c36f1abb}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!macro\+Call@{macro\+Call}}
+\index{macro\+Call@{macro\+Call}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{macro\+Call()}{macroCall()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::macro\+Call (\begin{DoxyParamCaption}\item[{}]{\$method,  }\item[{}]{\$parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dynamically handle calls to the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+array & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad164c41f53a86d42e3049cefc49cacb9}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ad164c41f53a86d42e3049cefc49cacb9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!many@{many}}
+\index{many@{many}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{many()}{many()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::many (\begin{DoxyParamCaption}\item[{}]{\$keys }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve multiple items from the cache by key.
+
+Items not found in the cache will have a null value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$keys} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7478b2077250bc5d8e79df6450914e55}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a7478b2077250bc5d8e79df6450914e55}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!mixin@{mixin}}
+\index{mixin@{mixin}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06b6deee91c4b1543fca7416885614f2}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06b6deee91c4b1543fca7416885614f2}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!offset\+Exists@{offset\+Exists}}
+\index{offset\+Exists@{offset\+Exists}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{offset\+Exists()}{offsetExists()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::offset\+Exists (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if a cached value exists.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac1f18c1895c1879f4759dfadbe63f7df}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ac1f18c1895c1879f4759dfadbe63f7df}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!offset\+Get@{offset\+Get}}
+\index{offset\+Get@{offset\+Get}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{offset\+Get()}{offsetGet()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::offset\+Get (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve an item from the cache by key.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a51056a380e3d655397251c75bbe34c79}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a51056a380e3d655397251c75bbe34c79}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!offset\+Set@{offset\+Set}}
+\index{offset\+Set@{offset\+Set}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{offset\+Set()}{offsetSet()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::offset\+Set (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Store an item in the cache for the default time.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a41dc27b1a2a2ab6c69be0550627ebadf}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a41dc27b1a2a2ab6c69be0550627ebadf}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!offset\+Unset@{offset\+Unset}}
+\index{offset\+Unset@{offset\+Unset}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{offset\+Unset()}{offsetUnset()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::offset\+Unset (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Remove an item from the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d755e8df5b565d68fa8fbd88aa25a1a}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a5d755e8df5b565d68fa8fbd88aa25a1a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!pull@{pull}}
+\index{pull@{pull}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{pull()}{pull()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::pull (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve an item from the cache and delete it.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_adda0a194865ce491f1beb2c92b3ab562}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_adda0a194865ce491f1beb2c92b3ab562}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!put@{put}}
+\index{put@{put}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::put (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value,  }\item[{}]{\$minutes = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Store an item in the cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+mixed & {\em \$value} & \\
+\hline
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | float | int & {\em \$minutes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e11599beb3fba7bafc407cdf87b0465}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e11599beb3fba7bafc407cdf87b0465}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!put\+Many@{put\+Many}}
+\index{put\+Many@{put\+Many}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{put\+Many()}{putMany()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::put\+Many (\begin{DoxyParamCaption}\item[{}]{\$values,  }\item[{}]{\$minutes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Store multiple items in the cache for a given number of minutes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$values} & \\
+\hline
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | float | int & {\em \$minutes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_aaa1f933dcd2732482b7818feb648fb5c}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_aaa1f933dcd2732482b7818feb648fb5c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!remember@{remember}}
+\index{remember@{remember}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{remember()}{remember()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::remember (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$minutes,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an item from the cache, or store the default value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | float | int & {\em \$minutes} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e979a52ee4fdab7288c423516151a7a}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2e979a52ee4fdab7288c423516151a7a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!remember\+Forever@{remember\+Forever}}
+\index{remember\+Forever@{remember\+Forever}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{remember\+Forever()}{rememberForever()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::remember\+Forever (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an item from the cache, or store the default value forever.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a85e3c1206e480386f4944aea0040b681}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a85e3c1206e480386f4944aea0040b681}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!repository@{repository}}
+\index{repository@{repository}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{repository()}{repository()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::repository (\begin{DoxyParamCaption}\item[{}]{\$store }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a new cache repository with the given implementation.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Cache\textbackslash{}\+Store & {\em \$store} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2cd54fc860d738ed8388d33ee8bd05d4}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a2cd54fc860d738ed8388d33ee8bd05d4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!sear@{sear}}
+\index{sear@{sear}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{sear()}{sear()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::sear (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an item from the cache, or store the default value forever.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_aae56ae54487230d52f542ccc1e44b9e0}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_aae56ae54487230d52f542ccc1e44b9e0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!set@{set}}
+\index{set@{set}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::set (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$value,  }\item[{}]{\$ttl = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Persists data in the cache, uniquely referenced by a key with an optional expiration T\+TL time.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & The key of the item to store. \\
+\hline
+mixed & {\em \$value} & The value of the item to store, must be serializable. \\
+\hline
+null | int | \textbackslash{}\+Date\+Interval & {\em \$ttl} & Optional. The T\+TL value of this item. If no value is sent and the driver supports T\+TL then the library may set a default value for it or let the driver take care of that. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True on success and false on failure. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a778dc87a9a89af6e7efcaa6d264d3e4b}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a778dc87a9a89af6e7efcaa6d264d3e4b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!set\+Default\+Cache\+Time@{set\+Default\+Cache\+Time}}
+\index{set\+Default\+Cache\+Time@{set\+Default\+Cache\+Time}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{set\+Default\+Cache\+Time()}{setDefaultCacheTime()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::set\+Default\+Cache\+Time (\begin{DoxyParamCaption}\item[{}]{\$minutes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default cache time in minutes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+float | int & {\em \$minutes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06a08b9ba638eb410c7e209092fa21bc}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a06a08b9ba638eb410c7e209092fa21bc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!set\+Default\+Driver@{set\+Default\+Driver}}
+\index{set\+Default\+Driver@{set\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{set\+Default\+Driver()}{setDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::set\+Default\+Driver (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default cache driver name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_aac5b4b794ac19fbd44e66d46a9e298ba}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_aac5b4b794ac19fbd44e66d46a9e298ba}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!set\+Event\+Dispatcher@{set\+Event\+Dispatcher}}
+\index{set\+Event\+Dispatcher@{set\+Event\+Dispatcher}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{set\+Event\+Dispatcher()}{setEventDispatcher()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::set\+Event\+Dispatcher (\begin{DoxyParamCaption}\item[{}]{\$events }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the event dispatcher instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Events\textbackslash{}\+Dispatcher & {\em \$events} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_ae003e01cbfd273316452592dac9899cc}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_ae003e01cbfd273316452592dac9899cc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!set\+Multiple@{set\+Multiple}}
+\index{set\+Multiple@{set\+Multiple}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{set\+Multiple()}{setMultiple()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::set\+Multiple (\begin{DoxyParamCaption}\item[{}]{\$values,  }\item[{}]{\$ttl = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Persists a set of key =$>$ value pairs in the cache, with an optional T\+TL.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Psr\textbackslash{}\+Simple\+Cache\textbackslash{}iterable & {\em \$values} & A list of key =$>$ value pairs for a multiple-\/set operation. \\
+\hline
+null | int | \textbackslash{}\+Date\+Interval & {\em \$ttl} & Optional. The T\+TL value of this item. If no value is sent and the driver supports T\+TL then the library may set a default value for it or let the driver take care of that. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True on success and false on failure. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a38e0420a18737d8cb49a6338174e58c5}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a38e0420a18737d8cb49a6338174e58c5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!store@{store}}
+\index{store@{store}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{store()}{store()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::store (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a cache store instance by name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_cache_a1d88420b147e30e153a7f22aeefc42a8}\label{class_illuminate_1_1_support_1_1_facades_1_1_cache_a1d88420b147e30e153a7f22aeefc42a8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}!tags@{tags}}
+\index{tags@{tags}!Illuminate\+::\+Support\+::\+Facades\+::\+Cache@{Illuminate\+::\+Support\+::\+Facades\+::\+Cache}}
+\subsubsection{\texorpdfstring{tags()}{tags()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Cache\+::tags (\begin{DoxyParamCaption}\item[{}]{\$names }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Begin executing a new tags operation if the store supports it.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | mixed & {\em \$names} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

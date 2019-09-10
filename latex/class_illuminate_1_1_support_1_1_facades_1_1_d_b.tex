@@ -1,0 +1,1190 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}DB Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+DB@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+DB}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}DB\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_d_b}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af4c07501009e8ba9afb48a1521386349}{connection}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad182e19d6511300709463429b3161e46}{purge}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a88b1d08f43661642873618c64b985d1d}{disconnect}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a45a46775e77c12f572548c56dd24b596}{reconnect}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9447726af67bae33284f04df631d3ca5}{get\+Default\+Connection}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a99a188fb854611692a62504154ea6a1c}{set\+Default\+Connection}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abcff492f4356880fa4e19317721715a6}{supported\+Drivers}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aa0ab684056ac5ba028a0c66e9a5c05b6}{available\+Drivers}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af20022f9089afcf294af9c0a6929940f}{extend}} (\$name, \$resolver)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad8ceace824e4fa7e3f0ab8f1af294f10}{get\+Connections}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8788e832eb3fcb8bb10a7a0a9eaa8580}{get\+Schema\+Builder}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a470a17871255d477ada27e71eb6d0da9}{bind\+Values}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe9fe35abfd29aa9bccba94a269c9f25}{statement}}, \$bindings)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3e64a124726e10a0381bc77b9a0a2323}{use\+Default\+Query\+Grammar}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae4493947afc8b41bf2e9588c8a3bf1f7}{use\+Default\+Schema\+Grammar}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab968071b7cebe44a4150e7421be3270d}{use\+Default\+Post\+Processor}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab727b2bb999e68aafe6ddb5ffb6474a}{table}} (\$table)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aba70aca6582e031abf27e5d8fe0a45c7}{select\+One}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array(), \$use\+Read\+Pdo=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab07a028986590a314f1298b4f111768}{select\+From\+Write\+Connection}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5a38160aff9e989f346ceb97d1b765c7}{select}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array(), \$use\+Read\+Pdo=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab1ad06c52c19e7844542f8bfe41ef765}{cursor}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array(), \$use\+Read\+Pdo=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3cb47a35deb04e11508027951e732490}{insert}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a26f6462677e65ac55b2b8b9d59343c9f}{update}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae272dffec731836e5186ff97ac416ffa}{delete}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe9fe35abfd29aa9bccba94a269c9f25}{statement}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ab200d539f4612e0baf5c935b8f73fe}{affecting\+Statement}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2e5507820b20e6d516bcdeb6c48bcc76}{unprepared}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adf2397397250068e4c6b7e9553963283}{pretend}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af5ee6d8571a55e7b07c56d40cfd1e131}{prepare\+Bindings}} (\$bindings)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a638ffe152df52b7d57f27545b9b62696}{log\+Query}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}{query}}, \$bindings, \$time=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8cce2150aaff55e9f96ab589308ef9aa}{listen}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac62a351aae4b9c2bcb266ac28304c147}{raw}} (\$value)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a25de82b576ec5d725caa28f2f121393b}{records\+Have\+Been\+Modified}} (\$value=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3934fcbeb4d850ab6f0f16631d0d64e}{is\+Doctrine\+Available}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adcf6459b45d2f8d7e4dec936776f4a61}{get\+Doctrine\+Column}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab727b2bb999e68aafe6ddb5ffb6474a}{table}}, \$column)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae21d1ea519b88badb605f89d762481f7}{get\+Doctrine\+Schema\+Manager}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8ffa84e16329112f2d4e846889924f6c}{get\+Doctrine\+Connection}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3501e92add7380a83baa4cfdfa7c9ad}{get\+Pdo}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad1896a49c96025d4adf59acd222e2919}{get\+Read\+Pdo}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8605551272521c40410a5d88c8cd859c}{set\+Pdo}} (\$pdo)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2cb0be42acf9aa04a85a4064c4555e95}{set\+Read\+Pdo}} (\$pdo)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab2c074b6ece85279ce8edbc4279d5c1a}{set\+Reconnector}} (\$reconnector)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a61397bc6e365367fefcf35adf2fb9641}{get\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a03c2bdae93ae18ffdffe6bc8bd076a12}{get\+Config}} (\$option=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8d8d4afe3eca7fd32e8c4bfb5468fda4}{get\+Driver\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a82f339b255b77fa638142ccc9b47f155}{get\+Query\+Grammar}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ad919b9b783e4aca37c6a10f9c04f6d}{set\+Query\+Grammar}} (\$grammar)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe52dc2468eb4c844be85421c1363671}{get\+Schema\+Grammar}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad43cad4300f721b01b177987a20b40ea}{set\+Schema\+Grammar}} (\$grammar)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ac3adf5c9525dba15fe714c649ecadc}{get\+Post\+Processor}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a48aba498dabc6974940c6714f14319fa}{set\+Post\+Processor}} (\$processor)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ff6d5acb9beaa2bfdcdc13bec293acb}{get\+Event\+Dispatcher}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_acebeee92ca49435062d1849ba3486eda}{set\+Event\+Dispatcher}} (\$events)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5f51e88132ce508656b20d03b8cdd237}{pretending}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8fc822a5e9a499f19fd9e2d1c4e17bbe}{get\+Query\+Log}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac14e8afef3256b2eb48f7a6a6b85759c}{flush\+Query\+Log}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a62a569b09967a98988e3e8241e92688a}{enable\+Query\+Log}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8425946527ebafc412ad410be1db3bc7}{disable\+Query\+Log}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2457a232d9ccf13ded59a39345635dee}{logging}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a91a05da0ccd778d6b896ec34b2f5f15d}{get\+Database\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a7fbe4bc4cc8a6fcd8bc87d024dc09cd7}{set\+Database\+Name}} (\$database)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9aa67ed692d97343d3d1abf5d40fd52b}{get\+Table\+Prefix}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6eda107e9bd63c513cba9b353d7bfd63}{set\+Table\+Prefix}} (\$prefix)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6f0a757193d06d182a275d5db6508f5e}{with\+Table\+Prefix}} (\$grammar)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a10db5fb30457d640eea8b068d3012141}{resolver\+For}} (\$driver, \$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a098ac61334abaebf74a0c46ed69eb935}{get\+Resolver}} (\$driver)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1d5bf5be3c6dcae5917b448f18ff67a6}{transaction}} (\$callback, \$attempts=1)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae7c00d6d13e51835129058756dc30a6d}{begin\+Transaction}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab0eda4c9662e5437e6bc14ba068b7a19}{commit}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a34ba448ce0e8c6bf4128756ee3a591fe}{roll\+Back}} (\$to\+Level=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a57ef617f66d04d72755eb52f0ec69785}{transaction\+Level}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ab200d539f4612e0baf5c935b8f73fe}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ab200d539f4612e0baf5c935b8f73fe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!affecting\+Statement@{affecting\+Statement}}
+\index{affecting\+Statement@{affecting\+Statement}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{affecting\+Statement()}{affectingStatement()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::affecting\+Statement (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run an S\+QL statement and get the number of rows affected.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aa0ab684056ac5ba028a0c66e9a5c05b6}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aa0ab684056ac5ba028a0c66e9a5c05b6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!available\+Drivers@{available\+Drivers}}
+\index{available\+Drivers@{available\+Drivers}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{available\+Drivers()}{availableDrivers()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::available\+Drivers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the drivers that are actually available.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae7c00d6d13e51835129058756dc30a6d}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae7c00d6d13e51835129058756dc30a6d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!begin\+Transaction@{begin\+Transaction}}
+\index{begin\+Transaction@{begin\+Transaction}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{begin\+Transaction()}{beginTransaction()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::begin\+Transaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Start a new database transaction.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a470a17871255d477ada27e71eb6d0da9}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a470a17871255d477ada27e71eb6d0da9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!bind\+Values@{bind\+Values}}
+\index{bind\+Values@{bind\+Values}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{bind\+Values()}{bindValues()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::bind\+Values (\begin{DoxyParamCaption}\item[{}]{\$statement,  }\item[{}]{\$bindings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Bind values to their parameters in the given statement.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+P\+D\+O\+Statement & {\em \$statement} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab0eda4c9662e5437e6bc14ba068b7a19}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab0eda4c9662e5437e6bc14ba068b7a19}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!commit@{commit}}
+\index{commit@{commit}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{commit()}{commit()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::commit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Commit the active database transaction.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af4c07501009e8ba9afb48a1521386349}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af4c07501009e8ba9afb48a1521386349}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!connection@{connection}}
+\index{connection@{connection}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{connection()}{connection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::connection (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a database connection instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab1ad06c52c19e7844542f8bfe41ef765}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab1ad06c52c19e7844542f8bfe41ef765}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!cursor@{cursor}}
+\index{cursor@{cursor}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{cursor()}{cursor()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::cursor (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()},  }\item[{}]{\$use\+Read\+Pdo = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a select statement against the database and returns a generator.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+bool & {\em \$use\+Read\+Pdo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae272dffec731836e5186ff97ac416ffa}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae272dffec731836e5186ff97ac416ffa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!delete@{delete}}
+\index{delete@{delete}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::delete (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a delete statement against the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8425946527ebafc412ad410be1db3bc7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8425946527ebafc412ad410be1db3bc7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!disable\+Query\+Log@{disable\+Query\+Log}}
+\index{disable\+Query\+Log@{disable\+Query\+Log}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{disable\+Query\+Log()}{disableQueryLog()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::disable\+Query\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Disable the query log on the connection.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a88b1d08f43661642873618c64b985d1d}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a88b1d08f43661642873618c64b985d1d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!disconnect@{disconnect}}
+\index{disconnect@{disconnect}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{disconnect()}{disconnect()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::disconnect (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Disconnect from the given database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a62a569b09967a98988e3e8241e92688a}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a62a569b09967a98988e3e8241e92688a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!enable\+Query\+Log@{enable\+Query\+Log}}
+\index{enable\+Query\+Log@{enable\+Query\+Log}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{enable\+Query\+Log()}{enableQueryLog()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::enable\+Query\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Enable the query log on the connection.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af20022f9089afcf294af9c0a6929940f}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af20022f9089afcf294af9c0a6929940f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::extend (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an extension connection resolver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+callable & {\em \$resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac14e8afef3256b2eb48f7a6a6b85759c}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac14e8afef3256b2eb48f7a6a6b85759c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!flush\+Query\+Log@{flush\+Query\+Log}}
+\index{flush\+Query\+Log@{flush\+Query\+Log}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{flush\+Query\+Log()}{flushQueryLog()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::flush\+Query\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Clear the query log.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a03c2bdae93ae18ffdffe6bc8bd076a12}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a03c2bdae93ae18ffdffe6bc8bd076a12}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Config@{get\+Config}}
+\index{get\+Config@{get\+Config}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Config()}{getConfig()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Config (\begin{DoxyParamCaption}\item[{}]{\$option = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get an option from the configuration options.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | null & {\em \$option} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad8ceace824e4fa7e3f0ab8f1af294f10}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad8ceace824e4fa7e3f0ab8f1af294f10}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Connections@{get\+Connections}}
+\index{get\+Connections@{get\+Connections}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Connections()}{getConnections()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Connections (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return all of the created connections.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a91a05da0ccd778d6b896ec34b2f5f15d}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a91a05da0ccd778d6b896ec34b2f5f15d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Database\+Name@{get\+Database\+Name}}
+\index{get\+Database\+Name@{get\+Database\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Database\+Name()}{getDatabaseName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Database\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the name of the connected database.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9447726af67bae33284f04df631d3ca5}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9447726af67bae33284f04df631d3ca5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Default\+Connection@{get\+Default\+Connection}}
+\index{get\+Default\+Connection@{get\+Default\+Connection}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Default\+Connection()}{getDefaultConnection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Default\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the default connection name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adcf6459b45d2f8d7e4dec936776f4a61}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adcf6459b45d2f8d7e4dec936776f4a61}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Doctrine\+Column@{get\+Doctrine\+Column}}
+\index{get\+Doctrine\+Column@{get\+Doctrine\+Column}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Doctrine\+Column()}{getDoctrineColumn()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Doctrine\+Column (\begin{DoxyParamCaption}\item[{}]{\$table,  }\item[{}]{\$column }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a Doctrine \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_schema}{Schema}} Column instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+string & {\em \$column} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8ffa84e16329112f2d4e846889924f6c}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8ffa84e16329112f2d4e846889924f6c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Doctrine\+Connection@{get\+Doctrine\+Connection}}
+\index{get\+Doctrine\+Connection@{get\+Doctrine\+Connection}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Doctrine\+Connection()}{getDoctrineConnection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Doctrine\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the Doctrine D\+B\+AL database connection instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae21d1ea519b88badb605f89d762481f7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae21d1ea519b88badb605f89d762481f7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Doctrine\+Schema\+Manager@{get\+Doctrine\+Schema\+Manager}}
+\index{get\+Doctrine\+Schema\+Manager@{get\+Doctrine\+Schema\+Manager}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Doctrine\+Schema\+Manager()}{getDoctrineSchemaManager()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Doctrine\+Schema\+Manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the Doctrine D\+B\+AL schema manager for the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8d8d4afe3eca7fd32e8c4bfb5468fda4}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8d8d4afe3eca7fd32e8c4bfb5468fda4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Driver\+Name@{get\+Driver\+Name}}
+\index{get\+Driver\+Name@{get\+Driver\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Driver\+Name()}{getDriverName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Driver\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the P\+DO driver name.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ff6d5acb9beaa2bfdcdc13bec293acb}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1ff6d5acb9beaa2bfdcdc13bec293acb}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Event\+Dispatcher@{get\+Event\+Dispatcher}}
+\index{get\+Event\+Dispatcher@{get\+Event\+Dispatcher}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Event\+Dispatcher()}{getEventDispatcher()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Event\+Dispatcher (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the event dispatcher used by the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a61397bc6e365367fefcf35adf2fb9641}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a61397bc6e365367fefcf35adf2fb9641}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the database connection name.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3501e92add7380a83baa4cfdfa7c9ad}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3501e92add7380a83baa4cfdfa7c9ad}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Pdo@{get\+Pdo}}
+\index{get\+Pdo@{get\+Pdo}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Pdo()}{getPdo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Pdo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current P\+DO connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ac3adf5c9525dba15fe714c649ecadc}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ac3adf5c9525dba15fe714c649ecadc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Post\+Processor@{get\+Post\+Processor}}
+\index{get\+Post\+Processor@{get\+Post\+Processor}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Post\+Processor()}{getPostProcessor()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Post\+Processor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the query post processor used by the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a82f339b255b77fa638142ccc9b47f155}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a82f339b255b77fa638142ccc9b47f155}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Query\+Grammar@{get\+Query\+Grammar}}
+\index{get\+Query\+Grammar@{get\+Query\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Query\+Grammar()}{getQueryGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Query\+Grammar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the query grammar used by the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8fc822a5e9a499f19fd9e2d1c4e17bbe}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8fc822a5e9a499f19fd9e2d1c4e17bbe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Query\+Log@{get\+Query\+Log}}
+\index{get\+Query\+Log@{get\+Query\+Log}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Query\+Log()}{getQueryLog()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Query\+Log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the connection query log.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad1896a49c96025d4adf59acd222e2919}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad1896a49c96025d4adf59acd222e2919}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Read\+Pdo@{get\+Read\+Pdo}}
+\index{get\+Read\+Pdo@{get\+Read\+Pdo}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Read\+Pdo()}{getReadPdo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Read\+Pdo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current P\+DO connection used for reading.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a098ac61334abaebf74a0c46ed69eb935}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a098ac61334abaebf74a0c46ed69eb935}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Resolver@{get\+Resolver}}
+\index{get\+Resolver@{get\+Resolver}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Resolver()}{getResolver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Resolver (\begin{DoxyParamCaption}\item[{}]{\$driver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the connection resolver for the given driver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8788e832eb3fcb8bb10a7a0a9eaa8580}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8788e832eb3fcb8bb10a7a0a9eaa8580}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Schema\+Builder@{get\+Schema\+Builder}}
+\index{get\+Schema\+Builder@{get\+Schema\+Builder}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Schema\+Builder()}{getSchemaBuilder()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Schema\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a schema builder instance for the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe52dc2468eb4c844be85421c1363671}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe52dc2468eb4c844be85421c1363671}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Schema\+Grammar@{get\+Schema\+Grammar}}
+\index{get\+Schema\+Grammar@{get\+Schema\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Schema\+Grammar()}{getSchemaGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Schema\+Grammar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the schema grammar used by the connection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9aa67ed692d97343d3d1abf5d40fd52b}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a9aa67ed692d97343d3d1abf5d40fd52b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!get\+Table\+Prefix@{get\+Table\+Prefix}}
+\index{get\+Table\+Prefix@{get\+Table\+Prefix}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{get\+Table\+Prefix()}{getTablePrefix()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::get\+Table\+Prefix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the table prefix for the connection.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3cb47a35deb04e11508027951e732490}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3cb47a35deb04e11508027951e732490}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!insert@{insert}}
+\index{insert@{insert}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::insert (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run an insert statement against the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3934fcbeb4d850ab6f0f16631d0d64e}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad3934fcbeb4d850ab6f0f16631d0d64e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!is\+Doctrine\+Available@{is\+Doctrine\+Available}}
+\index{is\+Doctrine\+Available@{is\+Doctrine\+Available}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{is\+Doctrine\+Available()}{isDoctrineAvailable()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::is\+Doctrine\+Available (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Is Doctrine available?
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8cce2150aaff55e9f96ab589308ef9aa}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8cce2150aaff55e9f96ab589308ef9aa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!listen@{listen}}
+\index{listen@{listen}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{listen()}{listen()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::listen (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a database query listener with the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2457a232d9ccf13ded59a39345635dee}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2457a232d9ccf13ded59a39345635dee}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!logging@{logging}}
+\index{logging@{logging}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{logging()}{logging()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::logging (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine whether we\textquotesingle{}re logging queries.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a638ffe152df52b7d57f27545b9b62696}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a638ffe152df52b7d57f27545b9b62696}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!log\+Query@{log\+Query}}
+\index{log\+Query@{log\+Query}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{log\+Query()}{logQuery()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::log\+Query (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings,  }\item[{}]{\$time = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_log}{Log}} a query in the connection\textquotesingle{}s query log.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+float | null & {\em \$time} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af5ee6d8571a55e7b07c56d40cfd1e131}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_af5ee6d8571a55e7b07c56d40cfd1e131}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!prepare\+Bindings@{prepare\+Bindings}}
+\index{prepare\+Bindings@{prepare\+Bindings}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{prepare\+Bindings()}{prepareBindings()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::prepare\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$bindings }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Prepare the query bindings for execution.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adf2397397250068e4c6b7e9553963283}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_adf2397397250068e4c6b7e9553963283}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!pretend@{pretend}}
+\index{pretend@{pretend}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{pretend()}{pretend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::pretend (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute the given callback in \char`\"{}dry run\char`\"{} mode.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5f51e88132ce508656b20d03b8cdd237}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5f51e88132ce508656b20d03b8cdd237}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!pretending@{pretending}}
+\index{pretending@{pretending}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{pretending()}{pretending()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::pretending (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the connection in a \char`\"{}dry run\char`\"{}.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad182e19d6511300709463429b3161e46}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad182e19d6511300709463429b3161e46}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!purge@{purge}}
+\index{purge@{purge}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{purge()}{purge()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::purge (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Disconnect from the given database and remove from local cache.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae52c1b74f0ded858ed2dae6342fe5d96}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!query@{query}}
+\index{query@{query}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{query()}{query()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::query (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a new query builder instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac62a351aae4b9c2bcb266ac28304c147}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ac62a351aae4b9c2bcb266ac28304c147}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!raw@{raw}}
+\index{raw@{raw}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{raw()}{raw()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::raw (\begin{DoxyParamCaption}\item[{}]{\$value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a new raw query expression.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a45a46775e77c12f572548c56dd24b596}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a45a46775e77c12f572548c56dd24b596}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!reconnect@{reconnect}}
+\index{reconnect@{reconnect}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{reconnect()}{reconnect()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::reconnect (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Reconnect to the given database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a25de82b576ec5d725caa28f2f121393b}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a25de82b576ec5d725caa28f2f121393b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!records\+Have\+Been\+Modified@{records\+Have\+Been\+Modified}}
+\index{records\+Have\+Been\+Modified@{records\+Have\+Been\+Modified}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{records\+Have\+Been\+Modified()}{recordsHaveBeenModified()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::records\+Have\+Been\+Modified (\begin{DoxyParamCaption}\item[{}]{\$value = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Indicate if any records have been modified.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a10db5fb30457d640eea8b068d3012141}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a10db5fb30457d640eea8b068d3012141}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!resolver\+For@{resolver\+For}}
+\index{resolver\+For@{resolver\+For}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{resolver\+For()}{resolverFor()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::resolver\+For (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a connection resolver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a34ba448ce0e8c6bf4128756ee3a591fe}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a34ba448ce0e8c6bf4128756ee3a591fe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!roll\+Back@{roll\+Back}}
+\index{roll\+Back@{roll\+Back}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{roll\+Back()}{rollBack()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::roll\+Back (\begin{DoxyParamCaption}\item[{}]{\$to\+Level = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Rollback the active database transaction.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int | null & {\em \$to\+Level} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5a38160aff9e989f346ceb97d1b765c7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a5a38160aff9e989f346ceb97d1b765c7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!select@{select}}
+\index{select@{select}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::select (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()},  }\item[{}]{\$use\+Read\+Pdo = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a select statement against the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+bool & {\em \$use\+Read\+Pdo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab07a028986590a314f1298b4f111768}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab07a028986590a314f1298b4f111768}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!select\+From\+Write\+Connection@{select\+From\+Write\+Connection}}
+\index{select\+From\+Write\+Connection@{select\+From\+Write\+Connection}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{select\+From\+Write\+Connection()}{selectFromWriteConnection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::select\+From\+Write\+Connection (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a select statement against the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aba70aca6582e031abf27e5d8fe0a45c7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aba70aca6582e031abf27e5d8fe0a45c7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!select\+One@{select\+One}}
+\index{select\+One@{select\+One}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{select\+One()}{selectOne()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::select\+One (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()},  }\item[{}]{\$use\+Read\+Pdo = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a select statement and return a single result.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+bool & {\em \$use\+Read\+Pdo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a7fbe4bc4cc8a6fcd8bc87d024dc09cd7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a7fbe4bc4cc8a6fcd8bc87d024dc09cd7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Database\+Name@{set\+Database\+Name}}
+\index{set\+Database\+Name@{set\+Database\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Database\+Name()}{setDatabaseName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Database\+Name (\begin{DoxyParamCaption}\item[{}]{\$database }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the name of the connected database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$database} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a99a188fb854611692a62504154ea6a1c}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a99a188fb854611692a62504154ea6a1c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Default\+Connection@{set\+Default\+Connection}}
+\index{set\+Default\+Connection@{set\+Default\+Connection}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Default\+Connection()}{setDefaultConnection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Default\+Connection (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the default connection name.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_acebeee92ca49435062d1849ba3486eda}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_acebeee92ca49435062d1849ba3486eda}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Event\+Dispatcher@{set\+Event\+Dispatcher}}
+\index{set\+Event\+Dispatcher@{set\+Event\+Dispatcher}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Event\+Dispatcher()}{setEventDispatcher()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Event\+Dispatcher (\begin{DoxyParamCaption}\item[{}]{\$events }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the event dispatcher instance on the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Contracts\textbackslash{}\+Events\textbackslash{}\+Dispatcher & {\em \$events} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8605551272521c40410a5d88c8cd859c}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a8605551272521c40410a5d88c8cd859c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Pdo@{set\+Pdo}}
+\index{set\+Pdo@{set\+Pdo}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Pdo()}{setPdo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Pdo (\begin{DoxyParamCaption}\item[{}]{\$pdo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the P\+DO connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+P\+DO | \textbackslash{}\+Closure | null & {\em \$pdo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a48aba498dabc6974940c6714f14319fa}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a48aba498dabc6974940c6714f14319fa}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Post\+Processor@{set\+Post\+Processor}}
+\index{set\+Post\+Processor@{set\+Post\+Processor}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Post\+Processor()}{setPostProcessor()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Post\+Processor (\begin{DoxyParamCaption}\item[{}]{\$processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the query post processor used by the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Processors\textbackslash{}\+Processor & {\em \$processor} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ad919b9b783e4aca37c6a10f9c04f6d}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a0ad919b9b783e4aca37c6a10f9c04f6d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Query\+Grammar@{set\+Query\+Grammar}}
+\index{set\+Query\+Grammar@{set\+Query\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Query\+Grammar()}{setQueryGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Query\+Grammar (\begin{DoxyParamCaption}\item[{}]{\$grammar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the query grammar used by the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Query\textbackslash{}\+Grammars\textbackslash{}\+Grammar & {\em \$grammar} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2cb0be42acf9aa04a85a4064c4555e95}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2cb0be42acf9aa04a85a4064c4555e95}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Read\+Pdo@{set\+Read\+Pdo}}
+\index{set\+Read\+Pdo@{set\+Read\+Pdo}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Read\+Pdo()}{setReadPdo()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Read\+Pdo (\begin{DoxyParamCaption}\item[{}]{\$pdo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the P\+DO connection used for reading.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+P\+DO | \textbackslash{}\+Closure | null & {\em \$pdo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab2c074b6ece85279ce8edbc4279d5c1a}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab2c074b6ece85279ce8edbc4279d5c1a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Reconnector@{set\+Reconnector}}
+\index{set\+Reconnector@{set\+Reconnector}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Reconnector()}{setReconnector()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Reconnector (\begin{DoxyParamCaption}\item[{}]{\$reconnector }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the reconnect instance on the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+callable & {\em \$reconnector} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad43cad4300f721b01b177987a20b40ea}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ad43cad4300f721b01b177987a20b40ea}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Schema\+Grammar@{set\+Schema\+Grammar}}
+\index{set\+Schema\+Grammar@{set\+Schema\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Schema\+Grammar()}{setSchemaGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Schema\+Grammar (\begin{DoxyParamCaption}\item[{}]{\$grammar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the schema grammar used by the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Schema\textbackslash{}\+Grammars\textbackslash{}\+Grammar & {\em \$grammar} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6eda107e9bd63c513cba9b353d7bfd63}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6eda107e9bd63c513cba9b353d7bfd63}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!set\+Table\+Prefix@{set\+Table\+Prefix}}
+\index{set\+Table\+Prefix@{set\+Table\+Prefix}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{set\+Table\+Prefix()}{setTablePrefix()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::set\+Table\+Prefix (\begin{DoxyParamCaption}\item[{}]{\$prefix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the table prefix in use by the connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$prefix} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe9fe35abfd29aa9bccba94a269c9f25}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abe9fe35abfd29aa9bccba94a269c9f25}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!statement@{statement}}
+\index{statement@{statement}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{statement()}{statement()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::statement (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute an S\+QL statement and return the boolean result.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abcff492f4356880fa4e19317721715a6}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_abcff492f4356880fa4e19317721715a6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!supported\+Drivers@{supported\+Drivers}}
+\index{supported\+Drivers@{supported\+Drivers}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{supported\+Drivers()}{supportedDrivers()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::supported\+Drivers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the support drivers.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab727b2bb999e68aafe6ddb5ffb6474a}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_aab727b2bb999e68aafe6ddb5ffb6474a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!table@{table}}
+\index{table@{table}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{table()}{table()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::table (\begin{DoxyParamCaption}\item[{}]{\$table }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Begin a fluent query against a database table.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$table} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1d5bf5be3c6dcae5917b448f18ff67a6}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a1d5bf5be3c6dcae5917b448f18ff67a6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!transaction@{transaction}}
+\index{transaction@{transaction}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{transaction()}{transaction()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::transaction (\begin{DoxyParamCaption}\item[{}]{\$callback,  }\item[{}]{\$attempts = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Execute a Closure within a transaction.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure & {\em \$callback} & \\
+\hline
+int & {\em \$attempts} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a57ef617f66d04d72755eb52f0ec69785}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a57ef617f66d04d72755eb52f0ec69785}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!transaction\+Level@{transaction\+Level}}
+\index{transaction\+Level@{transaction\+Level}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{transaction\+Level()}{transactionLevel()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::transaction\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the number of active transactions.
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2e5507820b20e6d516bcdeb6c48bcc76}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a2e5507820b20e6d516bcdeb6c48bcc76}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!unprepared@{unprepared}}
+\index{unprepared@{unprepared}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{unprepared()}{unprepared()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::unprepared (\begin{DoxyParamCaption}\item[{}]{\$query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run a raw, unprepared query against the P\+DO connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a26f6462677e65ac55b2b8b9d59343c9f}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a26f6462677e65ac55b2b8b9d59343c9f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!update@{update}}
+\index{update@{update}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::update (\begin{DoxyParamCaption}\item[{}]{\$query,  }\item[{}]{\$bindings = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Run an update statement against the database.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$query} & \\
+\hline
+array & {\em \$bindings} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab968071b7cebe44a4150e7421be3270d}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ab968071b7cebe44a4150e7421be3270d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!use\+Default\+Post\+Processor@{use\+Default\+Post\+Processor}}
+\index{use\+Default\+Post\+Processor@{use\+Default\+Post\+Processor}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{use\+Default\+Post\+Processor()}{useDefaultPostProcessor()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::use\+Default\+Post\+Processor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the query post processor to the default implementation.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3e64a124726e10a0381bc77b9a0a2323}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a3e64a124726e10a0381bc77b9a0a2323}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!use\+Default\+Query\+Grammar@{use\+Default\+Query\+Grammar}}
+\index{use\+Default\+Query\+Grammar@{use\+Default\+Query\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{use\+Default\+Query\+Grammar()}{useDefaultQueryGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::use\+Default\+Query\+Grammar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the query grammar to the default implementation.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae4493947afc8b41bf2e9588c8a3bf1f7}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_ae4493947afc8b41bf2e9588c8a3bf1f7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!use\+Default\+Schema\+Grammar@{use\+Default\+Schema\+Grammar}}
+\index{use\+Default\+Schema\+Grammar@{use\+Default\+Schema\+Grammar}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{use\+Default\+Schema\+Grammar()}{useDefaultSchemaGrammar()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::use\+Default\+Schema\+Grammar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the schema grammar to the default implementation.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6f0a757193d06d182a275d5db6508f5e}\label{class_illuminate_1_1_support_1_1_facades_1_1_d_b_a6f0a757193d06d182a275d5db6508f5e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}!with\+Table\+Prefix@{with\+Table\+Prefix}}
+\index{with\+Table\+Prefix@{with\+Table\+Prefix}!Illuminate\+::\+Support\+::\+Facades\+::\+DB@{Illuminate\+::\+Support\+::\+Facades\+::\+DB}}
+\subsubsection{\texorpdfstring{with\+Table\+Prefix()}{withTablePrefix()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+D\+B\+::with\+Table\+Prefix (\begin{DoxyParamCaption}\item[{}]{\$grammar }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the table prefix and return the grammar.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Database\textbackslash{}\+Grammar & {\em \$grammar} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

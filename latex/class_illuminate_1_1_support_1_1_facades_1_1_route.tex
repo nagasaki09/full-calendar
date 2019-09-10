@@ -1,0 +1,1146 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Route Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_route}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Route\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_route}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a39cd5af406f569f04257beadad32f22a}{get}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a3e87a5845aaa31e93fcf49f6c3bb9c0f}{post}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac147418c43c1fde624c9e9ee3a8b97e0}{put}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a07351975af02a62cda512488b3057038}{patch}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a9d7c9d2fb6b52af124f3d0d354048649}{delete}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a56299381f0cc42d0701d1149d6923d6d}{options}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_acd44678d4fb5ef17bad21a70795df5f1}{any}} (\$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a3f0681b90b6ff2207c419498712a7ba4}{fallback}} (\$action)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aabe01372a09b36ba51904a73c2ffa526}{redirect}} (\$uri, \$destination, \$status=301)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a0ad562188e1e8adef7e084599b20fcf3}{view}} (\$uri, \$view, \$data=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a883b4c2ff585ed08b6543af097a9fee0}{match}} (\$methods, \$uri, \$action=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a474685a13bb6afbb588369b5abae1885}{resources}} (\$resources)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a43f06987528f8a3f90ddb29395d93bd0}{resource}} (\$name, \$controller, \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a56299381f0cc42d0701d1149d6923d6d}{options}}=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a870a8af5be97776cb08cd19e7681665b}{api\+Resource}} (\$name, \$controller, \$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a56299381f0cc42d0701d1149d6923d6d}{options}}=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac33b88549eeaaed8325ee4b479a8c132}{group}} (\$attributes, \$routes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a8593864cb4512c462ea6fe2135f97490}{merge\+With\+Last\+Group}} (\$new)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac204f4635943e403474495a26cb4cfb6}{get\+Last\+Group\+Prefix}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac0573684cafafad11cb8fe7c470a766b}{respond\+With\+Route}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a861f30796a663e1d1e8982bc7ff9a8b8}{dispatch}} (\$request)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a22e9a656dbe34e0311a566c90330a3a6}{dispatch\+To\+Route}} (\$request)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ad8d94099c533eb3f93a4fa0884e69716}{gather\+Route\+Middleware}} (\$route)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_adf6831262c25fa426d81fec205559bcd}{prepare\+Response}} (\$request, \$response)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a93f7f1fd6665fa39d529aa12ccbec22e}{to\+Response}} (\$request, \$response)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a2a3e65c09e2e548773a5513ae4e9f9}{substitute\+Bindings}} (\$route)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a8b47baf3e67a44458d5359a653250714}{substitute\+Implicit\+Bindings}} (\$route)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a3bc3b67390be84a837c090d97f8993}{matched}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac8cd393a47c3e27405e140e0b143aec8}{get\+Middleware}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a2303469c734df3248247dc66ec3e6b4f}{alias\+Middleware}} (\$name, \$class)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_abf3af941c9614b377ce6d798aaa671a6}{has\+Middleware\+Group}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a8124e67845527e8c6550543b9859561f}{get\+Middleware\+Groups}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_adc46eb120062bf3a3488ed866b868a63}{middleware\+Group}} (\$name, \$middleware)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a18c9e3d1b6ee2af7b94f2aa2265c0c5c}{prepend\+Middleware\+To\+Group}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac33b88549eeaaed8325ee4b479a8c132}{group}}, \$middleware)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ed4aa5fc4f06f149321abd0671f2176}{push\+Middleware\+To\+Group}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac33b88549eeaaed8325ee4b479a8c132}{group}}, \$middleware)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aa8f9b61452dcd905b61494ea174d4956}{bind}} (\$key, \$binder)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ac98c5b1745935107addfb0fc224a696f}{model}} (\$key, \$class, \$callback=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aa5e004b320250adff27b176fdc14f775}{get\+Binding\+Callback}} (\$key)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a937714eb57fd5cdc4763873eb8f28e45}{get\+Patterns}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a8f488e142dfe7fb74ee7d07876627d98}{pattern}} (\$key, \$pattern)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}{patterns}} (\$patterns)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a79a54acb58c2839bd713b9837fb7df4a}{has\+Group\+Stack}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a82530084fbf4f15035b837ad7f76c885}{get\+Group\+Stack}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ab0ac1edc61bd2c5428d0470857d257b5}{input}} (\$key, \$default=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a2d374f929804e9019f0edbff3b6114b0}{get\+Current\+Request}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a45a22de35b188f7aecb60ea655a6b4ae}{get\+Current\+Route}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aeec1a8e61c2cc8b2c74a809b696f068d}{current}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ab8e83d61a5fa5f28ca782e540d4cb65b}{has}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aa51df157f19235dfa43fe5411466c559}{current\+Route\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a9b5244a7e5f3c63d5793da62a58ba646}{is}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}{patterns}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a6a94528e537e7c79630ee8093c46ef28}{current\+Route\+Named}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}{patterns}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a6ccd7018141278ca72001186a2c60444}{current\+Route\+Action}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_adfbb616bc0fb81bd33b68ea7080444fb}{uses}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}{patterns}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_add49710873dc072055a44e6e78a20eb7}{current\+Route\+Uses}} (\$action)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_ad277eb6383efcee9dcd3ea564b39ad0f}{auth}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a109da236bab9351cc8a449917b32abb7}{singular\+Resource\+Parameters}} (\$singular=true)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a99d41dab6379da413243e2b22c4cb336}{resource\+Parameters}} (\$parameters=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a7e9d53bbab3ce3e9711d0eeb9643dc32}{resource\+Verbs}} (\$verbs=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a8d907c259d15756737cb208e4acbd8a7}{get\+Routes}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a1622d20eba5c59f93b6d28a021439769}{set\+Routes}} (\$routes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_aac6eba2155e061b8cff3a6c073ba9b86}{macro}} (\$name, \$macro)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a2c2a3b5d21f7154bf5f028fc578cb834}{mixin}} (\$mixin)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a57b330e021063745532d1790f82f60fc}{has\+Macro}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route_a5d946c1e8f872ba226464d40ffb1bdb9}{macro\+Call}} (\$method, \$parameters)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a2303469c734df3248247dc66ec3e6b4f}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a2303469c734df3248247dc66ec3e6b4f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!alias\+Middleware@{alias\+Middleware}}
+\index{alias\+Middleware@{alias\+Middleware}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{alias\+Middleware()}{aliasMiddleware()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::alias\+Middleware (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$class }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a short-\/hand name for a middleware.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$class} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_acd44678d4fb5ef17bad21a70795df5f1}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_acd44678d4fb5ef17bad21a70795df5f1}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!any@{any}}
+\index{any@{any}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{any()}{any()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::any (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new route responding to all verbs.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a870a8af5be97776cb08cd19e7681665b}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a870a8af5be97776cb08cd19e7681665b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!api\+Resource@{api\+Resource}}
+\index{api\+Resource@{api\+Resource}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{api\+Resource()}{apiResource()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::api\+Resource (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$controller,  }\item[{}]{\$options = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route}{Route}} an api resource to a controller.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$controller} & \\
+\hline
+array & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ad277eb6383efcee9dcd3ea564b39ad0f}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ad277eb6383efcee9dcd3ea564b39ad0f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!auth@{auth}}
+\index{auth@{auth}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{auth()}{auth()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::auth (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register the typical authentication routes for an application.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aa8f9b61452dcd905b61494ea174d4956}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aa8f9b61452dcd905b61494ea174d4956}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!bind@{bind}}
+\index{bind@{bind}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{bind()}{bind()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::bind (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$binder }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a new route parameter binder.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string | callable & {\em \$binder} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aeec1a8e61c2cc8b2c74a809b696f068d}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aeec1a8e61c2cc8b2c74a809b696f068d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!current@{current}}
+\index{current@{current}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{current()}{current()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::current (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the currently dispatched route instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a6ccd7018141278ca72001186a2c60444}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a6ccd7018141278ca72001186a2c60444}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!current\+Route\+Action@{current\+Route\+Action}}
+\index{current\+Route\+Action@{current\+Route\+Action}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{current\+Route\+Action()}{currentRouteAction()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::current\+Route\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current route action.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aa51df157f19235dfa43fe5411466c559}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aa51df157f19235dfa43fe5411466c559}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!current\+Route\+Name@{current\+Route\+Name}}
+\index{current\+Route\+Name@{current\+Route\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{current\+Route\+Name()}{currentRouteName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::current\+Route\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current route name.
+
+\begin{DoxyReturn}{Returns}
+string$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a6a94528e537e7c79630ee8093c46ef28}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a6a94528e537e7c79630ee8093c46ef28}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!current\+Route\+Named@{current\+Route\+Named}}
+\index{current\+Route\+Named@{current\+Route\+Named}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{current\+Route\+Named()}{currentRouteNamed()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::current\+Route\+Named (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current route matches a pattern.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_add49710873dc072055a44e6e78a20eb7}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_add49710873dc072055a44e6e78a20eb7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!current\+Route\+Uses@{current\+Route\+Uses}}
+\index{current\+Route\+Uses@{current\+Route\+Uses}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{current\+Route\+Uses()}{currentRouteUses()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::current\+Route\+Uses (\begin{DoxyParamCaption}\item[{}]{\$action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the current route action matches a given action.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a9d7c9d2fb6b52af124f3d0d354048649}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a9d7c9d2fb6b52af124f3d0d354048649}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!delete@{delete}}
+\index{delete@{delete}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::delete (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new D\+E\+L\+E\+TE route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a861f30796a663e1d1e8982bc7ff9a8b8}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a861f30796a663e1d1e8982bc7ff9a8b8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!dispatch@{dispatch}}
+\index{dispatch@{dispatch}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{dispatch()}{dispatch()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::dispatch (\begin{DoxyParamCaption}\item[{}]{\$request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dispatch the request to the application.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a22e9a656dbe34e0311a566c90330a3a6}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a22e9a656dbe34e0311a566c90330a3a6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!dispatch\+To\+Route@{dispatch\+To\+Route}}
+\index{dispatch\+To\+Route@{dispatch\+To\+Route}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{dispatch\+To\+Route()}{dispatchToRoute()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::dispatch\+To\+Route (\begin{DoxyParamCaption}\item[{}]{\$request }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dispatch the request to a route and return the response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a3f0681b90b6ff2207c419498712a7ba4}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a3f0681b90b6ff2207c419498712a7ba4}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!fallback@{fallback}}
+\index{fallback@{fallback}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{fallback()}{fallback()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::fallback (\begin{DoxyParamCaption}\item[{}]{\$action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new Fallback route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ad8d94099c533eb3f93a4fa0884e69716}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ad8d94099c533eb3f93a4fa0884e69716}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!gather\+Route\+Middleware@{gather\+Route\+Middleware}}
+\index{gather\+Route\+Middleware@{gather\+Route\+Middleware}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{gather\+Route\+Middleware()}{gatherRouteMiddleware()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::gather\+Route\+Middleware (\begin{DoxyParamCaption}\item[{}]{\$route }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Gather the middleware for the given route with resolved class names.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Routing\textbackslash{}\+Route & {\em \$route} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a39cd5af406f569f04257beadad32f22a}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a39cd5af406f569f04257beadad32f22a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get@{get}}
+\index{get@{get}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new G\+ET route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aa5e004b320250adff27b176fdc14f775}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aa5e004b320250adff27b176fdc14f775}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Binding\+Callback@{get\+Binding\+Callback}}
+\index{get\+Binding\+Callback@{get\+Binding\+Callback}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Binding\+Callback()}{getBindingCallback()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Binding\+Callback (\begin{DoxyParamCaption}\item[{}]{\$key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the binding callback for a given binding.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a2d374f929804e9019f0edbff3b6114b0}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a2d374f929804e9019f0edbff3b6114b0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Current\+Request@{get\+Current\+Request}}
+\index{get\+Current\+Request@{get\+Current\+Request}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Current\+Request()}{getCurrentRequest()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Current\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the request currently being dispatched.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a45a22de35b188f7aecb60ea655a6b4ae}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a45a22de35b188f7aecb60ea655a6b4ae}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Current\+Route@{get\+Current\+Route}}
+\index{get\+Current\+Route@{get\+Current\+Route}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Current\+Route()}{getCurrentRoute()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Current\+Route (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the currently dispatched route instance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a82530084fbf4f15035b837ad7f76c885}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a82530084fbf4f15035b837ad7f76c885}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Group\+Stack@{get\+Group\+Stack}}
+\index{get\+Group\+Stack@{get\+Group\+Stack}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Group\+Stack()}{getGroupStack()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Group\+Stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current group stack for the router.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac204f4635943e403474495a26cb4cfb6}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac204f4635943e403474495a26cb4cfb6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Last\+Group\+Prefix@{get\+Last\+Group\+Prefix}}
+\index{get\+Last\+Group\+Prefix@{get\+Last\+Group\+Prefix}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Last\+Group\+Prefix()}{getLastGroupPrefix()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Last\+Group\+Prefix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the prefix from the last group on the stack.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac8cd393a47c3e27405e140e0b143aec8}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac8cd393a47c3e27405e140e0b143aec8}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Middleware@{get\+Middleware}}
+\index{get\+Middleware@{get\+Middleware}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Middleware()}{getMiddleware()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Middleware (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the defined middleware short-\/hand names.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a8124e67845527e8c6550543b9859561f}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a8124e67845527e8c6550543b9859561f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Middleware\+Groups@{get\+Middleware\+Groups}}
+\index{get\+Middleware\+Groups@{get\+Middleware\+Groups}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Middleware\+Groups()}{getMiddlewareGroups()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Middleware\+Groups (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get all of the defined middleware groups.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a937714eb57fd5cdc4763873eb8f28e45}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a937714eb57fd5cdc4763873eb8f28e45}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Patterns@{get\+Patterns}}
+\index{get\+Patterns@{get\+Patterns}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Patterns()}{getPatterns()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Patterns (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the global \char`\"{}where\char`\"{} patterns.
+
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a8d907c259d15756737cb208e4acbd8a7}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a8d907c259d15756737cb208e4acbd8a7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!get\+Routes@{get\+Routes}}
+\index{get\+Routes@{get\+Routes}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{get\+Routes()}{getRoutes()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::get\+Routes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the underlying route collection.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac33b88549eeaaed8325ee4b479a8c132}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac33b88549eeaaed8325ee4b479a8c132}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!group@{group}}
+\index{group@{group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{group()}{group()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::group (\begin{DoxyParamCaption}\item[{}]{\$attributes,  }\item[{}]{\$routes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a route group with shared attributes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$attributes} & \\
+\hline
+\textbackslash{}\+Closure | string & {\em \$routes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ab8e83d61a5fa5f28ca782e540d4cb65b}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ab8e83d61a5fa5f28ca782e540d4cb65b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!has@{has}}
+\index{has@{has}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{has()}{has()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::has (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check if a route with the given name exists.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a79a54acb58c2839bd713b9837fb7df4a}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a79a54acb58c2839bd713b9837fb7df4a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!has\+Group\+Stack@{has\+Group\+Stack}}
+\index{has\+Group\+Stack@{has\+Group\+Stack}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{has\+Group\+Stack()}{hasGroupStack()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::has\+Group\+Stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the router currently has a group stack.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a57b330e021063745532d1790f82f60fc}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a57b330e021063745532d1790f82f60fc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!has\+Macro@{has\+Macro}}
+\index{has\+Macro@{has\+Macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{has\+Macro()}{hasMacro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::has\+Macro (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Checks if macro is registered.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_abf3af941c9614b377ce6d798aaa671a6}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_abf3af941c9614b377ce6d798aaa671a6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!has\+Middleware\+Group@{has\+Middleware\+Group}}
+\index{has\+Middleware\+Group@{has\+Middleware\+Group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{has\+Middleware\+Group()}{hasMiddlewareGroup()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::has\+Middleware\+Group (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check if a middleware\+Group with the given name exists.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ab0ac1edc61bd2c5428d0470857d257b5}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ab0ac1edc61bd2c5428d0470857d257b5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!input@{input}}
+\index{input@{input}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{input()}{input()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::input (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$default = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a route parameter for the current route.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$default} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a9b5244a7e5f3c63d5793da62a58ba646}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a9b5244a7e5f3c63d5793da62a58ba646}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!is@{is}}
+\index{is@{is}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{is()}{is()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::is (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Alias for the \char`\"{}current\+Route\+Named\char`\"{} method.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aac6eba2155e061b8cff3a6c073ba9b86}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aac6eba2155e061b8cff3a6c073ba9b86}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!macro@{macro}}
+\index{macro@{macro}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{macro()}{macro()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::macro (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$macro }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a custom macro.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+object | callable & {\em \$macro} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a5d946c1e8f872ba226464d40ffb1bdb9}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a5d946c1e8f872ba226464d40ffb1bdb9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!macro\+Call@{macro\+Call}}
+\index{macro\+Call@{macro\+Call}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{macro\+Call()}{macroCall()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::macro\+Call (\begin{DoxyParamCaption}\item[{}]{\$method,  }\item[{}]{\$parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dynamically handle calls to the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$method} & \\
+\hline
+array & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a883b4c2ff585ed08b6543af097a9fee0}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a883b4c2ff585ed08b6543af097a9fee0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!match@{match}}
+\index{match@{match}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{match()}{match()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::match (\begin{DoxyParamCaption}\item[{}]{\$methods,  }\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new route with the given verbs.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array | string & {\em \$methods} & \\
+\hline
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a3bc3b67390be84a837c090d97f8993}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a3bc3b67390be84a837c090d97f8993}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!matched@{matched}}
+\index{matched@{matched}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{matched()}{matched()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::matched (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a route matched event listener.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string | callable & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a8593864cb4512c462ea6fe2135f97490}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a8593864cb4512c462ea6fe2135f97490}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!merge\+With\+Last\+Group@{merge\+With\+Last\+Group}}
+\index{merge\+With\+Last\+Group@{merge\+With\+Last\+Group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{merge\+With\+Last\+Group()}{mergeWithLastGroup()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::merge\+With\+Last\+Group (\begin{DoxyParamCaption}\item[{}]{\$new }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Merge the given array with the last group stack.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$new} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_adc46eb120062bf3a3488ed866b868a63}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_adc46eb120062bf3a3488ed866b868a63}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!middleware\+Group@{middleware\+Group}}
+\index{middleware\+Group@{middleware\+Group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{middleware\+Group()}{middlewareGroup()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::middleware\+Group (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$middleware }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a group of middleware.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+array & {\em \$middleware} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a2c2a3b5d21f7154bf5f028fc578cb834}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a2c2a3b5d21f7154bf5f028fc578cb834}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!mixin@{mixin}}
+\index{mixin@{mixin}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{mixin()}{mixin()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::mixin (\begin{DoxyParamCaption}\item[{}]{\$mixin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Mix another object into the class.
+
+
+\begin{DoxyParams}[1]{Parameters}
+object & {\em \$mixin} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac98c5b1745935107addfb0fc224a696f}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac98c5b1745935107addfb0fc224a696f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!model@{model}}
+\index{model@{model}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{model()}{model()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::model (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$class,  }\item[{}]{\$callback = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a model binder for a wildcard.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$class} & \\
+\hline
+\textbackslash{}\+Closure | null & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a56299381f0cc42d0701d1149d6923d6d}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a56299381f0cc42d0701d1149d6923d6d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!options@{options}}
+\index{options@{options}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{options()}{options()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::options (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new O\+P\+T\+I\+O\+NS route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a07351975af02a62cda512488b3057038}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a07351975af02a62cda512488b3057038}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!patch@{patch}}
+\index{patch@{patch}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{patch()}{patch()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::patch (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new P\+A\+T\+CH route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a8f488e142dfe7fb74ee7d07876627d98}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a8f488e142dfe7fb74ee7d07876627d98}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!pattern@{pattern}}
+\index{pattern@{pattern}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{pattern()}{pattern()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::pattern (\begin{DoxyParamCaption}\item[{}]{\$key,  }\item[{}]{\$pattern }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set a global where pattern on all routes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$key} & \\
+\hline
+string & {\em \$pattern} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ffa318d86f489c77ed7e2ce757e0cd3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!patterns@{patterns}}
+\index{patterns@{patterns}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{patterns()}{patterns()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::patterns (\begin{DoxyParamCaption}\item[{}]{\$patterns }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set a group of global where patterns on all routes.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a3e87a5845aaa31e93fcf49f6c3bb9c0f}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a3e87a5845aaa31e93fcf49f6c3bb9c0f}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!post@{post}}
+\index{post@{post}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{post()}{post()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::post (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new P\+O\+ST route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_adf6831262c25fa426d81fec205559bcd}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_adf6831262c25fa426d81fec205559bcd}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!prepare\+Response@{prepare\+Response}}
+\index{prepare\+Response@{prepare\+Response}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{prepare\+Response()}{prepareResponse()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::prepare\+Response (\begin{DoxyParamCaption}\item[{}]{\$request,  }\item[{}]{\$response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a response instance from the given value.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Symfony\textbackslash{}\+Component\textbackslash{}\+Http\+Foundation\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+mixed & {\em \$response} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a18c9e3d1b6ee2af7b94f2aa2265c0c5c}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a18c9e3d1b6ee2af7b94f2aa2265c0c5c}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!prepend\+Middleware\+To\+Group@{prepend\+Middleware\+To\+Group}}
+\index{prepend\+Middleware\+To\+Group@{prepend\+Middleware\+To\+Group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{prepend\+Middleware\+To\+Group()}{prependMiddlewareToGroup()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::prepend\+Middleware\+To\+Group (\begin{DoxyParamCaption}\item[{}]{\$group,  }\item[{}]{\$middleware }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a middleware to the beginning of a middleware group.
+
+If the middleware is already in the group, it will not be added again.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$group} & \\
+\hline
+string & {\em \$middleware} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ed4aa5fc4f06f149321abd0671f2176}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a5ed4aa5fc4f06f149321abd0671f2176}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!push\+Middleware\+To\+Group@{push\+Middleware\+To\+Group}}
+\index{push\+Middleware\+To\+Group@{push\+Middleware\+To\+Group}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{push\+Middleware\+To\+Group()}{pushMiddlewareToGroup()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::push\+Middleware\+To\+Group (\begin{DoxyParamCaption}\item[{}]{\$group,  }\item[{}]{\$middleware }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a middleware to the end of a middleware group.
+
+If the middleware is already in the group, it will not be added again.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$group} & \\
+\hline
+string & {\em \$middleware} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac147418c43c1fde624c9e9ee3a8b97e0}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac147418c43c1fde624c9e9ee3a8b97e0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!put@{put}}
+\index{put@{put}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::put (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$action = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new P\+UT route with the router.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+\textbackslash{}\+Closure | array | string | null & {\em \$action} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_aabe01372a09b36ba51904a73c2ffa526}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_aabe01372a09b36ba51904a73c2ffa526}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!redirect@{redirect}}
+\index{redirect@{redirect}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{redirect()}{redirect()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::redirect (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$destination,  }\item[{}]{\$status = {\ttfamily 301} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Create a redirect from one U\+RI to another.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+string & {\em \$destination} & \\
+\hline
+int & {\em \$status} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a43f06987528f8a3f90ddb29395d93bd0}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a43f06987528f8a3f90ddb29395d93bd0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!resource@{resource}}
+\index{resource@{resource}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{resource()}{resource()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::resource (\begin{DoxyParamCaption}\item[{}]{\$name,  }\item[{}]{\$controller,  }\item[{}]{\$options = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_route}{Route}} a resource to a controller.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+string & {\em \$controller} & \\
+\hline
+array & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a99d41dab6379da413243e2b22c4cb336}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a99d41dab6379da413243e2b22c4cb336}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!resource\+Parameters@{resource\+Parameters}}
+\index{resource\+Parameters@{resource\+Parameters}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{resource\+Parameters()}{resourceParameters()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::resource\+Parameters (\begin{DoxyParamCaption}\item[{}]{\$parameters = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the global resource parameter mapping.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$parameters} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a474685a13bb6afbb588369b5abae1885}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a474685a13bb6afbb588369b5abae1885}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!resources@{resources}}
+\index{resources@{resources}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{resources()}{resources()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::resources (\begin{DoxyParamCaption}\item[{}]{\$resources }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an array of resource controllers.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$resources} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a7e9d53bbab3ce3e9711d0eeb9643dc32}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a7e9d53bbab3ce3e9711d0eeb9643dc32}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!resource\+Verbs@{resource\+Verbs}}
+\index{resource\+Verbs@{resource\+Verbs}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{resource\+Verbs()}{resourceVerbs()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::resource\+Verbs (\begin{DoxyParamCaption}\item[{}]{\$verbs = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get or set the verbs used in the resource U\+R\+Is.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$verbs} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_ac0573684cafafad11cb8fe7c470a766b}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_ac0573684cafafad11cb8fe7c470a766b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!respond\+With\+Route@{respond\+With\+Route}}
+\index{respond\+With\+Route@{respond\+With\+Route}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{respond\+With\+Route()}{respondWithRoute()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::respond\+With\+Route (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Return the response returned by the given route.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a1622d20eba5c59f93b6d28a021439769}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a1622d20eba5c59f93b6d28a021439769}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!set\+Routes@{set\+Routes}}
+\index{set\+Routes@{set\+Routes}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{set\+Routes()}{setRoutes()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::set\+Routes (\begin{DoxyParamCaption}\item[{}]{\$routes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the route collection instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Routing\textbackslash{}\+Route\+Collection & {\em \$routes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a109da236bab9351cc8a449917b32abb7}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a109da236bab9351cc8a449917b32abb7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!singular\+Resource\+Parameters@{singular\+Resource\+Parameters}}
+\index{singular\+Resource\+Parameters@{singular\+Resource\+Parameters}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{singular\+Resource\+Parameters()}{singularResourceParameters()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::singular\+Resource\+Parameters (\begin{DoxyParamCaption}\item[{}]{\$singular = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the unmapped global resource parameters to singular.
+
+
+\begin{DoxyParams}[1]{Parameters}
+bool & {\em \$singular} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a2a3e65c09e2e548773a5513ae4e9f9}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a5a2a3e65c09e2e548773a5513ae4e9f9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!substitute\+Bindings@{substitute\+Bindings}}
+\index{substitute\+Bindings@{substitute\+Bindings}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{substitute\+Bindings()}{substituteBindings()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::substitute\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$route }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Substitute the route bindings onto the route.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Routing\textbackslash{}\+Route & {\em \$route} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a8b47baf3e67a44458d5359a653250714}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a8b47baf3e67a44458d5359a653250714}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!substitute\+Implicit\+Bindings@{substitute\+Implicit\+Bindings}}
+\index{substitute\+Implicit\+Bindings@{substitute\+Implicit\+Bindings}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{substitute\+Implicit\+Bindings()}{substituteImplicitBindings()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::substitute\+Implicit\+Bindings (\begin{DoxyParamCaption}\item[{}]{\$route }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Substitute the implicit \mbox{\hyperlink{class_eloquent}{Eloquent}} model bindings for the route.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Routing\textbackslash{}\+Route & {\em \$route} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a93f7f1fd6665fa39d529aa12ccbec22e}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a93f7f1fd6665fa39d529aa12ccbec22e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!to\+Response@{to\+Response}}
+\index{to\+Response@{to\+Response}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{to\+Response()}{toResponse()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::to\+Response (\begin{DoxyParamCaption}\item[{}]{\$request,  }\item[{}]{\$response }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Static version of prepare\+Response.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Symfony\textbackslash{}\+Component\textbackslash{}\+Http\+Foundation\textbackslash{}\+Request & {\em \$request} & \\
+\hline
+mixed & {\em \$response} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_adfbb616bc0fb81bd33b68ea7080444fb}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_adfbb616bc0fb81bd33b68ea7080444fb}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!uses@{uses}}
+\index{uses@{uses}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{uses()}{uses()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::uses (\begin{DoxyParamCaption}\item[{}]{\$patterns = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Alias for the \char`\"{}current\+Route\+Uses\char`\"{} method.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$patterns} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_route_a0ad562188e1e8adef7e084599b20fcf3}\label{class_illuminate_1_1_support_1_1_facades_1_1_route_a0ad562188e1e8adef7e084599b20fcf3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}!view@{view}}
+\index{view@{view}!Illuminate\+::\+Support\+::\+Facades\+::\+Route@{Illuminate\+::\+Support\+::\+Facades\+::\+Route}}
+\subsubsection{\texorpdfstring{view()}{view()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Route\+::view (\begin{DoxyParamCaption}\item[{}]{\$uri,  }\item[{}]{\$view,  }\item[{}]{\$data = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register a new route that returns a view.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$uri} & \\
+\hline
+string & {\em \$view} & \\
+\hline
+array & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

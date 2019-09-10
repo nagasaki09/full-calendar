@@ -1,0 +1,152 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Bus Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_bus}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Bus\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_bus}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_af590935cb141b08cecb4a2e3222f9ce9}{dispatch}} (\$command)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_a235f374bf88ac804ee020ae351f3ed0e}{dispatch\+Now}} (\$command, \$handler=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_a9ce6c02e0ce39585a360f85c34c4bc42}{has\+Command\+Handler}} (\$command)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_a4022c67963c0e29af464d885698d2c66}{get\+Command\+Handler}} (\$command)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_a3975eb2e49eabbe74a6c784eb076c925}{dispatch\+To\+Queue}} (\$command)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_ad04e2fde658dcbb3e583365f665c7381}{pipe\+Through}} (\$pipes)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_bus_a944bb1fc82a5d13749d20d31b1da9a9a}{map}} (\$map)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_af590935cb141b08cecb4a2e3222f9ce9}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_af590935cb141b08cecb4a2e3222f9ce9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!dispatch@{dispatch}}
+\index{dispatch@{dispatch}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{dispatch()}{dispatch()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::dispatch (\begin{DoxyParamCaption}\item[{}]{\$command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dispatch a command to its appropriate handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$command} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_a235f374bf88ac804ee020ae351f3ed0e}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_a235f374bf88ac804ee020ae351f3ed0e}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!dispatch\+Now@{dispatch\+Now}}
+\index{dispatch\+Now@{dispatch\+Now}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{dispatch\+Now()}{dispatchNow()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::dispatch\+Now (\begin{DoxyParamCaption}\item[{}]{\$command,  }\item[{}]{\$handler = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dispatch a command to its appropriate handler in the current process.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$command} & \\
+\hline
+mixed & {\em \$handler} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_a3975eb2e49eabbe74a6c784eb076c925}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_a3975eb2e49eabbe74a6c784eb076c925}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!dispatch\+To\+Queue@{dispatch\+To\+Queue}}
+\index{dispatch\+To\+Queue@{dispatch\+To\+Queue}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{dispatch\+To\+Queue()}{dispatchToQueue()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::dispatch\+To\+Queue (\begin{DoxyParamCaption}\item[{}]{\$command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Dispatch a command to its appropriate handler behind a queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$command} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_a4022c67963c0e29af464d885698d2c66}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_a4022c67963c0e29af464d885698d2c66}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!get\+Command\+Handler@{get\+Command\+Handler}}
+\index{get\+Command\+Handler@{get\+Command\+Handler}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{get\+Command\+Handler()}{getCommandHandler()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::get\+Command\+Handler (\begin{DoxyParamCaption}\item[{}]{\$command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Retrieve the handler for a command.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$command} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool$\vert$mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_a9ce6c02e0ce39585a360f85c34c4bc42}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_a9ce6c02e0ce39585a360f85c34c4bc42}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!has\+Command\+Handler@{has\+Command\+Handler}}
+\index{has\+Command\+Handler@{has\+Command\+Handler}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{has\+Command\+Handler()}{hasCommandHandler()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::has\+Command\+Handler (\begin{DoxyParamCaption}\item[{}]{\$command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the given command has a handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$command} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_a944bb1fc82a5d13749d20d31b1da9a9a}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_a944bb1fc82a5d13749d20d31b1da9a9a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!map@{map}}
+\index{map@{map}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{map()}{map()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::map (\begin{DoxyParamCaption}\item[{}]{\$map }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Map a command to a handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$map} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_bus_ad04e2fde658dcbb3e583365f665c7381}\label{class_illuminate_1_1_support_1_1_facades_1_1_bus_ad04e2fde658dcbb3e583365f665c7381}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}!pipe\+Through@{pipe\+Through}}
+\index{pipe\+Through@{pipe\+Through}!Illuminate\+::\+Support\+::\+Facades\+::\+Bus@{Illuminate\+::\+Support\+::\+Facades\+::\+Bus}}
+\subsubsection{\texorpdfstring{pipe\+Through()}{pipeThrough()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Bus\+::pipe\+Through (\begin{DoxyParamCaption}\item[{}]{\$pipes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the pipes through which commands should be piped before dispatching.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$pipes} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,509 @@
+\hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue}{}\section{Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Queue Class Reference}
+\label{class_illuminate_1_1_support_1_1_facades_1_1_queue}\index{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue@{Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue}}
+Inheritance diagram for Illuminate\textbackslash{}Support\textbackslash{}Facades\textbackslash{}Queue\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_illuminate_1_1_support_1_1_facades_1_1_queue}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a98b4d092f13b6ad01c075f2790c15b40}{before}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_ab9c41644bd797b45622ab16eb93154f6}{after}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_aa9660b4de41a9ebb4f7dd26c8071a6da}{exception\+Occurred}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a30bd51b47c8eea09ab5b11261c45efef}{looping}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad643d2fc351875a68b8327d3717eb514}{failing}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_af1dce728ca2ce292a6034d11bbd067a9}{stopping}} (\$callback)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f3205c731d192e78c749b4a586f9c48}{connected}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_ac72dcbbe7e5f6b8366c31c30881af7fe}{connection}} (\$name=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad95bc43c71e4d5191be6bfa129fe4170}{extend}} (\$driver, \$resolver)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a042f522a7874b4464d8756bf4d351501}{add\+Connector}} (\$driver, \$resolver)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8146531a36a958787fac1ea14f54bdd3}{get\+Default\+Driver}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a09145f9150bdb92fd6dbcc95511089b5}{set\+Default\+Driver}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a86e8629ef502a46f0a4c9255e740b550}{get\+Name}} (\$\mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_ac72dcbbe7e5f6b8366c31c30881af7fe}{connection}}=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a07ac76a4da451f5a76cfe17ea32bccd0}{is\+Down\+For\+Maintenance}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0a67d96dfa53c28ed1f46e5bc9b99133}{size}} (\$queue=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a089d965181938d50eb14b2b02b13000d}{push}} (\$job, \$data=\textquotesingle{}\textquotesingle{}, \$queue=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_aad2749d558a9aa33ca546fe14698fc0b}{push\+Raw}} (\$payload, \$queue=null, \$options=array())
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0c240253396403c946d0ea7d10f6bb87}{later}} (\$delay, \$job, \$data=\textquotesingle{}\textquotesingle{}, \$queue=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a141667b7e321120b3ca7ac7968ec3bf5}{pop}} (\$queue=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a3a93abf7cc4bb41b49d78ef0927967f7}{push\+On}} (\$queue, \$job, \$data=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a27a4e841c8af2c85e28b199ecc7da3ef}{later\+On}} (\$queue, \$delay, \$job, \$data=\textquotesingle{}\textquotesingle{})
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a49cac55a7c41728b0c1a7e42397384c9}{bulk}} (\$jobs, \$data=\textquotesingle{}\textquotesingle{}, \$queue=null)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f37124b980065ea0afb7914dd7467d5}{get\+Job\+Expiration}} (\$job)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a1951ce66a067f286771d81530fbf200a}{get\+Connection\+Name}} ()
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a9dd6771189e2ad44140e77c702f265dc}{set\+Connection\+Name}} (\$name)
+\item 
+static \mbox{\hyperlink{class_illuminate_1_1_support_1_1_facades_1_1_queue_a63c45aa8d429ab7713cf1bcf52d4fc77}{set\+Container}} (\$container)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a042f522a7874b4464d8756bf4d351501}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a042f522a7874b4464d8756bf4d351501}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!add\+Connector@{add\+Connector}}
+\index{add\+Connector@{add\+Connector}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{add\+Connector()}{addConnector()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::add\+Connector (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a queue connection resolver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_ab9c41644bd797b45622ab16eb93154f6}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_ab9c41644bd797b45622ab16eb93154f6}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!after@{after}}
+\index{after@{after}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{after()}{after()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::after (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the after job event.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a98b4d092f13b6ad01c075f2790c15b40}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a98b4d092f13b6ad01c075f2790c15b40}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!before@{before}}
+\index{before@{before}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{before()}{before()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::before (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the before job event.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a49cac55a7c41728b0c1a7e42397384c9}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a49cac55a7c41728b0c1a7e42397384c9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!bulk@{bulk}}
+\index{bulk@{bulk}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{bulk()}{bulk()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::bulk (\begin{DoxyParamCaption}\item[{}]{\$jobs,  }\item[{}]{\$data = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$queue = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push an array of jobs onto the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+array & {\em \$jobs} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+string & {\em \$queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f3205c731d192e78c749b4a586f9c48}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f3205c731d192e78c749b4a586f9c48}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!connected@{connected}}
+\index{connected@{connected}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{connected()}{connected()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::connected (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the driver is connected.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_ac72dcbbe7e5f6b8366c31c30881af7fe}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_ac72dcbbe7e5f6b8366c31c30881af7fe}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!connection@{connection}}
+\index{connection@{connection}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{connection()}{connection()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::connection (\begin{DoxyParamCaption}\item[{}]{\$name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Resolve a queue connection instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_aa9660b4de41a9ebb4f7dd26c8071a6da}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_aa9660b4de41a9ebb4f7dd26c8071a6da}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!exception\+Occurred@{exception\+Occurred}}
+\index{exception\+Occurred@{exception\+Occurred}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{exception\+Occurred()}{exceptionOccurred()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::exception\+Occurred (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the exception occurred job event.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad95bc43c71e4d5191be6bfa129fe4170}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad95bc43c71e4d5191be6bfa129fe4170}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!extend@{extend}}
+\index{extend@{extend}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::extend (\begin{DoxyParamCaption}\item[{}]{\$driver,  }\item[{}]{\$resolver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Add a queue connection resolver.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$driver} & \\
+\hline
+\textbackslash{}\+Closure & {\em \$resolver} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad643d2fc351875a68b8327d3717eb514}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_ad643d2fc351875a68b8327d3717eb514}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!failing@{failing}}
+\index{failing@{failing}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{failing()}{failing()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::failing (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the failed job event.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a1951ce66a067f286771d81530fbf200a}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a1951ce66a067f286771d81530fbf200a}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!get\+Connection\+Name@{get\+Connection\+Name}}
+\index{get\+Connection\+Name@{get\+Connection\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{get\+Connection\+Name()}{getConnectionName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::get\+Connection\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the connection name for the queue.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8146531a36a958787fac1ea14f54bdd3}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8146531a36a958787fac1ea14f54bdd3}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!get\+Default\+Driver@{get\+Default\+Driver}}
+\index{get\+Default\+Driver@{get\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{get\+Default\+Driver()}{getDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::get\+Default\+Driver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the name of the default queue connection.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f37124b980065ea0afb7914dd7467d5}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a8f37124b980065ea0afb7914dd7467d5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!get\+Job\+Expiration@{get\+Job\+Expiration}}
+\index{get\+Job\+Expiration@{get\+Job\+Expiration}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{get\+Job\+Expiration()}{getJobExpiration()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::get\+Job\+Expiration (\begin{DoxyParamCaption}\item[{}]{\$job }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the expiration timestamp for an object-\/based queue handler.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$job} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a86e8629ef502a46f0a4c9255e740b550}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a86e8629ef502a46f0a4c9255e740b550}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::get\+Name (\begin{DoxyParamCaption}\item[{}]{\$connection = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the full name for the given connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$connection} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a07ac76a4da451f5a76cfe17ea32bccd0}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a07ac76a4da451f5a76cfe17ea32bccd0}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!is\+Down\+For\+Maintenance@{is\+Down\+For\+Maintenance}}
+\index{is\+Down\+For\+Maintenance@{is\+Down\+For\+Maintenance}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{is\+Down\+For\+Maintenance()}{isDownForMaintenance()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::is\+Down\+For\+Maintenance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Determine if the application is in maintenance mode.
+
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0c240253396403c946d0ea7d10f6bb87}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0c240253396403c946d0ea7d10f6bb87}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!later@{later}}
+\index{later@{later}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{later()}{later()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::later (\begin{DoxyParamCaption}\item[{}]{\$delay,  }\item[{}]{\$job,  }\item[{}]{\$data = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$queue = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push a new job onto the queue after a delay.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | int & {\em \$delay} & \\
+\hline
+string & {\em \$job} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+string & {\em \$queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a27a4e841c8af2c85e28b199ecc7da3ef}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a27a4e841c8af2c85e28b199ecc7da3ef}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!later\+On@{later\+On}}
+\index{later\+On@{later\+On}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{later\+On()}{laterOn()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::later\+On (\begin{DoxyParamCaption}\item[{}]{\$queue,  }\item[{}]{\$delay,  }\item[{}]{\$job,  }\item[{}]{\$data = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push a new job onto the queue after a delay.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$queue} & \\
+\hline
+\textbackslash{}\+Date\+Time\+Interface | \textbackslash{}\+Date\+Interval | int & {\em \$delay} & \\
+\hline
+string & {\em \$job} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a30bd51b47c8eea09ab5b11261c45efef}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a30bd51b47c8eea09ab5b11261c45efef}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!looping@{looping}}
+\index{looping@{looping}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{looping()}{looping()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::looping (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the daemon queue loop.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a141667b7e321120b3ca7ac7968ec3bf5}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a141667b7e321120b3ca7ac7968ec3bf5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!pop@{pop}}
+\index{pop@{pop}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::pop (\begin{DoxyParamCaption}\item[{}]{\$queue = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Pop the next job off of the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\vert$null 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a089d965181938d50eb14b2b02b13000d}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a089d965181938d50eb14b2b02b13000d}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!push@{push}}
+\index{push@{push}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::push (\begin{DoxyParamCaption}\item[{}]{\$job,  }\item[{}]{\$data = {\ttfamily \textquotesingle{}\textquotesingle{}},  }\item[{}]{\$queue = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push a new job onto the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$job} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+string & {\em \$queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em } & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a3a93abf7cc4bb41b49d78ef0927967f7}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a3a93abf7cc4bb41b49d78ef0927967f7}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!push\+On@{push\+On}}
+\index{push\+On@{push\+On}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{push\+On()}{pushOn()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::push\+On (\begin{DoxyParamCaption}\item[{}]{\$queue,  }\item[{}]{\$job,  }\item[{}]{\$data = {\ttfamily \textquotesingle{}\textquotesingle{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push a new job onto the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$queue} & \\
+\hline
+string & {\em \$job} & \\
+\hline
+mixed & {\em \$data} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_aad2749d558a9aa33ca546fe14698fc0b}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_aad2749d558a9aa33ca546fe14698fc0b}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!push\+Raw@{push\+Raw}}
+\index{push\+Raw@{push\+Raw}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{push\+Raw()}{pushRaw()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::push\+Raw (\begin{DoxyParamCaption}\item[{}]{\$payload,  }\item[{}]{\$queue = {\ttfamily null},  }\item[{}]{\$options = {\ttfamily array()} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Push a raw payload onto the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$payload} & \\
+\hline
+string & {\em \$queue} & \\
+\hline
+array & {\em \$options} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+mixed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a9dd6771189e2ad44140e77c702f265dc}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a9dd6771189e2ad44140e77c702f265dc}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!set\+Connection\+Name@{set\+Connection\+Name}}
+\index{set\+Connection\+Name@{set\+Connection\+Name}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{set\+Connection\+Name()}{setConnectionName()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::set\+Connection\+Name (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the connection name for the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\$this 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a63c45aa8d429ab7713cf1bcf52d4fc77}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a63c45aa8d429ab7713cf1bcf52d4fc77}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!set\+Container@{set\+Container}}
+\index{set\+Container@{set\+Container}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{set\+Container()}{setContainer()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::set\+Container (\begin{DoxyParamCaption}\item[{}]{\$container }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the IoC container instance.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\textbackslash{}\+Illuminate\textbackslash{}\+Container\textbackslash{}\+Container & {\em \$container} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a09145f9150bdb92fd6dbcc95511089b5}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a09145f9150bdb92fd6dbcc95511089b5}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!set\+Default\+Driver@{set\+Default\+Driver}}
+\index{set\+Default\+Driver@{set\+Default\+Driver}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{set\+Default\+Driver()}{setDefaultDriver()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::set\+Default\+Driver (\begin{DoxyParamCaption}\item[{}]{\$name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the name of the default queue connection.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0a67d96dfa53c28ed1f46e5bc9b99133}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_a0a67d96dfa53c28ed1f46e5bc9b99133}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!size@{size}}
+\index{size@{size}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::size (\begin{DoxyParamCaption}\item[{}]{\$queue = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the size of the queue.
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$queue} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_illuminate_1_1_support_1_1_facades_1_1_queue_af1dce728ca2ce292a6034d11bbd067a9}\label{class_illuminate_1_1_support_1_1_facades_1_1_queue_af1dce728ca2ce292a6034d11bbd067a9}} 
+\index{Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}!stopping@{stopping}}
+\index{stopping@{stopping}!Illuminate\+::\+Support\+::\+Facades\+::\+Queue@{Illuminate\+::\+Support\+::\+Facades\+::\+Queue}}
+\subsubsection{\texorpdfstring{stopping()}{stopping()}}
+{\footnotesize\ttfamily static Illuminate\textbackslash{}\+Support\textbackslash{}\+Facades\textbackslash{}\+Queue\+::stopping (\begin{DoxyParamCaption}\item[{}]{\$callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Register an event listener for the daemon queue stopping.
+
+
+\begin{DoxyParams}[1]{Parameters}
+mixed & {\em \$callback} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\+\_\+ide\+\_\+helper.\+php\end{DoxyCompactItemize}
